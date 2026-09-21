@@ -1,0 +1,1 @@
+[{"id":1,"priority":5,"action":{"type":"allow"},"condition":{"urlFilter":"||adsilence.net^","domainType":"thirdParty","isUrlFilterCaseSensitive":false}},{"id":2,"priority":5,"action":{"type":"allow"},"condition":{"urlFilter":"||adsilence.net/api/","isUrlFilterCaseSensitive":false}}]

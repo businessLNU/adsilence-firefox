@@ -1,0 +1,1125 @@
+/**
+ * Grundgestaltung fuer beide Seiten. Farben aus `tokens.css`, Bewegung aus
+ * `bewegung.css`; hier stehen Schrift, Rueckstellung, Fokus und die Klassen
+ * der kleinen Bauteile. Kein Hex-Wert in dieser Datei.
+ */
+/**
+ * Die Farben und Masse der Oberflaeche. Die EINZIGE Stelle mit Hex-Werten.
+ *
+ * Dieselben Namen wie `frontend/theme.css` des Backends (`--marke-*`), damit
+ * ein Baustein von dort ohne Umbenennung hier laeuft. Die Werte sind die von
+ * AdSilence: kaltes Grau als Grund, ein einziger Akzent (Kobalt), und die
+ * Bedeutungsfarben gut/warn/fehler, die sich mit der Marke NIE aendern.
+ *
+ * Zwei Schemata: hell ist der Grundfall, dunkel greift ueber
+ * `prefers-color-scheme` und laesst sich mit `data-thema="hell|dunkel"` am
+ * `<html>` in beide Richtungen erzwingen. Jede Farbe steht deshalb an drei
+ * Stellen; keine hat ihre einzige Definition in einem Medienblock.
+ *
+ * Kontrast (WCAG AA, 4.5:1 fuer Fliesstext) ist fuer jede Schrift-auf-Grund-
+ * Kombination gerechnet: schwach auf Flaeche 5.8:1 hell / 7.1:1 dunkel,
+ * Knopfschrift auf Kobalt 5.3:1. Die Bedeutungsfarben selbst (#22c55e,
+ * #ef4444) reichen als Schrift auf hellem Grund NICHT (2.2:1 bzw. 3.7:1);
+ * deshalb gibt es je eine `-text`-Stufe fuer Saetze und die reine Farbe nur
+ * fuer Flaechen, Punkte und Rahmen.
+ *
+ * Eckenradius, EINE Skala: Karten 12 px, Knoepfe 10 px, Felder 8 px. Kleine
+ * Marken (Schalterknopf, Skeleton-Zeile) sind rund bzw. 6 px. Sonst nichts.
+ */
+
+@font-face {
+  font-family: 'Schibsted Grotesk';
+  src: url('./schibsted-grotesk.woff2') format('woff2-variations');
+  font-weight: 400 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Plex Mono';
+  src: url('./plex-mono-400.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+
+:root {
+  color-scheme: light dark;
+
+  /* Flaechen — dieselben Werte wie `demo/src/stil.css`. */
+  --marke-grund: #f3f4f7;
+  --marke-flaeche: #ffffff;
+  --marke-feld: #ebedf2;
+  --marke-linie: rgba(16, 19, 27, 0.08);
+  --marke-linie-stark: rgba(16, 19, 27, 0.16);
+
+  /* Schrift */
+  --marke-text: #10131b;
+  --marke-schwach: #565d6e;
+  --marke-platzhalter: #868d9c;
+
+  /*
+   * Der eine Akzent. Verlauf nur auf dem Hauptknopf, sonst `von`.
+   *
+   * Diese Werte stehen hier als Zahl und werden von Hand nachgezogen: Eine
+   * Erweiterung sieht die `.env` des Backends nicht — sie rendert ihr Popup,
+   * bevor irgendein Netzaufruf stattgefunden hat, und darf ohne Server
+   * genauso aussehen wie mit. Wer `BRAND_GRADIENT_FROM/TO` umstellt, stellt
+   * die beiden hier mit um; sonst ist die Kachel im Browser orange und das
+   * Popup dahinter blau.
+   *
+   * `--marke-akzent-schrift` ist DUNKEL und nicht weiss: Auf diesem Orange
+   * steht Weiss bei 3,6:1 und ist auf einem hellen Bildschirm kaum zu lesen,
+   * der dunkle Ton bei 5,4:1. Bei einer dunklen Marke gehoert hier wieder
+   * `#ffffff` hin — die Regel ist der Kontrast, nicht der Wert.
+   */
+  --marke-von: #e65909;
+  --marke-bis: #f6821f;
+  --marke-akzent-schrift: #1a0702;
+  /*
+   * Die Marke ALS SCHRIFT auf hellem Grund — eine eigene, dunklere Stufe.
+   *
+   * `--marke-von` selbst taugt dafuer nicht: Das Kobalt davor stand auf dem
+   * hellen Grund bei 4,98:1, dieses Orange bei 3,29:1. GEMESSEN im Popup, wo
+   * „Seite kaputt melden" nach dem Farbwechsel blass und schwer lesbar
+   * dastand. Der dunklere Ton steht bei 5,36:1 und ist dieselbe Farbe, nur
+   * tiefer — die Marke bleibt erkennbar.
+   *
+   * Dasselbe Muster wie `--marke-gut-text` neben `--marke-gut`: Flaeche und
+   * Schrift brauchen verschiedene Helligkeiten derselben Bedeutung.
+   */
+  --marke-akzent-text: #b03f06;
+  --marke-akzent-flaeche: rgba(230, 89, 9, 0.1);
+  --marke-akzent-flaeche-stark: rgba(230, 89, 9, 0.18);
+
+  /* Bedeutung: gruen heisst „geklappt", gelb „Achtung", rot „schiefgegangen". */
+  --marke-gut: #22c55e;
+  --marke-gut-schrift: #06230f;
+  --marke-gut-text: #15803d;
+  --marke-warn: #eab308;
+  --marke-warn-text: #a16207;
+  --marke-fehler: #ef4444;
+  --marke-fehler-text: #b91c1c;
+  --marke-fehler-flaeche: rgba(239, 68, 68, 0.1);
+
+  /* Schatten sind zum Grund hin getoent, nie reines Schwarz. */
+  --schatten-karte:
+    inset 0 1px 0 rgba(255, 255, 255, 0.7), 0 1px 2px rgba(16, 19, 27, 0.04),
+    0 24px 60px -24px rgba(16, 19, 27, 0.22);
+  --schatten-dialog:
+    inset 0 1px 0 rgba(255, 255, 255, 0.7), 0 2px 4px rgba(16, 19, 27, 0.05),
+    0 40px 90px -30px rgba(16, 19, 27, 0.3);
+  --schatten-knopf: 0 1px 2px rgba(16, 19, 27, 0.08);
+
+  /* Radiusskala */
+  --radius-karte: 20px;
+  --radius-knopf: 999px;
+  --radius-feld: 12px;
+  --radius-klein: 8px;
+  /* Doppelrand wie auf der Website: eine Fassung, darin der Kern. */
+  --radius-schale: 26px;
+  --wand: 6px;
+
+  /*
+   * Dieselbe Schrift wie die Website — aber aus dem PAKET, nicht aus dem Netz.
+   *
+   * Ein `<link>` auf einen Schriftdienst ginge hier gar nicht: Die
+   * Inhaltssicherheitsregeln einer Erweiterung verbieten fremde Herkunft, und
+   * ein Popup, das erst auf eine Netzantwort wartet, oeffnet sichtbar spaeter.
+   * Die Datei liegt deshalb daneben und wird mitgeliefert (rund 48 kB).
+   *
+   * Der Systemstapel bleibt als Rueckfall dahinter: Faellt die Datei einmal
+   * aus, steht dort eine Schrift statt keiner.
+   */
+  --schrift:
+    'Schibsted Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  --schrift-mono: 'Plex Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+  /* Abstaende, Vierer-Raster */
+  --abstand-1: 4px;
+  --abstand-2: 8px;
+  --abstand-3: 12px;
+  --abstand-4: 16px;
+  --abstand-5: 20px;
+  --abstand-6: 24px;
+  --abstand-8: 32px;
+
+  /* Ebenen. Nur zwei, mehr braucht die Erweiterung nicht. */
+  --ebene-kopf: 10;
+  --ebene-dialog: 100;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-thema='hell']) {
+    --marke-grund: #0e1116;
+    --marke-flaeche: #151a22;
+    --marke-feld: #10141b;
+    --marke-linie: rgba(255, 255, 255, 0.08);
+    --marke-linie-stark: rgba(255, 255, 255, 0.16);
+    --marke-text: #eef1f5;
+    --marke-schwach: #9aa3b2;
+    --marke-platzhalter: #6b7483;
+    /* Auf dunklem Grund traegt das satte Orange der hellen Fassung nicht -
+       es faellt gegen den dunklen Grund ab statt sich abzuheben. Deshalb hier
+       eine HELLERE Stufe als Akzent, und `akzent-text` noch eine Spur heller:
+       Schrift braucht mehr Abstand zum Grund als eine Flaeche. */
+    --marke-von: #ff9245;
+    --marke-bis: #ffab6d;
+    --marke-akzent-schrift: #0e1116;
+    --marke-akzent-text: #ffa864;
+    --marke-akzent-flaeche: rgba(255, 146, 69, 0.18);
+    --marke-akzent-flaeche-stark: rgba(255, 146, 69, 0.28);
+    --marke-gut-text: #4ade80;
+    --marke-warn-text: #facc15;
+    --marke-fehler-text: #f87171;
+    --marke-fehler-flaeche: rgba(239, 68, 68, 0.14);
+    /* Kein Innenglanz auf dunklem Grund: Eine helle Linie an der Oberkante
+       liest sich dort als Kratzer, nicht als Lichtkante. */
+    --schatten-karte: 0 1px 2px rgba(0, 0, 0, 0.3), 0 24px 60px -24px rgba(0, 0, 0, 0.6);
+    --schatten-dialog: 0 2px 4px rgba(0, 0, 0, 0.4), 0 40px 90px -30px rgba(0, 0, 0, 0.7);
+    --schatten-knopf: 0 1px 2px rgba(0, 0, 0, 0.35);
+  }
+}
+
+:root[data-thema='dunkel'] {
+  --marke-grund: #0e1116;
+  --marke-flaeche: #151a22;
+  --marke-feld: #10141b;
+  --marke-linie: rgba(255, 255, 255, 0.08);
+  --marke-linie-stark: rgba(255, 255, 255, 0.16);
+  --marke-text: #eef1f5;
+  --marke-schwach: #9aa3b2;
+  --marke-platzhalter: #6b7483;
+  /* Wie im Medienblock darueber: heller Akzent auf dunklem Grund. */
+  --marke-von: #ff9245;
+  --marke-bis: #ffab6d;
+  --marke-akzent-schrift: #0e1116;
+  --marke-akzent-text: #ffa864;
+  --marke-akzent-flaeche: rgba(255, 146, 69, 0.18);
+  --marke-akzent-flaeche-stark: rgba(255, 146, 69, 0.28);
+  --marke-gut-text: #4ade80;
+  --marke-warn-text: #facc15;
+  --marke-fehler-text: #f87171;
+  --marke-fehler-flaeche: rgba(239, 68, 68, 0.14);
+  --schatten-karte: 0 1px 2px rgba(0, 0, 0, 0.3), 0 24px 60px -24px rgba(0, 0, 0, 0.6);
+  --schatten-dialog: 0 2px 4px rgba(0, 0, 0, 0.4), 0 40px 90px -30px rgba(0, 0, 0, 0.7);
+  --schatten-knopf: 0 1px 2px rgba(0, 0, 0, 0.35);
+}
+/**
+ * Bewegung. Alles, was sich in der Oberflaeche bewegt, steht hier.
+ *
+ * Grundsaetze (aus dem Entwurf uebernommen, nicht verhandelbar):
+ * - Nur `transform` und `opacity` werden animiert. Nie Hoehe, Breite, Rand.
+ * - Ein- und Austritt mit ease-out; die eingebauten Kurven sind zu schwach.
+ * - Nichts dauert laenger als 300 ms. Austritt schneller als Eintritt.
+ * - Das Popup selbst blendet NICHT ein. Es wird hundertmal am Tag geoeffnet;
+ *   jede Animation dort waere hundertmal Wartezeit.
+ * - Zaehler wechseln ohne Animation: die Zahl ist Information, kein Schmuck.
+ * - Hover nur bei echtem Zeiger, sonst bleibt der Zustand auf Touch haengen.
+ * - Bei `prefers-reduced-motion` bleibt nur Opazitaet uebrig.
+ */
+
+:root {
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+  --dauer-druck: 160ms;
+  --dauer-schalter: 200ms;
+  --dauer-dialog: 200ms;
+  --dauer-dialog-zu: 140ms;
+  --dauer-eintritt: 200ms;
+  --stagger: 40ms;
+}
+
+/* Knoepfe und alles Drueckbare: sofortige Rueckmeldung, leicht kleiner. */
+.drueckbar {
+  transition: transform var(--dauer-druck) var(--ease-out);
+}
+.drueckbar:active:not(:disabled) {
+  transform: scale(0.97);
+}
+
+/* Der Schalter: Knopf gleitet, Bahn wechselt die Farbe. */
+.schalter__bahn {
+  transition: background-color var(--dauer-schalter) ease;
+}
+.schalter__knopf {
+  transition: transform var(--dauer-schalter) var(--ease-out);
+}
+
+/* Dialoge: von 0.96 auf 1, nie von 0. Backdrop blendet mit. */
+.dialog {
+  opacity: 0;
+  transform: scale(0.96);
+  transition:
+    opacity var(--dauer-dialog-zu) var(--ease-out),
+    transform var(--dauer-dialog-zu) var(--ease-out);
+}
+.dialog[data-offen='1'] {
+  opacity: 1;
+  transform: scale(1);
+  transition-duration: var(--dauer-dialog);
+}
+.dialog::backdrop {
+  background: rgba(14, 17, 22, 0);
+  transition: background-color var(--dauer-dialog-zu) ease;
+}
+.dialog[data-offen='1']::backdrop {
+  background: rgba(14, 17, 22, 0.4);
+  transition-duration: var(--dauer-dialog);
+}
+
+/* Listen der Optionsseite: Eintraege treten gestaffelt ein, hoechstens acht. */
+@keyframes eintreten {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.stagger > * {
+  animation: eintreten var(--dauer-eintritt) var(--ease-out) both;
+  animation-delay: calc(min(var(--i, 0), 7) * var(--stagger));
+}
+
+/* Skeleton: nur Opazitaet pulst. Ein Schimmer wuerde Farbe animieren. */
+@keyframes skeleton-puls {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.55;
+  }
+}
+.skeleton {
+  animation: skeleton-puls 1.4s ease-in-out infinite;
+}
+
+/* Sanfter Wechsel zwischen zwei Inhalten derselben Stelle (z. B. Knopf wird
+   zur Wahl). Nur Opazitaet, 160 ms, damit es nicht nach Warten aussieht. */
+.wechsel {
+  animation: wechsel var(--dauer-druck) var(--ease-out) both;
+}
+@keyframes wechsel {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Hover nur bei Maus. Auf Touch bleibt der Zustand sonst nach dem Tippen. */
+@media (hover: hover) and (pointer: fine) {
+  .knopf--primaer:hover:not(:disabled) {
+    filter: brightness(1.06);
+  }
+  .knopf--sekundaer:hover:not(:disabled),
+  .knopf--leise:hover:not(:disabled) {
+    background: var(--marke-akzent-flaeche);
+  }
+  .knopf--gefahr:hover:not(:disabled) {
+    background: var(--marke-fehler-flaeche);
+  }
+  .zeilenknopf:hover {
+    background: var(--marke-feld);
+  }
+  .nav__eintrag:hover:not([aria-current='page']) {
+    background: var(--marke-akzent-flaeche);
+  }
+}
+
+/*
+ * Der Tipp am „i": blendet ein und kommt dabei 3 px herunter. Er VERSCHIEBT
+ * nichts - er liegt absolut ueber der Zeile, die Zeile bleibt, wo sie ist.
+ */
+.tipp__text {
+  transform: translateY(3px);
+  transition:
+    opacity var(--dauer-eintritt) var(--ease-out),
+    transform var(--dauer-eintritt) var(--ease-out);
+}
+.tipp__knopf:focus-visible ~ .tipp__text {
+  transform: translateY(0);
+}
+@media (hover: hover) {
+  .tipp:hover .tipp__text {
+    transform: translateY(0);
+  }
+}
+
+/*
+ * Der fehlende Haken meldet sich einmal kurz. 200 ms, nur `transform`, zwei
+ * Ausschlaege von 3 Pixeln - genug, damit das Auge hinspringt, zu wenig, um
+ * als Spielerei zu wirken. Er laeuft EINMAL beim Farbwechsel und nicht in
+ * einer Schleife: Was dauernd wackelt, wird zur Tapete.
+ */
+@keyframes hakenRuettelt {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-3px);
+  }
+  75% {
+    transform: translateX(3px);
+  }
+}
+.haken--fehlt {
+  animation: hakenRuettelt 200ms var(--ease-out);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .haken--fehlt {
+    animation: none;
+  }
+  .drueckbar,
+  .drueckbar:active:not(:disabled) {
+    transition: none;
+    transform: none;
+  }
+  .schalter__knopf {
+    transition: none;
+  }
+  /* Es bleibt die Opazitaet - der Weg nach unten faellt weg. */
+  .tipp__text,
+  .tipp__knopf:focus-visible ~ .tipp__text {
+    transform: none;
+    transition: opacity var(--dauer-eintritt) ease;
+  }
+  .dialog,
+  .dialog[data-offen='1'] {
+    transform: none;
+    transition: opacity var(--dauer-dialog) ease;
+  }
+  .stagger > * {
+    animation: none;
+  }
+  .skeleton {
+    animation: none;
+    opacity: 0.8;
+  }
+  .wechsel {
+    animation: none;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--schrift);
+  font-size: 14px;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  background: var(--marke-grund);
+  color: var(--marke-text);
+}
+
+body {
+  margin: 0;
+  background: var(--marke-grund);
+  color: var(--marke-text);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+}
+h1 {
+  font-size: 20px;
+}
+h2 {
+  font-size: 16px;
+}
+h3 {
+  font-size: 14px;
+}
+
+a {
+  color: var(--marke-akzent-text);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+button {
+  cursor: pointer;
+}
+button:disabled {
+  cursor: default;
+}
+
+/* Ein Fokusrahmen fuer alles, nur bei Tastatur. */
+:focus-visible {
+  outline: 2px solid var(--marke-bis);
+  outline-offset: 2px;
+  border-radius: var(--radius-klein);
+}
+
+.schwach {
+  color: var(--marke-schwach);
+}
+.klein {
+  font-size: 12px;
+}
+.zahl {
+  font-variant-numeric: tabular-nums;
+}
+.mono {
+  font-family: var(--schrift-mono);
+  font-variant-numeric: tabular-nums;
+}
+.nur-lesen {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* ── Karte ───────────────────────────────────────────────────────────── */
+.karte {
+  background: var(--marke-flaeche);
+  border-radius: var(--radius-karte);
+  box-shadow: var(--schatten-karte);
+  padding: var(--abstand-4);
+}
+.karte--eng {
+  padding: var(--abstand-3) var(--abstand-4);
+}
+
+/* ── Knopf ───────────────────────────────────────────────────────────── */
+.knopf {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--abstand-2);
+  min-height: 36px;
+  padding: 0 var(--abstand-4);
+  border: 0;
+  border-radius: var(--radius-knopf);
+  font-weight: 500;
+  white-space: nowrap;
+  background: transparent;
+  color: var(--marke-text);
+  -webkit-user-select: none;
+  user-select: none;
+}
+.knopf--klein {
+  min-height: 30px;
+  padding: 0 var(--abstand-3);
+  font-size: 13px;
+}
+.knopf--breit {
+  width: 100%;
+}
+.knopf--primaer {
+  background: linear-gradient(135deg, var(--marke-von), var(--marke-bis));
+  color: var(--marke-akzent-schrift);
+  box-shadow: var(--schatten-knopf);
+}
+.knopf--sekundaer {
+  background: var(--marke-feld);
+  color: var(--marke-text);
+  box-shadow: inset 0 0 0 1px var(--marke-linie);
+}
+.knopf--leise {
+  color: var(--marke-akzent-text);
+}
+.knopf--gefahr {
+  color: var(--marke-fehler-text);
+}
+.knopf:disabled {
+  opacity: 0.5;
+}
+.knopf--symbol {
+  width: 32px;
+  min-height: 32px;
+  padding: 0;
+  color: var(--marke-schwach);
+}
+
+/* ── Schalter ────────────────────────────────────────────────────────── */
+.schalter {
+  display: inline-flex;
+  align-items: center;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  flex-shrink: 0;
+}
+.schalter__bahn {
+  position: relative;
+  display: block;
+  width: 44px;
+  height: 26px;
+  border-radius: 13px;
+  background: var(--marke-linie-stark);
+}
+.schalter__knopf {
+  position: absolute;
+  top: 3px;
+  inset-inline-start: 3px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--marke-flaeche);
+  box-shadow: 0 1px 2px rgba(20, 24, 31, 0.2);
+}
+.schalter[aria-checked='true'] .schalter__bahn {
+  background: var(--marke-von);
+}
+.schalter[aria-checked='true'] .schalter__knopf {
+  transform: translateX(18px);
+}
+[dir='rtl'] .schalter[aria-checked='true'] .schalter__knopf {
+  transform: translateX(-18px);
+}
+.schalter--gross .schalter__bahn {
+  width: 60px;
+  height: 34px;
+  border-radius: 17px;
+}
+.schalter--gross .schalter__knopf {
+  width: 28px;
+  height: 28px;
+}
+.schalter--gross[aria-checked='true'] .schalter__knopf {
+  transform: translateX(26px);
+}
+[dir='rtl'] .schalter--gross[aria-checked='true'] .schalter__knopf {
+  transform: translateX(-26px);
+}
+.schalter:disabled {
+  opacity: 0.45;
+}
+
+/* Zeile „Beschriftung links, Schalter rechts" */
+.schalterzeile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--abstand-3);
+  width: 100%;
+  text-align: start;
+}
+.schalterzeile__text {
+  min-width: 0;
+  flex: 1;
+}
+.schalterzeile__titel {
+  font-weight: 500;
+}
+
+/* ── Feld ────────────────────────────────────────────────────────────── */
+.feld {
+  display: flex;
+  flex-direction: column;
+  gap: var(--abstand-2);
+}
+.feld__label {
+  font-weight: 500;
+  font-size: 13px;
+}
+.feld__eingabe {
+  width: 100%;
+  min-height: 36px;
+  padding: var(--abstand-2) var(--abstand-3);
+  border: 1px solid var(--marke-linie);
+  border-radius: var(--radius-feld);
+  background: var(--marke-feld);
+  color: var(--marke-text);
+}
+.feld__eingabe::placeholder {
+  color: var(--marke-platzhalter);
+}
+.feld__eingabe:focus {
+  outline: 2px solid var(--marke-bis);
+  outline-offset: 0;
+  border-color: transparent;
+}
+.feld__eingabe[aria-invalid='true'] {
+  border-color: var(--marke-fehler);
+}
+textarea.feld__eingabe {
+  min-height: 160px;
+  resize: vertical;
+  font-family: var(--schrift-mono);
+  font-size: 13px;
+  line-height: 1.5;
+}
+select.feld__eingabe {
+  appearance: none;
+  -webkit-appearance: none;
+  padding-inline-end: var(--abstand-8);
+  background-image: linear-gradient(45deg, transparent 50%, var(--marke-schwach) 50%),
+    linear-gradient(135deg, var(--marke-schwach) 50%, transparent 50%);
+  background-position:
+    calc(100% - 18px) 55%,
+    calc(100% - 13px) 55%;
+  background-size:
+    5px 5px,
+    5px 5px;
+  background-repeat: no-repeat;
+}
+[dir='rtl'] select.feld__eingabe {
+  background-position:
+    18px 55%,
+    13px 55%;
+}
+.feld__hinweis {
+  font-size: 12px;
+  color: var(--marke-schwach);
+}
+.feld__fehler {
+  font-size: 12px;
+  color: var(--marke-fehler-text);
+}
+
+/* Haken */
+.haken {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--abstand-2);
+  cursor: pointer;
+}
+.haken input {
+  margin: 3px 0 0;
+  width: 16px;
+  height: 16px;
+  accent-color: var(--marke-von);
+  flex-shrink: 0;
+}
+/*
+ * Der fehlende Haken, nachdem jemand „Premium holen" gedrueckt hat.
+ *
+ * Die ganze Zeile bekommt einen roten Rahmen und roten Text, nicht nur das
+ * Kaestchen: Ein 16 Pixel grosses Kaestchen in Rot uebersieht man in einem
+ * Fenster, in dem der Blick gerade auf dem Knopf lag.
+ *
+ * `--marke-fehler` und keine eigene Farbe: Rot heisst hier dasselbe wie
+ * ueberall sonst - „so geht es nicht weiter".
+ */
+.haken--fehlt {
+  margin: calc(var(--abstand-2) * -1);
+  padding: var(--abstand-2);
+  border-radius: var(--radius-klein);
+  border: 1px solid var(--marke-fehler);
+  background: color-mix(in srgb, var(--marke-fehler) 7%, transparent);
+  color: var(--marke-fehler);
+}
+.haken--fehlt input {
+  accent-color: var(--marke-fehler);
+  outline: 2px solid var(--marke-fehler);
+  outline-offset: 2px;
+}
+
+/* ── Hinweiszeilen ───────────────────────────────────────────────────── */
+.hinweis {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--abstand-2);
+  padding: var(--abstand-2) var(--abstand-3);
+  border-radius: var(--radius-feld);
+  font-size: 13px;
+}
+.hinweis--fehler {
+  background: var(--marke-fehler-flaeche);
+  color: var(--marke-fehler-text);
+}
+.hinweis--warn {
+  background: var(--marke-akzent-flaeche);
+  color: var(--marke-warn-text);
+}
+.hinweis--gut {
+  background: var(--marke-akzent-flaeche);
+  color: var(--marke-gut-text);
+}
+.hinweis--neutral {
+  background: var(--marke-feld);
+  color: var(--marke-schwach);
+}
+
+/* ── Skeleton ────────────────────────────────────────────────────────── */
+.skeleton {
+  display: block;
+  background: var(--marke-feld);
+  border-radius: var(--radius-klein);
+}
+
+/* ── Dialog ──────────────────────────────────────────────────────────── */
+.dialog {
+  width: min(100% - 32px, 400px);
+  max-height: calc(100vh - 32px);
+  /*
+   * Mittig, ausgeschrieben.
+   *
+   * Ein `showModal()`-Dialog steht durch `margin: auto` im Blatt des Browsers
+   * ohnehin in der Mitte — aber nur, solange kein Vorfahre einen eigenen
+   * Bezugsrahmen aufmacht (`transform`, `filter`, `contain`) und solange das
+   * Blatt es so haelt. Hier steht es, damit es nicht davon abhaengt.
+   */
+  margin: auto;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-karte);
+  background: var(--marke-flaeche);
+  color: var(--marke-text);
+  box-shadow: var(--schatten-dialog);
+  overflow: hidden;
+}
+.dialog__inhalt {
+  padding: var(--abstand-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--abstand-4);
+  max-height: calc(100vh - 32px);
+  overflow: auto;
+}
+.dialog__kopf {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--abstand-3);
+}
+.dialog__fuss {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--abstand-2);
+}
+
+/**
+ * Das Kauffenster ist breiter als ein Meldungsdialog - aber nur, wo Platz
+ * ist. Im Popup (360 px) greift `100% - 32px` und es bleibt beim Fenster;
+ * auf der Optionsseite werden daraus 560 px, in denen Preis, Merkmale und
+ * Zustimmung nebeneinander atmen koennen.
+ */
+.dialog--breit {
+  width: min(100% - 32px, 560px);
+  /*
+   * Der orange Schweif.
+   *
+   * Vier Lagen statt einer: eine harte Kante am Rand, dann drei Wolken, die
+   * nach aussen weicher und schwaecher werden. EINE grosse Unschaerfe ergaebe
+   * einen grauen Hof — die Farbe verduennt sich auf der ganzen Strecke
+   * gleichmaessig und ist am Rand schon blass. Die letzte Lage ist der
+   * gewohnte Tiefenschatten; ohne ihn schwebt das Fenster nicht mehr, es
+   * leuchtet nur.
+   */
+  border: 2px solid var(--marke-von);
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, var(--marke-von) 40%, transparent),
+    0 0 24px color-mix(in srgb, var(--marke-bis) 55%, transparent),
+    0 0 64px color-mix(in srgb, var(--marke-von) 45%, transparent),
+    0 0 130px color-mix(in srgb, var(--marke-von) 30%, transparent),
+    0 40px 90px -30px color-mix(in srgb, var(--marke-text) 30%, transparent);
+}
+
+/*
+ * Das Kauffenster traegt die Form der Tarifkarte auf der Website: Betrag
+ * gross, Zahlweise klein darunter, Merkmale mit eingekreistem Haken, der
+ * Knopf breit und in der Marke. Nur die Farbe ist eine andere - dort gruen,
+ * hier das Orange dieser Erweiterung.
+ *
+ * Alles hier haengt an `.dialog--breit` und nicht an `.kauf`: Ein
+ * Meldungsdialog soll weiter aussehen wie ein Meldungsdialog.
+ */
+.dialog--breit .kauf__preis {
+  display: block;
+  text-align: center;
+}
+.dialog--breit .kauf__preis strong {
+  font-size: 40px;
+}
+.dialog--breit .kauf__je {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--marke-akzent-text);
+  /*
+   * Abstand zum Betrag. Der Basisblock ist ein Flex mit `gap`, dieser hier ist
+   * `display: block` - da bleibt zwischen Betrag und Einheit nur das
+   * Leerzeichen aus dem Markup, und „2,08 €pro Monat" klebte aneinander.
+   */
+  margin-inline-start: 10px;
+}
+/*
+ * Der Jahresbetrag steht UNTER dem Monatspreis, nicht daneben: In der Vorlage
+ * ist es die kleine Zeile „bei jaehrlicher Zahlung", und sie erklaert den
+ * Betrag darueber. Neben ihm gelesen sind es zwei Preise.
+ */
+.dialog--breit .kauf__gesamt {
+  display: block;
+  margin-top: 4px;
+  padding-inline-start: 0;
+  border-inline-start: 0;
+}
+/*
+ * Die GEWAEHLTE Zahlweise liegt in der Marke, nicht auf Weiss.
+ *
+ * Weiss auf hellgrauer Mulde sagt „hier steht etwas", Orange sagt „das ist
+ * deine Wahl" - dieselbe Farbe wie der Kaufknopf darunter, und damit dieselbe
+ * Aussage. Die nicht gewaehlte Seite bleibt unveraendert; zwei gefaerbte
+ * Haelften waeren keine Wahl mehr, sondern zwei Knoepfe.
+ *
+ * Die Schrift darauf ist DUNKEL (`--marke-akzent-schrift`), nicht weiss: Auf
+ * diesem Orange steht Weiss bei 3,6:1, der dunkle Ton bei 5,4:1 - die
+ * Begruendung steht ausfuehrlich in `tokens.css`.
+ */
+.dialog--breit .kauf__zahlweise button[aria-pressed='true'] {
+  background: linear-gradient(135deg, var(--marke-von), var(--marke-bis));
+  color: var(--marke-akzent-schrift);
+  box-shadow: var(--schatten-knopf);
+}
+.dialog--breit .kauf__zahlweise button[aria-pressed='true'] .kauf__sparen {
+  color: var(--marke-akzent-schrift);
+  opacity: 0.8;
+}
+
+.dialog--breit .kauf__merkmale {
+  gap: 10px;
+}
+.dialog--breit .kauf__merkmale li {
+  align-items: center;
+  gap: 10px;
+}
+.dialog--breit .kauf__merkmale li::before {
+  display: inline-grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid color-mix(in srgb, var(--marke-von) 45%, transparent);
+  border-radius: 999px;
+  background: var(--marke-akzent-flaeche);
+  color: var(--marke-akzent-text);
+  font-size: 11px;
+  line-height: 1;
+}
+
+/* ── Kauffenster ─────────────────────────────────────────────────────── */
+.kauf {
+  display: flex;
+  flex-direction: column;
+  gap: var(--abstand-4);
+}
+.kauf__einleitung {
+  margin: 0;
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: var(--marke-schwach);
+}
+
+/**
+ * Die Zahlweise als ein Paar Schalter in einer Mulde - dieselbe Form wie auf
+ * der Website (`.zahlweise` in `demo/src/stil.css`), damit jemand, der dort
+ * schon gewaehlt hat, hier nichts Neues lernen muss.
+ */
+.kauf__zahlweise {
+  display: inline-flex;
+  /*
+   * Mittig, nicht linksbuendig.
+   *
+   * Die Mulde ist das einzige Bedienelement zwischen Einleitung und Betrag.
+   * Links angeschlagen sitzt sie unter dem Text und liest sich wie dessen
+   * Fortsetzung; in der Mitte steht sie fuer sich - eine Entscheidung, die
+   * getroffen werden will. `.kauf` ist eine Flex-Spalte, also entscheidet
+   * `align-self` und nicht `margin: auto`.
+   */
+  align-self: center;
+  gap: 4px;
+  padding: 4px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--marke-text) 6%, transparent);
+}
+.kauf__zahlweise button {
+  border: 0;
+  background: none;
+  font: inherit;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--marke-schwach);
+  padding: 8px 18px;
+  border-radius: 999px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.kauf__zahlweise button[aria-pressed='true'] {
+  color: var(--marke-text);
+  background: var(--marke-flaeche);
+  box-shadow: 0 1px 2px color-mix(in srgb, var(--marke-text) 10%, transparent);
+}
+.kauf__zahlweise button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+.kauf__sparen {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--marke-akzent-text);
+}
+
+/* Der Betrag ist das, wonach gesucht wird - also das Groesste im Fenster. */
+.kauf__preis {
+  margin: 0;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/**
+ * Die Testphase als Pille, direkt unter dem Preis und mittig.
+ *
+ * VOLL im Markenverlauf, wie der Hauptknopf und das Schloss an einer
+ * Premium-Zeile. Sie ist ausdruecklich NICHT rot: Rot heisst in dieser
+ * Oberflaeche „schiefgegangen" (`--marke-fehler` an der fehlenden Hakenzeile
+ * zwei Zeilen tiefer im selben Fenster). Eine rote Pille und ein roter
+ * Fehlerrahmen im selben Blickfeld waeren zwei Bedeutungen fuer eine Farbe.
+ *
+ * Die Schrift ist `--marke-akzent-schrift` und nicht Weiss - auf diesem
+ * Orange steht Weiss bei 3,6:1, der dunkle Ton bei 5,4:1 (Begruendung an den
+ * Marken in `tokens.css`).
+ *
+ * `width: fit-content` mit `margin-inline: auto` statt `text-align: center`:
+ * Die Pille soll so breit sein wie ihr Text, nicht wie das Fenster.
+ */
+.kauf__testphase {
+  width: fit-content;
+  margin: 10px auto 0;
+  padding: 7px 16px;
+  border-radius: var(--radius-knopf);
+  background: linear-gradient(135deg, var(--marke-von), var(--marke-bis));
+  color: var(--marke-akzent-schrift);
+  box-shadow: var(--schatten-knopf);
+  font-size: 13.5px;
+  font-weight: 600;
+  text-align: center;
+}
+.kauf__preis strong {
+  font-size: 34px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+.kauf__je {
+  font-size: 13.5px;
+  color: var(--marke-schwach);
+}
+.kauf__gesamt {
+  font-size: 12.5px;
+  color: var(--marke-schwach);
+  padding-inline-start: 8px;
+  border-inline-start: 1px solid var(--marke-linie);
+}
+
+.kauf__merkmale {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 6px;
+  font-size: 13.5px;
+}
+.kauf__merkmale li {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+}
+.kauf__merkmale li::before {
+  content: '✓';
+  color: var(--marke-gut-text);
+  font-weight: 700;
+}
+
+/* ── Beschreibungsliste (Vorschau der Meldung, Kontodaten) ───────────── */
+.paare {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: var(--abstand-1) var(--abstand-4);
+  margin: 0;
+  font-size: 13px;
+}
+.paare dt {
+  color: var(--marke-schwach);
+}
+.paare dd {
+  margin: 0;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+/* ── Zeilenknopf: ganze Zeile drueckbar, ohne Knopfoptik ─────────────── */
+.zeilenknopf {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: var(--abstand-3);
+  padding: var(--abstand-2) var(--abstand-3);
+  border: 0;
+  border-radius: var(--radius-feld);
+  background: transparent;
+  text-align: start;
+}
+
+.stapel {
+  display: flex;
+  flex-direction: column;
+  gap: var(--abstand-3);
+}
+.reihe {
+  display: flex;
+  align-items: center;
+  gap: var(--abstand-2);
+}
+.wachsend {
+  flex: 1;
+  min-width: 0;
+}
+.abschneiden {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/**
+ * Der Fuss des Popups mit nur EINEM Knopf.
+ *
+ * `.fuss` verteilt zwei Knoepfe an die Raender (`space-between`). Bleibt nur
+ * einer uebrig, klebt er dadurch links und sieht aus, als fehle rechts etwas.
+ */
+/*
+ * Zwei Klassen im Selektor, nicht eine: `.fuss` traegt `space-between` und
+ * steht in derselben Datei weiter oben. Bei gleicher Spezifitaet gewinnt die
+ * spaetere Regel - das waere hier zufaellig die richtige, aber nur solange
+ * niemand die Reihenfolge aendert. `.fuss.fuss--mittig` gewinnt aus einem
+ * Grund, den man lesen kann.
+ */
+.fuss.fuss--mittig {
+  justify-content: center;
+}
