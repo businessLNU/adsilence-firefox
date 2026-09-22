@@ -485,6 +485,104 @@ function istUeberfaellig(am, jetzt, grenzeMs) {
   if (!Number.isFinite(zeit)) return true;
   return jetzt - zeit > grenzeMs;
 }
+const WERKZEUGE = [
+  {
+    name: "OneTrust",
+    erkennung: "#onetrust-banner-sdk, #onetrust-consent-sdk",
+    ablehnen: ["#onetrust-reject-all-handler", ".ot-pc-refuse-all-handler", "#onetrust-pc-btn-handler + button"],
+    annehmen: ["#onetrust-accept-btn-handler", ".onetrust-close-btn-handler.banner-close-button"]
+  },
+  {
+    name: "Cookiebot",
+    erkennung: "#CybotCookiebotDialog",
+    ablehnen: ["#CybotCookiebotDialogBodyButtonDecline", "#CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll"],
+    annehmen: ["#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll", "#CybotCookiebotDialogBodyButtonAccept"]
+  },
+  {
+    name: "Didomi",
+    erkennung: "#didomi-host, .didomi-popup-container",
+    ablehnen: ["#didomi-notice-disagree-button", ".didomi-continue-without-agreeing"],
+    annehmen: ["#didomi-notice-agree-button"]
+  },
+  {
+    name: "Usercentrics",
+    erkennung: '#usercentrics-root, [data-testid="uc-default-banner"]',
+    ablehnen: ['[data-testid="uc-deny-all-button"]'],
+    annehmen: ['[data-testid="uc-accept-all-button"]']
+  },
+  {
+    name: "Quantcast",
+    erkennung: ".qc-cmp2-container, .qc-cmp-cleanslate",
+    ablehnen: ['.qc-cmp2-summary-buttons > button[mode="secondary"]'],
+    annehmen: ['.qc-cmp2-summary-buttons > button[mode="primary"]']
+  },
+  {
+    name: "Sourcepoint",
+    erkennung: ".sp_message_container, .message-container",
+    ablehnen: [".sp_choice_type_13", 'button[title="Reject All"]'],
+    annehmen: [".sp_choice_type_11", 'button[title="Accept All"]', 'button[title="Alle akzeptieren"]']
+  },
+  {
+    name: "Borlabs Cookie",
+    erkennung: "#BorlabsCookieBox, #brlbs-cookie-box",
+    ablehnen: ["a.borlabs-cookie-refuse", '[data-borlabs-cookie-handle="refuse"]'],
+    annehmen: ["a.borlabs-cookie-btn-accept-all", '[data-borlabs-cookie-handle="accept-all"]']
+  },
+  {
+    name: "Complianz",
+    erkennung: "#cmplz-cookiebanner-container",
+    ablehnen: [".cmplz-deny"],
+    annehmen: [".cmplz-accept"]
+  },
+  {
+    name: "CookieYes",
+    erkennung: ".cky-consent-container, #cookie-law-info-bar",
+    ablehnen: [".cky-btn-reject", "#cookie_action_close_header_reject"],
+    annehmen: [".cky-btn-accept", "#cookie_action_close_header"]
+  },
+  {
+    name: "Klaro",
+    erkennung: ".klaro .cookie-notice, #klaro",
+    ablehnen: [".cn-decline", ".cm-btn-decline"],
+    annehmen: [".cn-buttons .cm-btn-success", ".cookie-notice .cm-btn-accept-all"]
+  },
+  {
+    name: "Osano",
+    erkennung: ".osano-cm-window, .osano-cm-dialog",
+    ablehnen: [".osano-cm-denyAll"],
+    annehmen: [".osano-cm-accept-all"]
+  },
+  {
+    name: "TrustArc",
+    erkennung: "#truste-consent-track, .truste_box_overlay",
+    ablehnen: ["#truste-consent-required"],
+    annehmen: ["#truste-consent-button"]
+  },
+  {
+    name: "Consent Manager",
+    erkennung: "#cmpbox, .cmpboxBG",
+    ablehnen: [".cmpboxbtnno", "#cmpbntnotxt"],
+    annehmen: [".cmpboxbtnyes", "#cmpbntyestxt"]
+  },
+  {
+    name: "Iubenda",
+    erkennung: "#iubenda-cs-banner",
+    ablehnen: [".iubenda-cs-reject-btn"],
+    annehmen: [".iubenda-cs-accept-btn"]
+  },
+  {
+    name: "Cookie Script",
+    erkennung: "#cookiescript_injected",
+    ablehnen: ["#cookiescript_reject"],
+    annehmen: ["#cookiescript_accept"]
+  },
+  {
+    name: "Termly",
+    erkennung: "#termly-code-snippet-support",
+    ablehnen: ['[data-tid="banner-decline"]'],
+    annehmen: ['[data-tid="banner-accept"]']
+  }
+];
 function nameVon(l) {
   if (l.sprache) return spracheName(l.sprache);
   const k = `optionen.listen.${schluesselAusId(l.id)}.name`;
@@ -697,7 +795,7 @@ function Filterlisten({ zustand }) {
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { ...kaufProps(!premium), children: [
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "wachsend", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("label", { className: "liste__name", htmlFor: "cookieAntwort", children: t("optionen.einstellungen.cookies") }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "liste__nebentext", children: t("optionen.einstellungen.cookiesText") }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "liste__nebentext", children: t("optionen.einstellungen.cookiesText", { anzahl: WERKZEUGE.length }) }),
           premium && e?.cookieAntwort === "ablehnen" ? /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "liste__nebentext liste__einschraenkung", children: t("optionen.einstellungen.cookiesAblehnenHinweis") }) : null
         ] }),
         !premium ? /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "liste__schloss", title: t("gemeinsam.premium"), children: /* @__PURE__ */ jsxRuntimeExports.jsx(Schloss, {}) }) : null,
