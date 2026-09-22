@@ -1,4 +1,4 @@
-import { r as reactExports, l as leseSpeicher, b as beiSpeicherAenderung, t, j as jsxRuntimeExports, H as Hinweis, K as Knopf, f as formatiereDatum, a as Kreuz, s as sende, c as fehlerText, N as NachrichtFehler, E as Extern, o as oeffneTab, U as UMGEBUNG, P as PremiumWahl, S as Schalter, v as verfuegbareSprachen, d as schreibeSpeicher, e as formatiereZahl, g as Schloss, B as BROWSER, I as Info, L as LISTENPFLEGE_VERALTET_MS, h as schluesselAusId, i as hatText, p as preisseite, u as useSprache, n as nutzeZustand, M as Marke, k as paketUrl, m as Skeleton, q as starteOberflaeche, w as clientExports } from "./PremiumWahl.js";
+import { r as reactExports, l as leseSpeicher, b as beiSpeicherAenderung, t, j as jsxRuntimeExports, H as Hinweis, K as Knopf, f as formatiereDatum, a as Kreuz, s as sende, c as fehlerText, N as NachrichtFehler, E as Extern, o as oeffneTab, U as UMGEBUNG, P as PremiumWahl, S as Schalter, v as verfuegbareSprachen, d as schreibeSpeicher, e as formatiereZahl, g as Schloss, B as BROWSER, I as Info, L as LISTENPFLEGE_VERALTET_MS, h as schluesselAusId, i as hatText, k as KAUFWEG_ERLAUBT, p as preisseite, u as useSprache, n as nutzeZustand, M as Marke, m as paketUrl, q as Skeleton, w as starteOberflaeche, x as clientExports } from "./PremiumWahl.js";
 const SPRACHEN = [
   { code: "en", name: "English", dir: "ltr" },
   { code: "zh", name: "中文", dir: "ltr" },
@@ -599,6 +599,7 @@ function SchalterAttrappe() {
 }
 function kaufProps(gesperrt) {
   if (!gesperrt) return { className: "liste__zeile" };
+  if (!KAUFWEG_ERLAUBT) return { className: "liste__zeile liste__zeile--gesperrt" };
   const oeffne = () => void oeffneTab(preisseite());
   return {
     className: "liste__zeile liste__zeile--kauf",

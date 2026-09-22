@@ -9538,7 +9538,7 @@ class NachrichtFehler extends Error {
 const laeuftImPaket = apiVorhanden && typeof api.runtime?.sendMessage === "function";
 const variante = laeuftImPaket ? null : attrappeVariante();
 if (variante) attrappeEinrichten(variante);
-const UMGEBUNG = { apiBasis: API_BASIS, version: VERSION };
+const UMGEBUNG = { apiBasis: API_BASIS, version: VERSION, browser: BROWSER };
 async function sende(nachricht) {
   let antwort;
   if (variante) {
@@ -9929,15 +9929,18 @@ function preisseite() {
   const basis = UMGEBUNG.apiBasis.replace(/\/+$/, "");
   return `${basis}/preise?lang=${encodeURIComponent(sprache())}&von=erweiterung`;
 }
+const KAUFWEG_ERLAUBT = UMGEBUNG.browser !== "safari";
 function PremiumWahl({ breit }) {
+  if (!KAUFWEG_ERLAUBT) return null;
   return /* @__PURE__ */ jsxRuntimeExports.jsx(Knopf, { art: "primaer", breit, onClick: () => void oeffneTab(preisseite()), children: t("gemeinsam.premiumHolen") });
 }
 export {
-  SAMMELREGEL as A,
+  MELDUNG_MAX_KOMMENTAR as A,
   BROWSER as B,
-  aktiverTabId as C,
-  LIZENZ_FRISCH_MS as D,
+  SAMMELREGEL as C,
+  aktiverTabId as D,
   Extern as E,
+  LIZENZ_FRISCH_MS as F,
   Hinweis as H,
   Info as I,
   Knopf as K,
@@ -9958,20 +9961,20 @@ export {
   schluesselAusId as h,
   hatText as i,
   jsxRuntimeExports as j,
-  paketUrl as k,
+  KAUFWEG_ERLAUBT as k,
   leseSpeicher as l,
-  Skeleton as m,
+  paketUrl as m,
   nutzeZustand as n,
   oeffneTab as o,
   preisseite as p,
-  starteOberflaeche as q,
+  Skeleton as q,
   reactExports as r,
   sende as s,
   t,
   useSprache as u,
   verfuegbareSprachen as v,
-  clientExports as w,
-  SymbolKnopf as x,
-  oeffneOptionen as y,
-  MELDUNG_MAX_KOMMENTAR as z
+  starteOberflaeche as w,
+  clientExports as x,
+  SymbolKnopf as y,
+  oeffneOptionen as z
 };
