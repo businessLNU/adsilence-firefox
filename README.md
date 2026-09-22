@@ -1,6 +1,6 @@
 # AdSilence — firefox
 
-Der **gebaute Stand** der AdSilence-Erweiterung fuer Firefox Add-ons, Version 1.0.1.
+Der **gebaute Stand** der AdSilence-Erweiterung fuer Firefox Add-ons, Version 1.0.2.
 
 Dieses Repository wird automatisch beschrieben und traegt keine Geschichte von
 Hand: Jeder Stand kommt aus der Ausliefer-Kette und entspricht Datei fuer Datei
