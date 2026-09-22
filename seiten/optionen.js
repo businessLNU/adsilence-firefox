@@ -697,7 +697,8 @@ function Filterlisten({ zustand }) {
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { ...kaufProps(!premium), children: [
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "wachsend", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("label", { className: "liste__name", htmlFor: "cookieAntwort", children: t("optionen.einstellungen.cookies") }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "liste__nebentext", children: t("optionen.einstellungen.cookiesText") })
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "liste__nebentext", children: t("optionen.einstellungen.cookiesText") }),
+          premium && e?.cookieAntwort === "ablehnen" ? /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "liste__nebentext liste__einschraenkung", children: t("optionen.einstellungen.cookiesAblehnenHinweis") }) : null
         ] }),
         !premium ? /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "liste__schloss", title: t("gemeinsam.premium"), children: /* @__PURE__ */ jsxRuntimeExports.jsx(Schloss, {}) }) : null,
         !premium ? /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "feld__eingabe zeilenwahl zeilenwahl--attrappe", "aria-hidden": "true", children: t("optionen.einstellungen.cookiesAus") }) : /* @__PURE__ */ jsxRuntimeExports.jsxs(
