@@ -9231,7 +9231,7 @@ function formatiereZahl(wert) {
 const global = globalThis;
 const api = global.browser ?? global.chrome;
 const apiVorhanden = api !== void 0;
-const __vite_import_meta_env__ = { "ADSILENCE_API": "https://adsilence.net", "BROWSER": "firefox", "VERSION": "1.0.2" };
+const __vite_import_meta_env__ = { "ADSILENCE_API": "https://adsilence.net", "BROWSER": "firefox", "VERSION": "1.0.3" };
 const umgebung = __vite_import_meta_env__ ?? {};
 const API_BASIS = (umgebung.ADSILENCE_API ?? "http://localhost:3000").replace(/\/+$/, "");
 const VERSION = umgebung.VERSION ?? "0.0.0";
