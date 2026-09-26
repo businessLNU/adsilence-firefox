@@ -1,4 +1,4 @@
-var __ADSILENCE_KARTE = "{\n\"affarsstaden.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"wheel\"]}\n],\n\"aftonbladet.se\":[\n{\"name\":\"set-constant\",\"args\":[\"advertoryFluepapir\",\"true\"]}\n],\n\"aktieskolan.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"monsterinsights_frontend\"]},\n{\"name\":\"set-constant\",\"args\":[\"mi_track_user\",\"false\"]}\n],\n\"alekuriren.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"allagodating.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"wheel\"]}\n],\n\"allas.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"blur\",\"i.focusPlayerElement\"]},\n{\"name\":\"prevent-addEventListener\",\"args\":[\"scroll\",\"t.view.updateBounds\"]}\n],\n\"alltforforaldrar.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"arvikanyheter.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"automotorsport.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"babyhjalp.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"barometern.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"blt.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"boktugg.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"monsterinsights_frontend\"]},\n{\"name\":\"set-constant\",\"args\":[\"mi_track_user\",\"false\"]},\n{\"name\":\"prevent-addEventListener\",\"args\":[\"wheel\"]}\n],\n\"bt.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"byggahus.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"/adblockDetector|adsInserted|partnerExternalLinkClick/\"]}\n],\n\"byggipedia.se\":[\n{\"name\":\"set-constant\",\"args\":[\"ai_set_cookie\",\"noopFunc\"]}\n],\n\"byrum.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"cafe.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"classicmotor.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"computersweden.se\":[\n{\"name\":\"abort-on-property-read\",\"args\":[\"_sp_\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"dataLayer.push\",\"fireGtm\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"document.createElement\",\"admiral\"]}\n],\n\"conpot.se\":[\n{\"name\":\"set-constant\",\"args\":[\"square_array1\",\"null\"]},\n{\"name\":\"set-constant\",\"args\":[\"square_arraytop\",\"null\"]}\n],\n\"corren.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"dagensarbetsmiljo.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"wheel\",\"e.defaultPrevented\"]}\n],\n\"dalslanningen.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"datormagazin.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"densistavilan.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"di.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"contextmenu\",\".disabled\"]},\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"discoveringtheplanet.com\":[\n{\"name\":\"abort-current-script\",\"args\":[\"disableEnterKey\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"document.ondragstart\"]}\n],\n\"ekuriren.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"elle.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"blur\",\"i.focusPlayerElement\"]},\n{\"name\":\"prevent-addEventListener\",\"args\":[\"scroll\",\"t.view.updateBounds\"]}\n],\n\"enkelteknik.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"eposten.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"etunawebben.se\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\"ad\"]}\n],\n\"expressen.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"click\",\"e.preventDefault\",\"elements\",\"a.js-ct\"]},\n{\"name\":\"prevent-addEventListener\",\"args\":[\"contextmenu\",\".disabled\"]},\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"familjeliv.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"fastighetsvarlden.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"monsterinsights_frontend\"]},\n{\"name\":\"set-constant\",\"args\":[\"mi_track_user\",\"false\"]}\n],\n\"feber.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"addtonativesFrontPageOne\"]},\n{\"name\":\"no-setInterval-if\",\"args\":[\"checkGDPRInt\"]},\n{\"name\":\"set-constant\",\"args\":[\"dovideostuffAD\",\"noopFunc\"]}\n],\n\"femina.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"blur\",\"i.focusPlayerElement\"]},\n{\"name\":\"prevent-addEventListener\",\"args\":[\"scroll\",\"t.view.updateBounds\"]}\n],\n\"filipstadstidning.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"findit.se\":[\n{\"name\":\"set-constant\",\"args\":[\"testPrebid\",\"noopFunc\"]}\n],\n\"folkbladet.nu\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]},\n{\"name\":\"json-prune\",\"args\":[\"uesUrlFallback\"]},\n{\"name\":\"set-constant\",\"args\":[\"manualAutoplay_\",\"noopFunc\"]}\n],\n\"folkbladet.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"fotosidan.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"contextmenu\",\"\",\"showCopyrightBox\"]}\n],\n\"fragbite.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"fryksdalsbygden.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"fssweden.se\":[\n{\"name\":\"set-constant\",\"args\":[\"adblock\",\"false\"]}\n],\n\"fz.se\":[\n{\"name\":\"set-constant\",\"args\":[\"adblock\",\"false\"]}\n],\n\"gamereactor.se\":[\n{\"name\":\"set-constant\",\"args\":[\"adblockEnabled\",\"falseFunc\"]}\n],\n\"golfing.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"guiden.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"hant.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"blur\",\"i.focusPlayerElement\"]},\n{\"name\":\"prevent-addEventListener\",\"args\":[\"scroll\",\"t.view.updateBounds\"]}\n],\n\"happypancake.se\":[\n{\"name\":\"abort-on-property-read\",\"args\":[\"Object.prototype.adUnits\"]}\n],\n\"hejaolika.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"advads_passive_placements\"]}\n],\n\"helagotland.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"heleneholmsif.se\":[\n{\"name\":\"set-constant\",\"args\":[\"em_track_user\",\"false\"]},\n{\"name\":\"set-constant\",\"args\":[\"exactmetrics_frontend\",\"undefined\"]}\n],\n\"husbilskompisar.se\":[\n{\"name\":\"json-prune\",\"args\":[\"props.initialAds\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"ad_location\"]}\n],\n\"husbilsplats.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"document.oncontextmenu\"]}\n],\n\"ibnytt.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"idrottensaffarer.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"illvet.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"contextmenu\"]}\n],\n\"jobsinsweden.se\":[\n{\"name\":\"set-constant\",\"args\":[\"eazy_ad_unblocker\",\"null\"]}\n],\n\"kamrat.com\":[\n{\"name\":\"set-constant\",\"args\":[\"showAds\",\"false\"]},\n{\"name\":\"set-constant\",\"args\":[\"trap\",\"noopFunc\"]}\n],\n\"kandisvarlden.com\":[\n{\"name\":\"abort-current-script\",\"args\":[\"document.oncontextmenu\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"disableEnterKey\"]}\n],\n\"kattannonser.se\":[\n{\"name\":\"noeval\",\"args\":[\"adbEnableForPage\"]}\n],\n\"kingmagazine.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"kkuriren.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"klart.se\":[\n{\"name\":\"set-constant\",\"args\":[\"advertoryFluepapir\",\"true\"]}\n],\n\"klt.nu\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"kristianstadsbladet.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"kritiker.se\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"adsbygoogle\"]}\n],\n\"kt-kuriren.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"kurera.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"wheel\"]}\n],\n\"kuriren.nu\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"lakartidningen.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"monsterinsights_frontend\"]},\n{\"name\":\"set-constant\",\"args\":[\"mi_track_user\",\"false\"]}\n],\n\"lchfarkivet.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"livsmedelsnyheter.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"lokalti.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"lokaltidningen.nu\":[\n{\"name\":\"json-prune\",\"args\":[\"uesUrlFallback\"]},\n{\"name\":\"set-constant\",\"args\":[\"manualAutoplay_\",\"noopFunc\"]}\n],\n\"lundagard.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"wheel\"]}\n],\n\"lwcdn.com\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"/^(?:adBlocker|contextmenu)$/\"]}\n],\n\"m3.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"dataLayer.push\",\"fireGtm\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"document.createElement\",\"admiral\"]}\n],\n\"mabra.com\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"blur\",\"i.focusPlayerElement\"]},\n{\"name\":\"prevent-addEventListener\",\"args\":[\"scroll\",\"t.view.updateBounds\"]}\n],\n\"macworld.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"dataLayer.push\",\"fireGtm\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"document.createElement\",\"admiral\"]}\n],\n\"mariestadstidningen.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"matsafari.nu\":[\n{\"name\":\"abort-current-script\",\"args\":[\"monsterinsights_frontend\"]},\n{\"name\":\"set-constant\",\"args\":[\"mi_track_user\",\"false\"]}\n],\n\"matspar.se\":[\n{\"name\":\"json-prune\",\"args\":[\"payload.ads campaigns.*\"]}\n],\n\"mellanbygden.nu\":[\n{\"name\":\"json-prune\",\"args\":[\"uesUrlFallback\"]},\n{\"name\":\"set-constant\",\"args\":[\"manualAutoplay_\",\"noopFunc\"]}\n],\n\"melodifestivalklubben.se\":[\n{\"name\":\"set-constant\",\"args\":[\"em_track_user\",\"false\"]},\n{\"name\":\"set-constant\",\"args\":[\"exactmetrics_frontend\",\"undefined\"]}\n],\n\"mitti.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]},\n{\"name\":\"prevent-addEventListener\",\"args\":[\"scroll\",\"helpers.scroll(id)\"]}\n],\n\"mobilanyheter.net\":[\n{\"name\":\"set-constant\",\"args\":[\"ai_run_scripts\",\"noopFunc\"]}\n],\n\"modernpsykologi.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"morotsliv.com\":[\n{\"name\":\"set-constant\",\"args\":[\"em_track_user\",\"false\"]},\n{\"name\":\"set-constant\",\"args\":[\"exactmetrics_frontend\",\"undefined\"]},\n{\"name\":\"prevent-addEventListener\",\"args\":[\"wheel\"]}\n],\n\"motherhood.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"blur\",\"i.focusPlayerElement\"]},\n{\"name\":\"prevent-addEventListener\",\"args\":[\"scroll\",\"t.view.updateBounds\"]}\n],\n\"mvt.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"naringsliv.ax\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\"popup\"]}\n],\n\"nkp.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"nlt.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"nordsverige.se\":[\n{\"name\":\"json-prune\",\"args\":[\"uesUrlFallback\"]},\n{\"name\":\"set-constant\",\"args\":[\"manualAutoplay_\",\"noopFunc\"]}\n],\n\"norrahalland.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"norran.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"nouw.com\":[\n{\"name\":\"no-setInterval-if\",\"args\":[\"iframe.space-frame\"]}\n],\n\"nsd.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"nsk.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"nt.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"nuosteraker.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"nvp.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"nwt.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"nyadagbladet.se\":[\n{\"name\":\"set-constant\",\"args\":[\"em_track_user\",\"false\"]},\n{\"name\":\"set-constant\",\"args\":[\"exactmetrics_frontend\",\"undefined\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"nyan.ax\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"contextmenu\"]}\n],\n\"nyheter24.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"olandsbladet.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"ordbokpro.se\":[\n{\"name\":\"set-constant\",\"args\":[\"ab_disp\",\"noopFunc\"]}\n],\n\"passioneffect.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"pcforalla.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"dataLayer.push\",\"fireGtm\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"document.createElement\",\"admiral\"]}\n],\n\"polistidningen.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"praktisktbatagande.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]},\n{\"name\":\"prevent-addEventListener\",\"args\":[\"scroll\",\"helpers.scroll(id)\"]}\n],\n\"provinstidningen.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"pt.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"realtid.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"recept.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"residencemagazine.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"blur\",\"i.focusPlayerElement\"]},\n{\"name\":\"prevent-addEventListener\",\"args\":[\"scroll\",\"t.view.updateBounds\"]}\n],\n\"rocknytt.net\":[\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"saffletidningen.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"sexpacket.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"/contextmenu|cut|copy|paste/\"]}\n],\n\"skaraborgsbygden.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"skd.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"skogsforum.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"AB_AP1\"]}\n],\n\"sla.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"smp.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"sn.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"stadshem.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"wheel\",\"scroll\"]}\n],\n\"streamio.com\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"contextmenu\"]}\n],\n\"strengnastidning.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"svd.se\":[\n{\"name\":\"set-constant\",\"args\":[\"advertoryFluepapir\",\"true\"]}\n],\n\"svenskdam.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"blur\",\"i.focusPlayerElement\"]},\n{\"name\":\"prevent-addEventListener\",\"args\":[\"scroll\",\"t.view.updateBounds\"]}\n],\n\"svenskgolf.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"sverigespringer.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"swedroid.se\":[\n{\"name\":\"set-constant\",\"args\":[\"checkAdsBlocked\",\"noopFunc\"]}\n],\n\"sydostran.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"thatsup.se\":[\n{\"name\":\"set-constant\",\"args\":[\"canShowAds\",\"true\"]}\n],\n\"thelocal.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"tidningencurie.se\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\".showModal\"]}\n],\n\"tinyurl.se\":[\n{\"name\":\"set-constant\",\"args\":[\"adblock\",\"false\"]}\n],\n\"tjock.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"addtonativesFrontPageOne\"]},\n{\"name\":\"no-setInterval-if\",\"args\":[\"checkGDPRInt\"]},\n{\"name\":\"set-constant\",\"args\":[\"dovideostuffAD\",\"noopFunc\"]}\n],\n\"trafiksakerhet.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"monsterinsights_frontend\"]},\n{\"name\":\"set-constant\",\"args\":[\"mi_track_user\",\"false\"]}\n],\n\"trafikskola.se\":[\n{\"name\":\"set-constant\",\"args\":[\"em_track_user\",\"false\"]},\n{\"name\":\"set-constant\",\"args\":[\"exactmetrics_frontend\",\"undefined\"]}\n],\n\"trelleborgsallehanda.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"tv.nu\":[\n{\"name\":\"set-constant\",\"args\":[\"advertoryFluepapir\",\"true\"]}\n],\n\"unt.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"upphandling24.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"ut.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"utslappsratt.se\":[\n{\"name\":\"set-constant\",\"args\":[\"em_track_user\",\"false\"]},\n{\"name\":\"set-constant\",\"args\":[\"exactmetrics_frontend\",\"undefined\"]}\n],\n\"vadhanderisverige.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"varldenshistoria.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"contextmenu\"]}\n],\n\"vasterastidning.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"vasterbottningen.se\":[\n{\"name\":\"json-prune\",\"args\":[\"uesUrlFallback\"]},\n{\"name\":\"set-constant\",\"args\":[\"manualAutoplay_\",\"noopFunc\"]}\n],\n\"vaxjobladet.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"vf.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"viivilla.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"villalivet.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"monsterinsights_frontend\"]},\n{\"name\":\"set-constant\",\"args\":[\"mi_track_user\",\"false\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"vimmerbytidning.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"vinochmatguiden.se\":[\n{\"name\":\"set-constant\",\"args\":[\"window.WURFL\",\"1\"]}\n],\n\"vk.se\":[\n{\"name\":\"json-prune\",\"args\":[\"uesUrlFallback\"]},\n{\"name\":\"set-constant\",\"args\":[\"manualAutoplay_\",\"noopFunc\"]}\n],\n\"vt.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"www.aftonbladet.se\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\"TAKEOVER\"]}\n],\n\"ystadsallehanda.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"zeinaskitchen.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"monsterinsights_frontend\"]},\n{\"name\":\"set-constant\",\"args\":[\"mi_track_user\",\"false\"]}\n]\n}";
+var __ADSILENCE_KARTE = "{\n\"affarsstaden.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"wheel\"]}\n],\n\"aftonbladet.se\":[\n{\"name\":\"set-constant\",\"args\":[\"advertoryFluepapir\",\"true\"]}\n],\n\"aktieskolan.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"monsterinsights_frontend\"]},\n{\"name\":\"set-constant\",\"args\":[\"mi_track_user\",\"false\"]}\n],\n\"alekuriren.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"alingsastidning.se\":[\n{\"name\":\"json-prune-fetch-response\",\"args\":[\"autoplay\",\"\",\"propsToMatch\",\"url:ljsp.lwcdn.com\"]}\n],\n\"allagodating.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"wheel\"]}\n],\n\"allas.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"blur\",\"i.focusPlayerElement\"]},\n{\"name\":\"prevent-addEventListener\",\"args\":[\"scroll\",\"t.view.updateBounds\"]}\n],\n\"alltforforaldrar.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"arvikanyheter.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"automotorsport.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"babyhjalp.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"barometern.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"bio-link.se\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"request_ads_to_display\"]}\n],\n\"blt.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"bohuslaningen.se\":[\n{\"name\":\"json-prune-fetch-response\",\"args\":[\"autoplay\",\"\",\"propsToMatch\",\"url:ljsp.lwcdn.com\"]}\n],\n\"boktugg.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"monsterinsights_frontend\"]},\n{\"name\":\"set-constant\",\"args\":[\"mi_track_user\",\"false\"]},\n{\"name\":\"prevent-addEventListener\",\"args\":[\"wheel\"]}\n],\n\"bt.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"byggahus.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"/adblockDetector|adsInserted|partnerExternalLinkClick/\"]}\n],\n\"byggipedia.se\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"contextmenu\"]},\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"e.keyCode\"]},\n{\"name\":\"set-constant\",\"args\":[\"ai_set_cookie\",\"noopFunc\"]}\n],\n\"byrum.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"cafe.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"classicmotor.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"computersweden.se\":[\n{\"name\":\"abort-on-property-read\",\"args\":[\"_sp_\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"dataLayer.push\",\"fireGtm\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"document.createElement\",\"admiral\"]}\n],\n\"conpot.se\":[\n{\"name\":\"set-constant\",\"args\":[\"square_array1\",\"null\"]},\n{\"name\":\"set-constant\",\"args\":[\"square_arraytop\",\"null\"]}\n],\n\"corren.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"dagensarbetsmiljo.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"wheel\",\"e.defaultPrevented\"]}\n],\n\"dalslanningen.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"datormagazin.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"densistavilan.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"di.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"contextmenu\",\".disabled\"]},\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"dinbyggare.se\":[\n{\"name\":\"remove-node-text\",\"args\":[\"noscript\"]},\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"/wccp_pro/\"]}\n],\n\"discoveringtheplanet.com\":[\n{\"name\":\"abort-current-script\",\"args\":[\"disableEnterKey\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"document.ondragstart\"]}\n],\n\"ekuriren.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"elle.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"blur\",\"i.focusPlayerElement\"]},\n{\"name\":\"prevent-addEventListener\",\"args\":[\"scroll\",\"t.view.updateBounds\"]}\n],\n\"enkelteknik.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"eposten.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"etunawebben.se\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\"ad\"]}\n],\n\"expressen.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"click\",\"e.preventDefault\",\"elements\",\"a.js-ct\"]},\n{\"name\":\"prevent-addEventListener\",\"args\":[\"contextmenu\",\".disabled\"]},\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"familjeliv.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"fastighetsvarlden.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"monsterinsights_frontend\"]},\n{\"name\":\"set-constant\",\"args\":[\"mi_track_user\",\"false\"]}\n],\n\"feber.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"addtonativesFrontPageOne\"]},\n{\"name\":\"no-setInterval-if\",\"args\":[\"checkGDPRInt\"]},\n{\"name\":\"set-constant\",\"args\":[\"dovideostuffAD\",\"noopFunc\"]}\n],\n\"femina.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"blur\",\"i.focusPlayerElement\"]},\n{\"name\":\"prevent-addEventListener\",\"args\":[\"scroll\",\"t.view.updateBounds\"]}\n],\n\"filipstadstidning.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"findit.se\":[\n{\"name\":\"set-constant\",\"args\":[\"testPrebid\",\"noopFunc\"]}\n],\n\"folkbladet.nu\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]},\n{\"name\":\"json-prune\",\"args\":[\"uesUrlFallback\"]},\n{\"name\":\"set-constant\",\"args\":[\"manualAutoplay_\",\"noopFunc\"]}\n],\n\"folkbladet.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"fotbollskanalen.se\":[\n{\"name\":\"json-prune-fetch-response\",\"args\":[\"playbackItem.isStitched\",\"\",\"propsToMatch\",\"url:a2d.tv/play\"]}\n],\n\"fotosidan.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"contextmenu\",\"\",\"showCopyrightBox\"]}\n],\n\"fragbite.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"fryksdalsbygden.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"fssweden.se\":[\n{\"name\":\"set-constant\",\"args\":[\"adblock\",\"false\"]}\n],\n\"fz.se\":[\n{\"name\":\"set-constant\",\"args\":[\"adblock\",\"false\"]}\n],\n\"gamereactor.se\":[\n{\"name\":\"set-constant\",\"args\":[\"adblockEnabled\",\"falseFunc\"]}\n],\n\"golfing.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"gp.se\":[\n{\"name\":\"json-prune-fetch-response\",\"args\":[\"autoplay\",\"\",\"propsToMatch\",\"url:ljsp.lwcdn.com\"]}\n],\n\"guiden.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"hallandsposten.se\":[\n{\"name\":\"json-prune-fetch-response\",\"args\":[\"autoplay\",\"\",\"propsToMatch\",\"url:ljsp.lwcdn.com\"]}\n],\n\"hant.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"blur\",\"i.focusPlayerElement\"]},\n{\"name\":\"prevent-addEventListener\",\"args\":[\"scroll\",\"t.view.updateBounds\"]}\n],\n\"happypancake.se\":[\n{\"name\":\"abort-on-property-read\",\"args\":[\"Object.prototype.adUnits\"]}\n],\n\"harrydaposten.se\":[\n{\"name\":\"json-prune-fetch-response\",\"args\":[\"autoplay\",\"\",\"propsToMatch\",\"url:ljsp.lwcdn.com\"]}\n],\n\"hejaolika.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"advads_passive_placements\"]}\n],\n\"helagotland.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"heleneholmsif.se\":[\n{\"name\":\"set-constant\",\"args\":[\"em_track_user\",\"false\"]},\n{\"name\":\"set-constant\",\"args\":[\"exactmetrics_frontend\",\"undefined\"]}\n],\n\"hn.se\":[\n{\"name\":\"json-prune-fetch-response\",\"args\":[\"autoplay\",\"\",\"propsToMatch\",\"url:ljsp.lwcdn.com\"]}\n],\n\"husbilskompisar.se\":[\n{\"name\":\"json-prune\",\"args\":[\"props.initialAds\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"ad_location\"]}\n],\n\"husbilsplats.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"document.oncontextmenu\"]}\n],\n\"ibnytt.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"idrottensaffarer.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"illvet.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"contextmenu\"]}\n],\n\"internetodontologi.se\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"e.preventDefault\"]}\n],\n\"jobsinsweden.se\":[\n{\"name\":\"set-constant\",\"args\":[\"eazy_ad_unblocker\",\"null\"]}\n],\n\"kamrat.com\":[\n{\"name\":\"set-constant\",\"args\":[\"showAds\",\"false\"]},\n{\"name\":\"set-constant\",\"args\":[\"trap\",\"noopFunc\"]}\n],\n\"kandisvarlden.com\":[\n{\"name\":\"abort-current-script\",\"args\":[\"document.oncontextmenu\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"disableEnterKey\"]},\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"decodeURIComponent\"]}\n],\n\"kattannonser.se\":[\n{\"name\":\"noeval\",\"args\":[\"adbEnableForPage\"]}\n],\n\"kingmagazine.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"kkuriren.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"klart.se\":[\n{\"name\":\"set-constant\",\"args\":[\"advertoryFluepapir\",\"true\"]}\n],\n\"klt.nu\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"koket.se\":[\n{\"name\":\"json-prune-fetch-response\",\"args\":[\"playbackItem.isStitched\",\"\",\"propsToMatch\",\"url:a2d.tv/play\"]}\n],\n\"kristianstadsbladet.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"kritiker.se\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"adsbygoogle\"]}\n],\n\"kt-kuriren.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"kungalvsposten.se\":[\n{\"name\":\"json-prune-fetch-response\",\"args\":[\"autoplay\",\"\",\"propsToMatch\",\"url:ljsp.lwcdn.com\"]}\n],\n\"kungsbackaposten.se\":[\n{\"name\":\"json-prune-fetch-response\",\"args\":[\"autoplay\",\"\",\"propsToMatch\",\"url:ljsp.lwcdn.com\"]}\n],\n\"kurera.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"wheel\"]}\n],\n\"kuriren.nu\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"lakartidningen.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"monsterinsights_frontend\"]},\n{\"name\":\"set-constant\",\"args\":[\"mi_track_user\",\"false\"]}\n],\n\"lchfarkivet.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"livsmedelsnyheter.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"lokalti.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"lokaltidningen.nu\":[\n{\"name\":\"json-prune\",\"args\":[\"uesUrlFallback\"]},\n{\"name\":\"set-constant\",\"args\":[\"manualAutoplay_\",\"noopFunc\"]}\n],\n\"lundagard.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"wheel\"]}\n],\n\"lwcdn.com\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"/^(?:adBlocker|contextmenu)$/\"]},\n{\"name\":\"json-prune-fetch-response\",\"args\":[\"autoplay\",\"\",\"propsToMatch\",\"url:ljsp.lwcdn.com\"]}\n],\n\"m3.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"dataLayer.push\",\"fireGtm\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"document.createElement\",\"admiral\"]}\n],\n\"mabra.com\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"blur\",\"i.focusPlayerElement\"]},\n{\"name\":\"prevent-addEventListener\",\"args\":[\"scroll\",\"t.view.updateBounds\"]}\n],\n\"macworld.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"dataLayer.push\",\"fireGtm\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"document.createElement\",\"admiral\"]}\n],\n\"mariestadstidningen.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"markposten.se\":[\n{\"name\":\"json-prune-fetch-response\",\"args\":[\"autoplay\",\"\",\"propsToMatch\",\"url:ljsp.lwcdn.com\"]}\n],\n\"matsafari.nu\":[\n{\"name\":\"abort-current-script\",\"args\":[\"monsterinsights_frontend\"]},\n{\"name\":\"set-constant\",\"args\":[\"mi_track_user\",\"false\"]}\n],\n\"matspar.se\":[\n{\"name\":\"json-prune\",\"args\":[\"payload.ads campaigns.*\"]}\n],\n\"medibok.se\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"decodeURIComponent\"]}\n],\n\"mellanbygden.nu\":[\n{\"name\":\"json-prune\",\"args\":[\"uesUrlFallback\"]},\n{\"name\":\"set-constant\",\"args\":[\"manualAutoplay_\",\"noopFunc\"]}\n],\n\"mellerudsnyheter.se\":[\n{\"name\":\"json-prune-fetch-response\",\"args\":[\"autoplay\",\"\",\"propsToMatch\",\"url:ljsp.lwcdn.com\"]}\n],\n\"melodifestivalklubben.se\":[\n{\"name\":\"set-constant\",\"args\":[\"em_track_user\",\"false\"]},\n{\"name\":\"set-constant\",\"args\":[\"exactmetrics_frontend\",\"undefined\"]}\n],\n\"mitti.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]},\n{\"name\":\"prevent-addEventListener\",\"args\":[\"scroll\",\"helpers.scroll(id)\"]}\n],\n\"mobilanyheter.net\":[\n{\"name\":\"set-constant\",\"args\":[\"ai_run_scripts\",\"noopFunc\"]}\n],\n\"modernpsykologi.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"molndalsposten.se\":[\n{\"name\":\"json-prune-fetch-response\",\"args\":[\"autoplay\",\"\",\"propsToMatch\",\"url:ljsp.lwcdn.com\"]}\n],\n\"morotsliv.com\":[\n{\"name\":\"set-constant\",\"args\":[\"em_track_user\",\"false\"]},\n{\"name\":\"set-constant\",\"args\":[\"exactmetrics_frontend\",\"undefined\"]},\n{\"name\":\"prevent-addEventListener\",\"args\":[\"wheel\"]}\n],\n\"motherhood.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"blur\",\"i.focusPlayerElement\"]},\n{\"name\":\"prevent-addEventListener\",\"args\":[\"scroll\",\"t.view.updateBounds\"]}\n],\n\"mvt.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"naringsliv.ax\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\"popup\"]}\n],\n\"nkp.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"nlt.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"nordsverige.se\":[\n{\"name\":\"json-prune\",\"args\":[\"uesUrlFallback\"]},\n{\"name\":\"set-constant\",\"args\":[\"manualAutoplay_\",\"noopFunc\"]}\n],\n\"norpan.se\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"e.preventDefault\"]}\n],\n\"norrahalland.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"norran.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"nouw.com\":[\n{\"name\":\"no-setInterval-if\",\"args\":[\"iframe.space-frame\"]}\n],\n\"nsd.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"nsk.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"nt.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"nuosteraker.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"nvp.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"nwt.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"nyadagbladet.se\":[\n{\"name\":\"set-constant\",\"args\":[\"em_track_user\",\"false\"]},\n{\"name\":\"set-constant\",\"args\":[\"exactmetrics_frontend\",\"undefined\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"nyan.ax\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"contextmenu\"]}\n],\n\"nyheter24.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"olandsbladet.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"ordbokpro.se\":[\n{\"name\":\"set-constant\",\"args\":[\"ab_disp\",\"noopFunc\"]}\n],\n\"partilletidning.se\":[\n{\"name\":\"json-prune-fetch-response\",\"args\":[\"autoplay\",\"\",\"propsToMatch\",\"url:ljsp.lwcdn.com\"]}\n],\n\"passioneffect.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"pcforalla.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"dataLayer.push\",\"fireGtm\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"document.createElement\",\"admiral\"]}\n],\n\"pilsner.nu\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"decodeURIComponent\"]}\n],\n\"polistidningen.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"praktisktbatagande.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]},\n{\"name\":\"prevent-addEventListener\",\"args\":[\"scroll\",\"helpers.scroll(id)\"]}\n],\n\"provinstidningen.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"pt.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"realtid.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"recept.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"residencemagazine.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"blur\",\"i.focusPlayerElement\"]},\n{\"name\":\"prevent-addEventListener\",\"args\":[\"scroll\",\"t.view.updateBounds\"]}\n],\n\"rocknytt.net\":[\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"saffletidningen.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"sexpacket.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"/contextmenu|cut|copy|paste/\"]}\n],\n\"skaraborgsbygden.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"skd.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"skogsforum.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"AB_AP1\"]}\n],\n\"skrattsajten.com\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"e.preventDefault\"]}\n],\n\"sla.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"smp.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"sn.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"stadshem.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"wheel\",\"scroll\"]}\n],\n\"streamio.com\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"contextmenu\"]}\n],\n\"strengnastidning.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"stromstadstidning.se\":[\n{\"name\":\"json-prune-fetch-response\",\"args\":[\"autoplay\",\"\",\"propsToMatch\",\"url:ljsp.lwcdn.com\"]}\n],\n\"sttidningen.se\":[\n{\"name\":\"json-prune-fetch-response\",\"args\":[\"autoplay\",\"\",\"propsToMatch\",\"url:ljsp.lwcdn.com\"]}\n],\n\"svd.se\":[\n{\"name\":\"set-constant\",\"args\":[\"advertoryFluepapir\",\"true\"]}\n],\n\"svenskdam.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"blur\",\"i.focusPlayerElement\"]},\n{\"name\":\"prevent-addEventListener\",\"args\":[\"scroll\",\"t.view.updateBounds\"]}\n],\n\"svenskgolf.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"sverigespringer.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"swedroid.se\":[\n{\"name\":\"set-constant\",\"args\":[\"checkAdsBlocked\",\"noopFunc\"]}\n],\n\"sydostran.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"thatsup.se\":[\n{\"name\":\"set-constant\",\"args\":[\"canShowAds\",\"true\"]}\n],\n\"thelocal.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"tidningencurie.se\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\".showModal\"]}\n],\n\"tinyurl.se\":[\n{\"name\":\"set-constant\",\"args\":[\"adblock\",\"false\"]}\n],\n\"tjock.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"addtonativesFrontPageOne\"]},\n{\"name\":\"no-setInterval-if\",\"args\":[\"checkGDPRInt\"]},\n{\"name\":\"set-constant\",\"args\":[\"dovideostuffAD\",\"noopFunc\"]}\n],\n\"trafiksakerhet.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"monsterinsights_frontend\"]},\n{\"name\":\"set-constant\",\"args\":[\"mi_track_user\",\"false\"]}\n],\n\"trafikskola.se\":[\n{\"name\":\"set-constant\",\"args\":[\"em_track_user\",\"false\"]},\n{\"name\":\"set-constant\",\"args\":[\"exactmetrics_frontend\",\"undefined\"]}\n],\n\"trelleborgsallehanda.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"ttela.se\":[\n{\"name\":\"json-prune-fetch-response\",\"args\":[\"autoplay\",\"\",\"propsToMatch\",\"url:ljsp.lwcdn.com\"]}\n],\n\"tv.nu\":[\n{\"name\":\"set-constant\",\"args\":[\"advertoryFluepapir\",\"true\"]}\n],\n\"tv4.se\":[\n{\"name\":\"json-prune-fetch-response\",\"args\":[\"playbackItem.isStitched\",\"\",\"propsToMatch\",\"url:a2d.tv/play\"]}\n],\n\"tv4play.se\":[\n{\"name\":\"json-prune-fetch-response\",\"args\":[\"playbackItem.isStitched\",\"\",\"propsToMatch\",\"url:a2d.tv/play\"]}\n],\n\"unt.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"upphandling24.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"ut.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"utslappsratt.se\":[\n{\"name\":\"set-constant\",\"args\":[\"em_track_user\",\"false\"]},\n{\"name\":\"set-constant\",\"args\":[\"exactmetrics_frontend\",\"undefined\"]}\n],\n\"vadhanderisverige.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"varldenshistoria.se\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"contextmenu\"]}\n],\n\"vasterastidning.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"vasterbottningen.se\":[\n{\"name\":\"json-prune\",\"args\":[\"uesUrlFallback\"]},\n{\"name\":\"set-constant\",\"args\":[\"manualAutoplay_\",\"noopFunc\"]}\n],\n\"vaxjobladet.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"vf.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"viivilla.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"villalivet.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"monsterinsights_frontend\"]},\n{\"name\":\"set-constant\",\"args\":[\"mi_track_user\",\"false\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advads\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"advanced_ads\"]}\n],\n\"vimmerbytidning.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"vinochmatguiden.se\":[\n{\"name\":\"set-constant\",\"args\":[\"window.WURFL\",\"1\"]}\n],\n\"vk.se\":[\n{\"name\":\"json-prune\",\"args\":[\"uesUrlFallback\"]},\n{\"name\":\"set-constant\",\"args\":[\"manualAutoplay_\",\"noopFunc\"]}\n],\n\"vt.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"web-tools.se\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"request_ads_to_display\"]}\n],\n\"www.aftonbladet.se\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\"TAKEOVER\"]}\n],\n\"ystadsallehanda.se\":[\n{\"name\":\"json-prune\",\"args\":[\"autoplay\"]}\n],\n\"zeinaskitchen.se\":[\n{\"name\":\"abort-current-script\",\"args\":[\"monsterinsights_frontend\"]},\n{\"name\":\"set-constant\",\"args\":[\"mi_track_user\",\"false\"]}\n]\n}";
 "use strict";
 (() => {
   // src/scriptlets/bibliothek.ts
@@ -135,14 +135,27 @@ var __ADSILENCE_KARTE = "{\n\"affarsstaden.se\":[\n{\"name\":\"prevent-addEventL
     }
     function loesche(obj, pfad) {
       const teile = pfad.split(".");
+      let geaendert = false;
       function ab(o, i) {
         if (o === null || typeof o !== "object") return;
         const name = teile[i];
+        if (name === "[-]" && Array.isArray(o)) {
+          const rest = teile.slice(i + 1).join(".");
+          for (let k = o.length - 1; k >= 0; k -= 1) {
+            if (rest === "" || hatPfad(o[k], rest)) {
+              o.splice(k, 1);
+              geaendert = true;
+            }
+          }
+          return;
+        }
         if (i === teile.length - 1) {
           if (name === "[]" && Array.isArray(o)) {
+            if (o.length) geaendert = true;
             o.length = 0;
             return;
           }
+          if (Object.prototype.hasOwnProperty.call(o, name)) geaendert = true;
           delete o[name];
           return;
         }
@@ -157,6 +170,7 @@ var __ADSILENCE_KARTE = "{\n\"affarsstaden.se\":[\n{\"name\":\"prevent-addEventL
         ab(o[name], i + 1);
       }
       ab(obj, 0);
+      return geaendert;
     }
     function hatPfad(obj, pfad) {
       let o = obj;
@@ -309,6 +323,242 @@ var __ADSILENCE_KARTE = "{\n\"affarsstaden.se\":[\n{\"name\":\"prevent-addEventL
       bau.prototype = attrappe;
       fallen(gross, () => bau, () => bau);
       fallen(klein, () => attrappe, () => attrappe);
+    }
+    const PARSE_ROH = (() => {
+      const ablage = "__adsilenceJsonParse";
+      if (typeof w[ablage] !== "function") w[ablage] = w.JSON.parse;
+      return w[ablage];
+    })();
+    function regexAus(text, flags, ganz = false) {
+      if (text === "") return /^/;
+      const m = /^\/(.+)\/([gimsu]*)$/.exec(text);
+      if (m) {
+        try {
+          return new RegExp(m[1], m[2] || void 0);
+        } catch {
+          return /^/;
+        }
+      }
+      const woertlich = text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      return new RegExp(ganz ? "^" + woertlich + "$" : woertlich, flags);
+    }
+    function zusatz(rest) {
+      const aus = {};
+      for (let i = 0; i + 1 < rest.length; i += 2) aus[rest[i]] = rest[i + 1];
+      return aus;
+    }
+    function trifftProps(props, werte) {
+      if (props === "") return true;
+      return trifftAnfrage(eigenschaften(props), werte);
+    }
+    function fetchWerte(a) {
+      const werte = { url: "", method: "GET" };
+      const quelle = a[0];
+      const optionen = a[1];
+      if (quelle !== null && typeof quelle === "object" && "url" in quelle) {
+        werte["url"] = alsText(quelle.url);
+        const m = quelle.method;
+        if (m) werte["method"] = alsText(m);
+      } else {
+        werte["url"] = alsText(quelle);
+      }
+      if (optionen && typeof optionen === "object" && optionen.method) werte["method"] = alsText(optionen.method);
+      return werte;
+    }
+    function umschreibeFetch(props, aendere) {
+      const alt = w.fetch;
+      const Antwort = w.Response;
+      if (typeof alt !== "function" || typeof Antwort !== "function") return;
+      w.fetch = new Proxy(alt, {
+        apply(f, dies, a) {
+          const versprochen = Reflect.apply(f, dies, a);
+          let werte;
+          try {
+            werte = fetchWerte(a);
+          } catch {
+            return versprochen;
+          }
+          if (!trifftProps(props, werte)) return versprochen;
+          return versprochen.then((vorher) => {
+            const v = vorher;
+            if (!v || typeof v.clone !== "function") return vorher;
+            let kopie;
+            try {
+              kopie = v.clone();
+            } catch {
+              return vorher;
+            }
+            return kopie.text().then((text) => {
+              let neu = null;
+              try {
+                neu = aendere(text);
+              } catch {
+                neu = null;
+              }
+              if (neu === null) return vorher;
+              const n = new Antwort(neu, { status: v.status, statusText: v.statusText, headers: v.headers });
+              try {
+                Object.defineProperties(n, {
+                  ok: { value: v.ok },
+                  redirected: { value: v.redirected },
+                  type: { value: v.type },
+                  url: { value: v.url }
+                });
+              } catch {
+              }
+              return n;
+            }, () => vorher);
+          });
+        }
+      });
+    }
+    function umschreibeXhr(props, aendereText, aendereObjekt) {
+      const Basis = w.XMLHttpRequest;
+      if (typeof Basis !== "function") return;
+      const merk = /* @__PURE__ */ new WeakMap();
+      w.XMLHttpRequest = class extends Basis {
+        open(methode, adresse, ...rest) {
+          try {
+            if (trifftProps(props, { url: alsText(adresse), method: alsText(methode) })) merk.set(this, {});
+            else merk.delete(this);
+          } catch {
+          }
+          Basis.prototype.open.call(this, methode, adresse, ...rest);
+        }
+        get response() {
+          const innen = super.response;
+          const eintrag = merk.get(this);
+          if (!eintrag) return innen;
+          const laenge = typeof innen === "string" ? innen.length : void 0;
+          if (eintrag.laenge !== laenge) {
+            eintrag.fertig = false;
+            eintrag.laenge = laenge;
+          }
+          if (eintrag.fertig) return eintrag.antwort;
+          let aus = innen;
+          try {
+            if (typeof innen === "string") {
+              const neu = aendereText(innen);
+              if (neu !== null) aus = neu;
+            } else if (innen !== null && typeof innen === "object" && aendereObjekt) {
+              aendereObjekt(innen);
+            }
+          } catch {
+          }
+          if (this.readyState === 4) {
+            eintrag.antwort = aus;
+            eintrag.fertig = true;
+          }
+          return aus;
+        }
+        get responseText() {
+          const r = this.response;
+          return typeof r === "string" ? r : super.responseText;
+        }
+      };
+    }
+    function beschneideText(text, pfade, pflicht) {
+      const erstes = text.trimStart().charAt(0);
+      if (erstes !== "{" && erstes !== "[") return null;
+      let daten;
+      try {
+        daten = PARSE_ROH(text);
+      } catch {
+        return null;
+      }
+      if (pflicht.length && !pflicht.every((p) => hatPfad(daten, p))) return null;
+      let geaendert = false;
+      for (const p of pfade) if (loesche(daten, p)) geaendert = true;
+      return geaendert ? JSON.stringify(daten) : null;
+    }
+    function ersetzeKnotentext(knoten, musterText, ersatz, rest) {
+      const doc = w.document;
+      if (!doc) return;
+      const knotenRe = regexAus(knoten, "i", true);
+      const muster = regexAus(musterText, "gms");
+      const extra = zusatz(rest);
+      const bedingung = extra["includes"] || extra["condition"];
+      const nur = bedingung ? regexAus(bedingung, "ms") : null;
+      const ohne = extra["excludes"] ? regexAus(extra["excludes"], "ms") : null;
+      let uebrig = extra["sedCount"] ? parseInt(extra["sedCount"], 10) : Number.MAX_SAFE_INTEGER;
+      if (isNaN(uebrig)) uebrig = Number.MAX_SAFE_INTEGER;
+      const bleibt = Boolean(extra["stay"]);
+      const spaeter = extra["quitAfter"] ? parseInt(extra["quitAfter"], 10) || 0 : 0;
+      let alsSkript = (t) => t;
+      try {
+        const tt = w.trustedTypes;
+        if (tt && typeof tt.getPropertyType === "function" && tt.getPropertyType("script", "textContent") === "TrustedScript") {
+          const richtlinie = tt.createPolicy("adsilence" + Math.random().toString(36).slice(2), { createScript: (t) => t });
+          alsSkript = (t) => richtlinie.createScript(t);
+        }
+      } catch {
+      }
+      const behandle = (n) => {
+        const vorher = alsText(n.textContent ?? "");
+        if (nur) {
+          nur.lastIndex = 0;
+          if (!nur.test(vorher)) return;
+        }
+        if (ohne) {
+          ohne.lastIndex = 0;
+          if (ohne.test(vorher)) return;
+        }
+        muster.lastIndex = 0;
+        if (!muster.test(vorher)) return;
+        muster.lastIndex = 0;
+        const nachher = musterText !== "" ? vorher.replace(muster, ersatz) : ersatz;
+        n.textContent = n.nodeName === "SCRIPT" ? alsSkript(nachher) : nachher;
+        uebrig -= 1;
+      };
+      const baum = (wurzel) => {
+        const gang = doc.createTreeWalker(wurzel, 1 | 4);
+        const aktuell = doc.currentScript;
+        for (; ; ) {
+          const n = gang.nextNode();
+          if (n === null) break;
+          if (n === aktuell) continue;
+          if (knotenRe.test(n.nodeName)) behandle(n);
+          else if (n.nodeName === "TEMPLATE" && n.content) baum(n.content);
+          else continue;
+          if (uebrig <= 0) break;
+        }
+      };
+      try {
+        if (doc.documentElement) baum(doc.documentElement);
+      } catch {
+      }
+      if (uebrig <= 0 && !bleibt) return;
+      const Beobachter = w.MutationObserver;
+      if (typeof Beobachter !== "function") return;
+      const verarbeite = (liste) => {
+        for (const m of liste) {
+          for (const n of Array.from(m.addedNodes)) {
+            if (knotenRe.test(n.nodeName)) behandle(n);
+            else if (n.nodeName === "TEMPLATE" && n.content) baum(n.content);
+            else continue;
+            if (uebrig <= 0 && !bleibt) {
+              beobachter.disconnect();
+              return;
+            }
+          }
+        }
+      };
+      const beobachter = new Beobachter(verarbeite);
+      const halt = () => {
+        try {
+          verarbeite(beobachter.takeRecords());
+          beobachter.disconnect();
+        } catch {
+        }
+      };
+      beobachter.observe(doc, { childList: true, subtree: true });
+      if (bleibt) return;
+      const beiInteraktiv = () => {
+        if (spaeter === 0) halt();
+        else globalThis.setTimeout(halt, spaeter);
+      };
+      if (doc.readyState !== "loading") beiInteraktiv();
+      else doc.addEventListener("DOMContentLoaded", beiInteraktiv, { once: true });
     }
     const bibliothek = {
       "abort-on-property-read"(args) {
@@ -597,6 +847,153 @@ var __ADSILENCE_KARTE = "{\n\"affarsstaden.se\":[\n{\"name\":\"prevent-addEventL
           } catch {
           }
         }, 15e3);
+      },
+      /*
+       * ── Antworten umschreiben, BEVOR die Seite sie liest ────────────────────
+       *
+       * Nachgebaut nach uBlock Origin (GPL-3.0, wie AdSilence), weil YouTube
+       * seit 2025 genau darauf antwortet: Ein Blocker, der die Werbeanfragen
+       * abweist, die Werbeplaetze in der Player-Antwort aber stehen laesst, wird
+       * erkannt — „Werbeblocker sind auf YouTube nicht erlaubt". GEMESSEN am
+       * 26.09.2026: Die YouTube-Regeln aus uBlocks Schnellkorrekturen brauchten
+       * sieben Scriptlets, die es hier nicht gab; unser Paket liess sie beim Bau
+       * fallen. Diese hier kommen nur aus vertrauenswuerdigen Listen
+       * (`brauchtVertrauen()` in src/engine/scriptlets.ts).
+       */
+      "trusted-replace-fetch-response"(args) {
+        const roh = args[0] ?? "";
+        if (roh === "") return;
+        const muster = regexAus(roh === "*" ? ".*" : roh);
+        const ersatz = args[1] ?? "";
+        const props = args[2] ?? "";
+        const extra = zusatz(args.slice(3));
+        const nur = extra["includes"] ? regexAus(extra["includes"]) : null;
+        umschreibeFetch(props, (text) => {
+          if (nur) {
+            nur.lastIndex = 0;
+            if (!nur.test(text)) return null;
+          }
+          muster.lastIndex = 0;
+          const neu = text.replace(muster, ersatz);
+          return neu === text ? null : neu;
+        });
+      },
+      "trusted-replace-xhr-response"(args) {
+        const roh = args[0] ?? "";
+        if (roh === "") return;
+        const muster = regexAus(roh === "*" ? ".*" : roh);
+        const ersatz = args[1] ?? "";
+        const props = args[2] ?? "";
+        const extra = zusatz(args.slice(3));
+        const nur = extra["includes"] ? regexAus(extra["includes"]) : null;
+        umschreibeXhr(props, (text) => {
+          if (nur) {
+            nur.lastIndex = 0;
+            if (!nur.test(text)) return null;
+          }
+          muster.lastIndex = 0;
+          const neu = text.replace(muster, ersatz);
+          return neu === text ? null : neu;
+        });
+      },
+      "json-prune-fetch-response"(args) {
+        const pfade = (args[0] ?? "").split(/\s+/).filter(Boolean);
+        const pflicht = (args[1] ?? "").split(/\s+/).filter(Boolean);
+        const extra = zusatz(args.slice(2));
+        if (pfade.length === 0) return;
+        umschreibeFetch(extra["propsToMatch"] ?? "", (text) => beschneideText(text, pfade, pflicht));
+      },
+      "json-prune-xhr-response"(args) {
+        const pfade = (args[0] ?? "").split(/\s+/).filter(Boolean);
+        const pflicht = (args[1] ?? "").split(/\s+/).filter(Boolean);
+        const extra = zusatz(args.slice(2));
+        if (pfade.length === 0) return;
+        umschreibeXhr(extra["propsToMatch"] ?? "", (text) => beschneideText(text, pfade, pflicht), (obj) => {
+          if (pflicht.length && !pflicht.every((p) => hatPfad(obj, p))) return false;
+          let geaendert = false;
+          for (const p of pfade) if (loesche(obj, p)) geaendert = true;
+          return geaendert;
+        });
+      },
+      /*
+       * Die Umgehung ueber einen leeren Rahmen: Eine Seite haengt ein
+       * `about:blank`-iframe an und holt sich dort ein UNBERUEHRTES `fetch` oder
+       * `JSON.parse` — an allen Scriptlets oben vorbei. Nach dem Anhaengen
+       * bekommt der Rahmen deshalb unsere Fassung.
+       */
+      "trusted-prevent-dom-bypass"(args) {
+        const methode = args[0] ?? "";
+        const ziel = args[1] ?? "";
+        if (methode === "") return;
+        const kette2 = methode.split(".");
+        const name = kette2.pop();
+        let traeger = w;
+        for (const glied of kette2) traeger = traeger == null ? void 0 : traeger[glied];
+        if (traeger == null) return;
+        const t = traeger;
+        const alt = t[name];
+        if (typeof alt !== "function") return;
+        const Element = w.HTMLElement;
+        t[name] = new Proxy(alt, {
+          apply(f, dies, a) {
+            const ergebnis = Reflect.apply(f, dies, a);
+            for (const el of a) {
+              try {
+                if (!Element || !(el instanceof Element)) continue;
+                const fenster = el.contentWindow;
+                if (!fenster || alsText(fenster) !== "[object Window]") continue;
+                const adresse = fenster["location"].href;
+                if (adresse !== "about:blank" && adresse !== w.location.href) continue;
+                if (ziel === "") {
+                  Object.defineProperty(el, "contentWindow", { value: w });
+                  continue;
+                }
+                const glieder = ziel.split(".");
+                const letztes = glieder.pop();
+                let ich = w;
+                let es = fenster;
+                for (const g of glieder) {
+                  ich = ich[g];
+                  es = es[g];
+                }
+                es[letztes] = ich[letztes];
+              } catch {
+              }
+            }
+            return ergebnis;
+          }
+        });
+      },
+      /*
+       * Timer beschleunigen: Wartet die Seite `verzoegerung` Millisekunden auf
+       * einen Rueckruf, der zum Muster passt, wird die Wartezeit mit `faktor`
+       * multipliziert (0,001 bis 50). uBlocks `nano-setTimeout-booster`.
+       */
+      "nano-setTimeout-booster"(args) {
+        const muster = regexAus(args[0] ?? "");
+        let verzoegerung = (args[1] ?? "") !== "*" ? parseInt(args[1] ?? "", 10) : -1;
+        if (isNaN(verzoegerung) || !isFinite(verzoegerung)) verzoegerung = 1e3;
+        let faktor = parseFloat(args[2] ?? "");
+        faktor = !isNaN(faktor) && isFinite(faktor) ? Math.min(Math.max(faktor, 1e-3), 50) : 0.05;
+        const alt = w.setTimeout;
+        if (typeof alt !== "function") return;
+        w.setTimeout = new Proxy(alt, {
+          apply(f, dies, a) {
+            try {
+              if ((verzoegerung === -1 || a[1] === verzoegerung) && muster.test(alsText(a[0]))) {
+                a[1] = a[1] * faktor;
+              }
+            } catch {
+            }
+            return Reflect.apply(f, dies, a);
+          }
+        });
+      },
+      "remove-node-text"(args) {
+        ersetzeKnotentext(args[0] ?? "", "", "", ["includes", args[1] ?? "", ...args.slice(2)]);
+      },
+      "trusted-replace-node-text"(args) {
+        ersetzeKnotentext(args[0] ?? "", args[1] ?? "", args[2] ?? "", args.slice(3));
       }
     };
     const kuerzel = {
@@ -610,7 +1007,12 @@ var __ADSILENCE_KARTE = "{\n\"affarsstaden.se\":[\n{\"name\":\"prevent-addEventL
       aost: "abort-on-stack-trace",
       "prevent-xhr": "no-xhr-if",
       "prevent-fetch": "no-fetch-if",
-      rc: "remove-class"
+      rc: "remove-class",
+      "nano-stb": "nano-setTimeout-booster",
+      rmnt: "remove-node-text",
+      rpnt: "trusted-replace-node-text",
+      "trusted-rpnt": "trusted-replace-node-text",
+      "replace-node-text": "trusted-replace-node-text"
     };
     for (const eintrag of eintraege) {
       try {

@@ -1,4 +1,4 @@
-var __ADSILENCE_KARTE = "{\n\"adhs-zentrum.de\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"method:POST body:/\\\"track\\\"|adblock/\"]}\n],\n\"aikatu.jp\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\"error-report.com\"]}\n],\n\"airtel.in\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"analytics/bulk-pixel\"]}\n],\n\"androidacy.com\":[\n{\"name\":\"set-constant\",\"args\":[\"_hjSettings\",\"undefined\"]},\n{\"name\":\"set-constant\",\"args\":[\"google_tag_manager\",\"undefined\"]}\n],\n\"ark-unity.com\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\"error-report.com\"]}\n],\n\"bentasker.co.uk\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"method:POST url:pfanalytics.bentasker.co.uk\"]}\n],\n\"blog.cloudflare.com\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"method:POST body:zaraz\"]}\n],\n\"bolighub.dk\":[\n{\"name\":\"set-constant\",\"args\":[\"_hjSettings\",\"undefined\"]},\n{\"name\":\"set-constant\",\"args\":[\"google_tag_manager\",\"undefined\"]}\n],\n\"brandbrief.co.kr\":[\n{\"name\":\"noeval\",\"args\":[\"/07c225f3\\\\.online|content-loader\\\\.com|css-load\\\\.com|html-load\\\\.com/\"]}\n],\n\"brillen.de\":[\n{\"name\":\"abort-current-script\",\"args\":[\"document.createElement\",\"'script'\"]}\n],\n\"civitai.com\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"faro.civitai.com\"]}\n],\n\"cnet.com\":[\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.updateModifiedCommerceUrl\",\"noopFunc\"]}\n],\n\"cool-style.com.tw\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\"error-report.com\"]}\n],\n\"coursera.org\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"eventing\"]}\n],\n\"dailydot.com\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"url:/undefined method:POST\"]}\n],\n\"dailystar.co.uk\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"cmp.inmobi.com/geoip\"]}\n],\n\"dataunlocker.com\":[\n{\"name\":\"set-constant\",\"args\":[\"_hjSettings\",\"undefined\"]},\n{\"name\":\"set-constant\",\"args\":[\"google_tag_manager\",\"undefined\"]}\n],\n\"discord.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"discord.com/api/v9/science\"]}\n],\n\"doanhnghiepvn.vn\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\"error-report.com\"]}\n],\n\"docs.google.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"method:POST url:/logImpressions\"]}\n],\n\"endbasic.dev\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"method:POST\"]}\n],\n\"ericdraken.com\":[\n{\"name\":\"abort-on-property-read\",\"args\":[\"dataLayer\"]}\n],\n\"f6s.com\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"\",\"redirect\"]}\n],\n\"fileditchfiles.me\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"method:POST body:/pageview|engagement/\"]}\n],\n\"fingerprint.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"method:POST\"]}\n],\n\"frogogo.ru\":[\n{\"name\":\"abort-on-property-write\",\"args\":[\"ADMITAD\"]}\n],\n\"heavyfetish.com\":[\n{\"name\":\"set-constant\",\"args\":[\"flashvars.event_reporting\",\"''\"]}\n],\n\"idnes.cz\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"\",\"/(ping|score)Url\"]}\n],\n\"imgur.com\":[\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.has_opted_out_tracking\",\"trueFunc\"]}\n],\n\"intellischool.id\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"fingerprintjs-pro-react\"]}\n],\n\"jmmv.dev\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"method:POST\"]}\n],\n\"laurelberninteriors.com\":[\n{\"name\":\"set-constant\",\"args\":[\"adthrive._components.start\",\"noopFunc\"]}\n],\n\"liberation.fr\":[\n{\"name\":\"abort-current-script\",\"args\":[\"document.createElement\",\"'.js'\"]}\n],\n\"lidovky.cz\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"\",\"/(ping|score)Url\"]}\n],\n\"linklog.tiagorangel.com\":[\n{\"name\":\"set-constant\",\"args\":[\"data\",\"true\"]}\n],\n\"meconomynews.com\":[\n{\"name\":\"noeval\",\"args\":[\"/07c225f3\\\\.online|content-loader\\\\.com|css-load\\\\.com|html-load\\\\.com/\"]}\n],\n\"mediamarkt.de\":[\n{\"name\":\"abort-on-property-write\",\"args\":[\"ftr__startScriptLoad\"]}\n],\n\"mirror.co.uk\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"cmp.inmobi.com/geoip\"]}\n],\n\"motorgraph.com\":[\n{\"name\":\"noeval\",\"args\":[\"/07c225f3\\\\.online|content-loader\\\\.com|css-load\\\\.com|html-load\\\\.com/\"]}\n],\n\"myanimelist.net\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"method:POST body:/content_view|impression|page_view/\"]}\n],\n\"mykhel.com\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\"error-report.com\"]}\n],\n\"mynet.com\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\"error-report.com\"]}\n],\n\"natgeotv.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"/VisitorAPI|AppMeasurement/\"]},\n{\"name\":\"set-constant\",\"args\":[\"Visitor\",\"{}\"]}\n],\n\"nypost.com\":[\n{\"name\":\"json-prune\",\"args\":[\"dataLayer.trackingId user.trackingId\"]}\n],\n\"officedepot.fr\":[\n{\"name\":\"abort-current-script\",\"args\":[\"document.createElement\",\"'.js'\"]}\n],\n\"oui.sncf\":[\n{\"name\":\"abort-current-script\",\"args\":[\"document.createElement\",\"'.js'\"]}\n],\n\"pagesix.com\":[\n{\"name\":\"json-prune\",\"args\":[\"dataLayer.trackingId user.trackingId\"]}\n],\n\"perplexity.ai\":[\n{\"name\":\"abort-on-stack-trace\",\"args\":[\"window.screen.height\",\"setTimeout\"]}\n],\n\"pooembed.eu\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"body:pageview method:POST\"]}\n],\n\"search.brave.com\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"body:browser\"]}\n],\n\"sfr.fr\":[\n{\"name\":\"abort-on-property-read\",\"args\":[\"_oEa\"]}\n],\n\"smarturl.it\":[\n{\"name\":\"set-constant\",\"args\":[\"linkfire.tracking\",\"{}\"]}\n],\n\"tacobell.com\":[\n{\"name\":\"set-constant\",\"args\":[\"bmak.js_post\",\"false\"]}\n],\n\"threads.com\":[\n{\"name\":\"json-prune\",\"args\":[\"require.0.3.0.__bbox.define.[].2.is_linkshim_supported\"]}\n],\n\"threads.net\":[\n{\"name\":\"json-prune\",\"args\":[\"require.0.3.0.__bbox.define.[].2.is_linkshim_supported\"]}\n],\n\"topstarnews.net\":[\n{\"name\":\"noeval\",\"args\":[\"/07c225f3\\\\.online|content-loader\\\\.com|css-load\\\\.com|html-load\\\\.com/\"]}\n],\n\"trendyol-milla.com\":[\n{\"name\":\"set-constant\",\"args\":[\"process\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"process.env\",\"{}\"]}\n],\n\"trendyol.com\":[\n{\"name\":\"set-constant\",\"args\":[\"process\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"process.env\",\"{}\"]}\n],\n\"tweakers.net\":[\n{\"name\":\"abort-on-stack-trace\",\"args\":[\"btoa\",\"send\"]}\n],\n\"utreon.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"utreon.com/pl/api/event method:POST\"]}\n],\n\"vaughn.live\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"method:POST body:zaraz\"]}\n],\n\"webex.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"svc.webex.com/metrics\"]}\n],\n\"www.cloudflare.com\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"method:POST body:zaraz\"]}\n],\n\"www.google.com\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"mouseover\",\"b.src\",\"elements\",\"#search #rso div[data-rpos] > div[data-ved]\"]}\n],\n\"www.reddit.com\":[\n{\"name\":\"json-prune\",\"args\":[\"data.*.elements.edges.[].node.outboundLink\"]},\n{\"name\":\"json-prune\",\"args\":[\"data.children.[].data.outbound_link\"]}\n],\n\"www.youtube.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"/\\\\/api\\\\/stats\\\\/atr\\\\?.+?&rt=\\\\d+\\\\.\\\\d+.+?&volume=\\\\d+&cbr=.+?&fexp=v1%[-%0-9C]{300,}&.+?&muted=\\\\d(&vis=3)?&docid=/ method:POST\"]}\n],\n\"x.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"/i/api/1.1/flow/viewer.json\"]}\n],\n\"zefoy.com\":[\n{\"name\":\"set-constant\",\"args\":[\"firebase.analytics\",\"noopFunc\"]}\n],\n\"zhihu.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"log-sdk.ksapisrv.com/rest/wd/common/log/collect method:POST\"]}\n]\n}";
+var __ADSILENCE_KARTE = "{\n\"abhijith.page\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"api.dataunlocker.com\"]}\n],\n\"accuretawealth.com\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"/join\\\\(\\\\'\\\\'\\\\)/\"]}\n],\n\"adaptive.marketing\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"/join\\\\(\\\\'\\\\'\\\\)/\"]}\n],\n\"adhs-zentrum.de\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"method:POST body:/\\\"track\\\"|adblock/\"]}\n],\n\"adria.gg\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"api.dataunlocker.com\"]}\n],\n\"aikatu.jp\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\"error-report.com\"]}\n],\n\"airtel.in\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"analytics/bulk-pixel\"]}\n],\n\"androidacy.com\":[\n{\"name\":\"set-constant\",\"args\":[\"_hjSettings\",\"undefined\"]},\n{\"name\":\"set-constant\",\"args\":[\"google_tag_manager\",\"undefined\"]}\n],\n\"ark-unity.com\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\"error-report.com\"]}\n],\n\"bentasker.co.uk\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"method:POST url:pfanalytics.bentasker.co.uk\"]}\n],\n\"bitdomain.biz\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"/join\\\\(\\\\'\\\\'\\\\)/\"]}\n],\n\"blog.cloudflare.com\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"method:POST body:zaraz\"]}\n],\n\"bolighub.dk\":[\n{\"name\":\"set-constant\",\"args\":[\"_hjSettings\",\"undefined\"]},\n{\"name\":\"set-constant\",\"args\":[\"google_tag_manager\",\"undefined\"]}\n],\n\"brandbrief.co.kr\":[\n{\"name\":\"noeval\",\"args\":[\"/07c225f3\\\\.online|content-loader\\\\.com|css-load\\\\.com|html-load\\\\.com/\"]},\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"KCgpPT57bGV0IGU\"]}\n],\n\"brillen.de\":[\n{\"name\":\"abort-current-script\",\"args\":[\"document.createElement\",\"script\"]}\n],\n\"camberlion.com\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"/join\\\\(\\\\'\\\\'\\\\)/\"]}\n],\n\"civitai.com\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"faro.civitai.com\"]}\n],\n\"cnet.com\":[\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.updateModifiedCommerceUrl\",\"noopFunc\"]}\n],\n\"comicleaks.com\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"/join\\\\(\\\\'\\\\'\\\\)/\"]}\n],\n\"controlconceptsusa.com\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"/join\\\\(\\\\'\\\\'\\\\)/\"]}\n],\n\"convertcase.net\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"error-report.com\"]}\n],\n\"cool-style.com.tw\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\"error-report.com\"]}\n],\n\"coursera.org\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"eventing\"]}\n],\n\"creatordrop.com\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"/join\\\\(\\\\'\\\\'\\\\)/\"]}\n],\n\"dailydot.com\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"url:/undefined method:POST\"]}\n],\n\"dailystar.co.uk\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"cmp.inmobi.com/geoip\"]}\n],\n\"dataunlocker.com\":[\n{\"name\":\"set-constant\",\"args\":[\"_hjSettings\",\"undefined\"]},\n{\"name\":\"set-constant\",\"args\":[\"google_tag_manager\",\"undefined\"]},\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"/^Function\\\\(\\\\\\\"/\"]}\n],\n\"discord.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"discord.com/api/v9/science\"]}\n],\n\"doanhnghiepvn.vn\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\"error-report.com\"]}\n],\n\"docs.google.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"method:POST url:/logImpressions\"]}\n],\n\"dramabeans.com\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"error-report.com\"]}\n],\n\"dropgame.jp\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"error-report.com\"]}\n],\n\"endbasic.dev\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"method:POST\"]}\n],\n\"ericdraken.com\":[\n{\"name\":\"abort-on-property-read\",\"args\":[\"dataLayer\"]}\n],\n\"f6s.com\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"\",\"redirect\"]}\n],\n\"farmersjournal.ie\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"/detect|FingerprintJS/\"]}\n],\n\"fileditchfiles.me\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"method:POST body:/pageview|engagement/\"]}\n],\n\"fingerprint.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"method:POST\"]}\n],\n\"fjlaboratories.com\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"api.dataunlocker.com\"]}\n],\n\"fort-shop.kiev.ua\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"/join\\\\(\\\\'\\\\'\\\\)/\"]}\n],\n\"freelancer.taxmachine.be\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"api.dataunlocker.com\"]}\n],\n\"frogogo.ru\":[\n{\"name\":\"abort-on-property-write\",\"args\":[\"ADMITAD\"]}\n],\n\"furucombo.app\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"/join\\\\(\\\\\\\"\\\\\\\"\\\\)/\"]}\n],\n\"heavyfetish.com\":[\n{\"name\":\"set-constant\",\"args\":[\"flashvars.event_reporting\",\"\"]}\n],\n\"helpmonks.com\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"api.dataunlocker.com\"]}\n],\n\"idnes.cz\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"\",\"/(ping|score)Url\"]}\n],\n\"imgur.com\":[\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.has_opted_out_tracking\",\"trueFunc\"]}\n],\n\"intellischool.id\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"fingerprintjs-pro-react\"]}\n],\n\"intercity.technology\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"api.dataunlocker.com\"]}\n],\n\"islamicfinder.org\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"error-report.com\"]}\n],\n\"jmmv.dev\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"method:POST\"]}\n],\n\"laurelberninteriors.com\":[\n{\"name\":\"set-constant\",\"args\":[\"adthrive._components.start\",\"noopFunc\"]}\n],\n\"liberation.fr\":[\n{\"name\":\"abort-current-script\",\"args\":[\"document.createElement\",\".js\"]}\n],\n\"lidovky.cz\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"\",\"/(ping|score)Url\"]}\n],\n\"linklog.tiagorangel.com\":[\n{\"name\":\"set-constant\",\"args\":[\"data\",\"true\"]}\n],\n\"manta.com\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"error-report.com\"]}\n],\n\"meconomynews.com\":[\n{\"name\":\"noeval\",\"args\":[\"/07c225f3\\\\.online|content-loader\\\\.com|css-load\\\\.com|html-load\\\\.com/\"]},\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"KCgpPT57bGV0IGU\"]}\n],\n\"mediamarkt.de\":[\n{\"name\":\"abort-on-property-write\",\"args\":[\"ftr__startScriptLoad\"]}\n],\n\"mirror.co.uk\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"cmp.inmobi.com/geoip\"]}\n],\n\"motorgraph.com\":[\n{\"name\":\"noeval\",\"args\":[\"/07c225f3\\\\.online|content-loader\\\\.com|css-load\\\\.com|html-load\\\\.com/\"]},\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"KCgpPT57bGV0IGU\"]}\n],\n\"myanimelist.net\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"method:POST body:/content_view|impression|page_view/\"]}\n],\n\"mykhel.com\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\"error-report.com\"]}\n],\n\"mynet.com\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\"error-report.com\"]}\n],\n\"natgeotv.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"/VisitorAPI|AppMeasurement/\"]},\n{\"name\":\"set-constant\",\"args\":[\"Visitor\",\"{}\"]}\n],\n\"nookgaming.com\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"/join\\\\(\\\\'\\\\'\\\\)/\"]}\n],\n\"nypost.com\":[\n{\"name\":\"json-prune\",\"args\":[\"dataLayer.trackingId user.trackingId\"]}\n],\n\"officedepot.fr\":[\n{\"name\":\"abort-current-script\",\"args\":[\"document.createElement\",\".js\"]}\n],\n\"oui.sncf\":[\n{\"name\":\"abort-current-script\",\"args\":[\"document.createElement\",\".js\"]}\n],\n\"pagesix.com\":[\n{\"name\":\"json-prune\",\"args\":[\"dataLayer.trackingId user.trackingId\"]}\n],\n\"perplexity.ai\":[\n{\"name\":\"abort-on-stack-trace\",\"args\":[\"window.screen.height\",\"setTimeout\"]}\n],\n\"ping.gg\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"/join\\\\(\\\\'\\\\'\\\\)/\"]}\n],\n\"pooembed.eu\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"body:pageview method:POST\"]}\n],\n\"proboards.com\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"vglnk\"]}\n],\n\"ryaktive.com\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"/join\\\\(\\\\'\\\\'\\\\)/\"]}\n],\n\"search.brave.com\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"body:browser\"]}\n],\n\"secure-signup.net\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"error-report.com\"]}\n],\n\"segops.madisonspecs.com\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"/join\\\\(\\\\'\\\\'\\\\)/\"]}\n],\n\"sfr.fr\":[\n{\"name\":\"abort-on-property-read\",\"args\":[\"_oEa\"]}\n],\n\"smarturl.it\":[\n{\"name\":\"set-constant\",\"args\":[\"linkfire.tracking\",\"{}\"]}\n],\n\"stresshelden-coaching.de\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"/join\\\\(\\\\'\\\\'\\\\)/\"]}\n],\n\"tacobell.com\":[\n{\"name\":\"set-constant\",\"args\":[\"bmak.js_post\",\"false\"]}\n],\n\"threads.com\":[\n{\"name\":\"json-prune\",\"args\":[\"require.0.3.0.__bbox.define.[].2.is_linkshim_supported\"]}\n],\n\"threads.net\":[\n{\"name\":\"json-prune\",\"args\":[\"require.0.3.0.__bbox.define.[].2.is_linkshim_supported\"]}\n],\n\"tip.etip-staging.etip.io\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"/join\\\\(\\\\'\\\\'\\\\)/\"]}\n],\n\"topstarnews.net\":[\n{\"name\":\"noeval\",\"args\":[\"/07c225f3\\\\.online|content-loader\\\\.com|css-load\\\\.com|html-load\\\\.com/\"]},\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"error-report.com\"]}\n],\n\"tportal.hr\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"error-report.com\"]}\n],\n\"tracktheta.com\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"/join\\\\(\\\\'\\\\'\\\\)/\"]}\n],\n\"trendyol-milla.com\":[\n{\"name\":\"set-constant\",\"args\":[\"process\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"process.env\",\"{}\"]}\n],\n\"trendyol.com\":[\n{\"name\":\"set-constant\",\"args\":[\"process\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"process.env\",\"{}\"]}\n],\n\"tvtropes.org\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"error-report.com\"]}\n],\n\"tweakers.net\":[\n{\"name\":\"abort-on-stack-trace\",\"args\":[\"btoa\",\"send\"]}\n],\n\"utreon.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"utreon.com/pl/api/event method:POST\"]}\n],\n\"vaughn.live\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"method:POST body:zaraz\"]}\n],\n\"webex.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"svc.webex.com/metrics\"]}\n],\n\"winclassic.net\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"vglnk\"]}\n],\n\"www.cloudflare.com\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"method:POST body:zaraz\"]}\n],\n\"www.google.com\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"mouseover\",\"b.src\",\"elements\",\"#search #rso div[data-rpos] > div[data-ved]\"]},\n{\"name\":\"trusted-replace-node-text\",\"args\":[\"script\",\"this.gbar_=\",\"window.addEventListener(\\\"mousemove\\\",(()=>{W_jd&&document.querySelectorAll(\\\"#search #rso div[data-rpos]\\\").forEach((t=>{let e=t.querySelector('div[data-hveid] span[jsaction^=\\\"trigger.\\\"] > a[href^=\\\"/goto?url=\\\"]');if(!e)return;let r=t.querySelector('div[id^=\\\"atritem-\\\"]')?.attributes?.jsdata?.value?.split?.(\\\";_;\\\")?.[1];r&&Object.getOwnPropertySymbols(W_jd[r]).map((t=>{let l=W_jd[r][t];if(\\\"object\\\"!=typeof l||null===l)return;let s=Object.values(l)?.[0]?.[32];if(s?.[3]?.[0]?.startsWith?.(\\\"http\\\"))e.setAttribute(\\\"href\\\",s[3][0]);else if(null!==s?.[3]){let t=Object.values(s?.[3]);t?.[0]?.[0]?.startsWith?.(\\\"http\\\")&&e.setAttribute(\\\"href\\\",t[0][0])}else null===s?.[3]&&s[11]?.[7]?.startsWith?.(\\\"http\\\")&&e.setAttribute(\\\"href\\\",s[11][7])}))}))}));this.gbar_=\"]}\n],\n\"www.reddit.com\":[\n{\"name\":\"json-prune\",\"args\":[\"data.*.elements.edges.[].node.outboundLink\"]},\n{\"name\":\"json-prune\",\"args\":[\"data.children.[].data.outbound_link\"]}\n],\n\"www.youtube.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"/\\\\/api\\\\/stats\\\\/atr\\\\?.+?&rt=\\\\d+\\\\.\\\\d+.+?&volume=\\\\d+&cbr=.+?&fexp=v1%[-%0-9C]{300,}&.+?&muted=\\\\d(&vis=3)?&docid=/ method:POST\"]}\n],\n\"x.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"/i/api/1.1/flow/viewer.json\"]}\n],\n\"zefoy.com\":[\n{\"name\":\"set-constant\",\"args\":[\"firebase.analytics\",\"noopFunc\"]}\n],\n\"zhihu.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"log-sdk.ksapisrv.com/rest/wd/common/log/collect method:POST\"]}\n]\n}";
 "use strict";
 (() => {
   // src/scriptlets/bibliothek.ts
@@ -135,14 +135,27 @@ var __ADSILENCE_KARTE = "{\n\"adhs-zentrum.de\":[\n{\"name\":\"no-xhr-if\",\"arg
     }
     function loesche(obj, pfad) {
       const teile = pfad.split(".");
+      let geaendert = false;
       function ab(o, i) {
         if (o === null || typeof o !== "object") return;
         const name = teile[i];
+        if (name === "[-]" && Array.isArray(o)) {
+          const rest = teile.slice(i + 1).join(".");
+          for (let k = o.length - 1; k >= 0; k -= 1) {
+            if (rest === "" || hatPfad(o[k], rest)) {
+              o.splice(k, 1);
+              geaendert = true;
+            }
+          }
+          return;
+        }
         if (i === teile.length - 1) {
           if (name === "[]" && Array.isArray(o)) {
+            if (o.length) geaendert = true;
             o.length = 0;
             return;
           }
+          if (Object.prototype.hasOwnProperty.call(o, name)) geaendert = true;
           delete o[name];
           return;
         }
@@ -157,6 +170,7 @@ var __ADSILENCE_KARTE = "{\n\"adhs-zentrum.de\":[\n{\"name\":\"no-xhr-if\",\"arg
         ab(o[name], i + 1);
       }
       ab(obj, 0);
+      return geaendert;
     }
     function hatPfad(obj, pfad) {
       let o = obj;
@@ -309,6 +323,242 @@ var __ADSILENCE_KARTE = "{\n\"adhs-zentrum.de\":[\n{\"name\":\"no-xhr-if\",\"arg
       bau.prototype = attrappe;
       fallen(gross, () => bau, () => bau);
       fallen(klein, () => attrappe, () => attrappe);
+    }
+    const PARSE_ROH = (() => {
+      const ablage = "__adsilenceJsonParse";
+      if (typeof w[ablage] !== "function") w[ablage] = w.JSON.parse;
+      return w[ablage];
+    })();
+    function regexAus(text, flags, ganz = false) {
+      if (text === "") return /^/;
+      const m = /^\/(.+)\/([gimsu]*)$/.exec(text);
+      if (m) {
+        try {
+          return new RegExp(m[1], m[2] || void 0);
+        } catch {
+          return /^/;
+        }
+      }
+      const woertlich = text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      return new RegExp(ganz ? "^" + woertlich + "$" : woertlich, flags);
+    }
+    function zusatz(rest) {
+      const aus = {};
+      for (let i = 0; i + 1 < rest.length; i += 2) aus[rest[i]] = rest[i + 1];
+      return aus;
+    }
+    function trifftProps(props, werte) {
+      if (props === "") return true;
+      return trifftAnfrage(eigenschaften(props), werte);
+    }
+    function fetchWerte(a) {
+      const werte = { url: "", method: "GET" };
+      const quelle = a[0];
+      const optionen = a[1];
+      if (quelle !== null && typeof quelle === "object" && "url" in quelle) {
+        werte["url"] = alsText(quelle.url);
+        const m = quelle.method;
+        if (m) werte["method"] = alsText(m);
+      } else {
+        werte["url"] = alsText(quelle);
+      }
+      if (optionen && typeof optionen === "object" && optionen.method) werte["method"] = alsText(optionen.method);
+      return werte;
+    }
+    function umschreibeFetch(props, aendere) {
+      const alt = w.fetch;
+      const Antwort = w.Response;
+      if (typeof alt !== "function" || typeof Antwort !== "function") return;
+      w.fetch = new Proxy(alt, {
+        apply(f, dies, a) {
+          const versprochen = Reflect.apply(f, dies, a);
+          let werte;
+          try {
+            werte = fetchWerte(a);
+          } catch {
+            return versprochen;
+          }
+          if (!trifftProps(props, werte)) return versprochen;
+          return versprochen.then((vorher) => {
+            const v = vorher;
+            if (!v || typeof v.clone !== "function") return vorher;
+            let kopie;
+            try {
+              kopie = v.clone();
+            } catch {
+              return vorher;
+            }
+            return kopie.text().then((text) => {
+              let neu = null;
+              try {
+                neu = aendere(text);
+              } catch {
+                neu = null;
+              }
+              if (neu === null) return vorher;
+              const n = new Antwort(neu, { status: v.status, statusText: v.statusText, headers: v.headers });
+              try {
+                Object.defineProperties(n, {
+                  ok: { value: v.ok },
+                  redirected: { value: v.redirected },
+                  type: { value: v.type },
+                  url: { value: v.url }
+                });
+              } catch {
+              }
+              return n;
+            }, () => vorher);
+          });
+        }
+      });
+    }
+    function umschreibeXhr(props, aendereText, aendereObjekt) {
+      const Basis = w.XMLHttpRequest;
+      if (typeof Basis !== "function") return;
+      const merk = /* @__PURE__ */ new WeakMap();
+      w.XMLHttpRequest = class extends Basis {
+        open(methode, adresse, ...rest) {
+          try {
+            if (trifftProps(props, { url: alsText(adresse), method: alsText(methode) })) merk.set(this, {});
+            else merk.delete(this);
+          } catch {
+          }
+          Basis.prototype.open.call(this, methode, adresse, ...rest);
+        }
+        get response() {
+          const innen = super.response;
+          const eintrag = merk.get(this);
+          if (!eintrag) return innen;
+          const laenge = typeof innen === "string" ? innen.length : void 0;
+          if (eintrag.laenge !== laenge) {
+            eintrag.fertig = false;
+            eintrag.laenge = laenge;
+          }
+          if (eintrag.fertig) return eintrag.antwort;
+          let aus = innen;
+          try {
+            if (typeof innen === "string") {
+              const neu = aendereText(innen);
+              if (neu !== null) aus = neu;
+            } else if (innen !== null && typeof innen === "object" && aendereObjekt) {
+              aendereObjekt(innen);
+            }
+          } catch {
+          }
+          if (this.readyState === 4) {
+            eintrag.antwort = aus;
+            eintrag.fertig = true;
+          }
+          return aus;
+        }
+        get responseText() {
+          const r = this.response;
+          return typeof r === "string" ? r : super.responseText;
+        }
+      };
+    }
+    function beschneideText(text, pfade, pflicht) {
+      const erstes = text.trimStart().charAt(0);
+      if (erstes !== "{" && erstes !== "[") return null;
+      let daten;
+      try {
+        daten = PARSE_ROH(text);
+      } catch {
+        return null;
+      }
+      if (pflicht.length && !pflicht.every((p) => hatPfad(daten, p))) return null;
+      let geaendert = false;
+      for (const p of pfade) if (loesche(daten, p)) geaendert = true;
+      return geaendert ? JSON.stringify(daten) : null;
+    }
+    function ersetzeKnotentext(knoten, musterText, ersatz, rest) {
+      const doc = w.document;
+      if (!doc) return;
+      const knotenRe = regexAus(knoten, "i", true);
+      const muster = regexAus(musterText, "gms");
+      const extra = zusatz(rest);
+      const bedingung = extra["includes"] || extra["condition"];
+      const nur = bedingung ? regexAus(bedingung, "ms") : null;
+      const ohne = extra["excludes"] ? regexAus(extra["excludes"], "ms") : null;
+      let uebrig = extra["sedCount"] ? parseInt(extra["sedCount"], 10) : Number.MAX_SAFE_INTEGER;
+      if (isNaN(uebrig)) uebrig = Number.MAX_SAFE_INTEGER;
+      const bleibt = Boolean(extra["stay"]);
+      const spaeter = extra["quitAfter"] ? parseInt(extra["quitAfter"], 10) || 0 : 0;
+      let alsSkript = (t) => t;
+      try {
+        const tt = w.trustedTypes;
+        if (tt && typeof tt.getPropertyType === "function" && tt.getPropertyType("script", "textContent") === "TrustedScript") {
+          const richtlinie = tt.createPolicy("adsilence" + Math.random().toString(36).slice(2), { createScript: (t) => t });
+          alsSkript = (t) => richtlinie.createScript(t);
+        }
+      } catch {
+      }
+      const behandle = (n) => {
+        const vorher = alsText(n.textContent ?? "");
+        if (nur) {
+          nur.lastIndex = 0;
+          if (!nur.test(vorher)) return;
+        }
+        if (ohne) {
+          ohne.lastIndex = 0;
+          if (ohne.test(vorher)) return;
+        }
+        muster.lastIndex = 0;
+        if (!muster.test(vorher)) return;
+        muster.lastIndex = 0;
+        const nachher = musterText !== "" ? vorher.replace(muster, ersatz) : ersatz;
+        n.textContent = n.nodeName === "SCRIPT" ? alsSkript(nachher) : nachher;
+        uebrig -= 1;
+      };
+      const baum = (wurzel) => {
+        const gang = doc.createTreeWalker(wurzel, 1 | 4);
+        const aktuell = doc.currentScript;
+        for (; ; ) {
+          const n = gang.nextNode();
+          if (n === null) break;
+          if (n === aktuell) continue;
+          if (knotenRe.test(n.nodeName)) behandle(n);
+          else if (n.nodeName === "TEMPLATE" && n.content) baum(n.content);
+          else continue;
+          if (uebrig <= 0) break;
+        }
+      };
+      try {
+        if (doc.documentElement) baum(doc.documentElement);
+      } catch {
+      }
+      if (uebrig <= 0 && !bleibt) return;
+      const Beobachter = w.MutationObserver;
+      if (typeof Beobachter !== "function") return;
+      const verarbeite = (liste) => {
+        for (const m of liste) {
+          for (const n of Array.from(m.addedNodes)) {
+            if (knotenRe.test(n.nodeName)) behandle(n);
+            else if (n.nodeName === "TEMPLATE" && n.content) baum(n.content);
+            else continue;
+            if (uebrig <= 0 && !bleibt) {
+              beobachter.disconnect();
+              return;
+            }
+          }
+        }
+      };
+      const beobachter = new Beobachter(verarbeite);
+      const halt = () => {
+        try {
+          verarbeite(beobachter.takeRecords());
+          beobachter.disconnect();
+        } catch {
+        }
+      };
+      beobachter.observe(doc, { childList: true, subtree: true });
+      if (bleibt) return;
+      const beiInteraktiv = () => {
+        if (spaeter === 0) halt();
+        else globalThis.setTimeout(halt, spaeter);
+      };
+      if (doc.readyState !== "loading") beiInteraktiv();
+      else doc.addEventListener("DOMContentLoaded", beiInteraktiv, { once: true });
     }
     const bibliothek = {
       "abort-on-property-read"(args) {
@@ -597,6 +847,153 @@ var __ADSILENCE_KARTE = "{\n\"adhs-zentrum.de\":[\n{\"name\":\"no-xhr-if\",\"arg
           } catch {
           }
         }, 15e3);
+      },
+      /*
+       * ── Antworten umschreiben, BEVOR die Seite sie liest ────────────────────
+       *
+       * Nachgebaut nach uBlock Origin (GPL-3.0, wie AdSilence), weil YouTube
+       * seit 2025 genau darauf antwortet: Ein Blocker, der die Werbeanfragen
+       * abweist, die Werbeplaetze in der Player-Antwort aber stehen laesst, wird
+       * erkannt — „Werbeblocker sind auf YouTube nicht erlaubt". GEMESSEN am
+       * 26.09.2026: Die YouTube-Regeln aus uBlocks Schnellkorrekturen brauchten
+       * sieben Scriptlets, die es hier nicht gab; unser Paket liess sie beim Bau
+       * fallen. Diese hier kommen nur aus vertrauenswuerdigen Listen
+       * (`brauchtVertrauen()` in src/engine/scriptlets.ts).
+       */
+      "trusted-replace-fetch-response"(args) {
+        const roh = args[0] ?? "";
+        if (roh === "") return;
+        const muster = regexAus(roh === "*" ? ".*" : roh);
+        const ersatz = args[1] ?? "";
+        const props = args[2] ?? "";
+        const extra = zusatz(args.slice(3));
+        const nur = extra["includes"] ? regexAus(extra["includes"]) : null;
+        umschreibeFetch(props, (text) => {
+          if (nur) {
+            nur.lastIndex = 0;
+            if (!nur.test(text)) return null;
+          }
+          muster.lastIndex = 0;
+          const neu = text.replace(muster, ersatz);
+          return neu === text ? null : neu;
+        });
+      },
+      "trusted-replace-xhr-response"(args) {
+        const roh = args[0] ?? "";
+        if (roh === "") return;
+        const muster = regexAus(roh === "*" ? ".*" : roh);
+        const ersatz = args[1] ?? "";
+        const props = args[2] ?? "";
+        const extra = zusatz(args.slice(3));
+        const nur = extra["includes"] ? regexAus(extra["includes"]) : null;
+        umschreibeXhr(props, (text) => {
+          if (nur) {
+            nur.lastIndex = 0;
+            if (!nur.test(text)) return null;
+          }
+          muster.lastIndex = 0;
+          const neu = text.replace(muster, ersatz);
+          return neu === text ? null : neu;
+        });
+      },
+      "json-prune-fetch-response"(args) {
+        const pfade = (args[0] ?? "").split(/\s+/).filter(Boolean);
+        const pflicht = (args[1] ?? "").split(/\s+/).filter(Boolean);
+        const extra = zusatz(args.slice(2));
+        if (pfade.length === 0) return;
+        umschreibeFetch(extra["propsToMatch"] ?? "", (text) => beschneideText(text, pfade, pflicht));
+      },
+      "json-prune-xhr-response"(args) {
+        const pfade = (args[0] ?? "").split(/\s+/).filter(Boolean);
+        const pflicht = (args[1] ?? "").split(/\s+/).filter(Boolean);
+        const extra = zusatz(args.slice(2));
+        if (pfade.length === 0) return;
+        umschreibeXhr(extra["propsToMatch"] ?? "", (text) => beschneideText(text, pfade, pflicht), (obj) => {
+          if (pflicht.length && !pflicht.every((p) => hatPfad(obj, p))) return false;
+          let geaendert = false;
+          for (const p of pfade) if (loesche(obj, p)) geaendert = true;
+          return geaendert;
+        });
+      },
+      /*
+       * Die Umgehung ueber einen leeren Rahmen: Eine Seite haengt ein
+       * `about:blank`-iframe an und holt sich dort ein UNBERUEHRTES `fetch` oder
+       * `JSON.parse` — an allen Scriptlets oben vorbei. Nach dem Anhaengen
+       * bekommt der Rahmen deshalb unsere Fassung.
+       */
+      "trusted-prevent-dom-bypass"(args) {
+        const methode = args[0] ?? "";
+        const ziel = args[1] ?? "";
+        if (methode === "") return;
+        const kette2 = methode.split(".");
+        const name = kette2.pop();
+        let traeger = w;
+        for (const glied of kette2) traeger = traeger == null ? void 0 : traeger[glied];
+        if (traeger == null) return;
+        const t = traeger;
+        const alt = t[name];
+        if (typeof alt !== "function") return;
+        const Element = w.HTMLElement;
+        t[name] = new Proxy(alt, {
+          apply(f, dies, a) {
+            const ergebnis = Reflect.apply(f, dies, a);
+            for (const el of a) {
+              try {
+                if (!Element || !(el instanceof Element)) continue;
+                const fenster = el.contentWindow;
+                if (!fenster || alsText(fenster) !== "[object Window]") continue;
+                const adresse = fenster["location"].href;
+                if (adresse !== "about:blank" && adresse !== w.location.href) continue;
+                if (ziel === "") {
+                  Object.defineProperty(el, "contentWindow", { value: w });
+                  continue;
+                }
+                const glieder = ziel.split(".");
+                const letztes = glieder.pop();
+                let ich = w;
+                let es = fenster;
+                for (const g of glieder) {
+                  ich = ich[g];
+                  es = es[g];
+                }
+                es[letztes] = ich[letztes];
+              } catch {
+              }
+            }
+            return ergebnis;
+          }
+        });
+      },
+      /*
+       * Timer beschleunigen: Wartet die Seite `verzoegerung` Millisekunden auf
+       * einen Rueckruf, der zum Muster passt, wird die Wartezeit mit `faktor`
+       * multipliziert (0,001 bis 50). uBlocks `nano-setTimeout-booster`.
+       */
+      "nano-setTimeout-booster"(args) {
+        const muster = regexAus(args[0] ?? "");
+        let verzoegerung = (args[1] ?? "") !== "*" ? parseInt(args[1] ?? "", 10) : -1;
+        if (isNaN(verzoegerung) || !isFinite(verzoegerung)) verzoegerung = 1e3;
+        let faktor = parseFloat(args[2] ?? "");
+        faktor = !isNaN(faktor) && isFinite(faktor) ? Math.min(Math.max(faktor, 1e-3), 50) : 0.05;
+        const alt = w.setTimeout;
+        if (typeof alt !== "function") return;
+        w.setTimeout = new Proxy(alt, {
+          apply(f, dies, a) {
+            try {
+              if ((verzoegerung === -1 || a[1] === verzoegerung) && muster.test(alsText(a[0]))) {
+                a[1] = a[1] * faktor;
+              }
+            } catch {
+            }
+            return Reflect.apply(f, dies, a);
+          }
+        });
+      },
+      "remove-node-text"(args) {
+        ersetzeKnotentext(args[0] ?? "", "", "", ["includes", args[1] ?? "", ...args.slice(2)]);
+      },
+      "trusted-replace-node-text"(args) {
+        ersetzeKnotentext(args[0] ?? "", args[1] ?? "", args[2] ?? "", args.slice(3));
       }
     };
     const kuerzel = {
@@ -610,7 +1007,12 @@ var __ADSILENCE_KARTE = "{\n\"adhs-zentrum.de\":[\n{\"name\":\"no-xhr-if\",\"arg
       aost: "abort-on-stack-trace",
       "prevent-xhr": "no-xhr-if",
       "prevent-fetch": "no-fetch-if",
-      rc: "remove-class"
+      rc: "remove-class",
+      "nano-stb": "nano-setTimeout-booster",
+      rmnt: "remove-node-text",
+      rpnt: "trusted-replace-node-text",
+      "trusted-rpnt": "trusted-replace-node-text",
+      "replace-node-text": "trusted-replace-node-text"
     };
     for (const eintrag of eintraege) {
       try {

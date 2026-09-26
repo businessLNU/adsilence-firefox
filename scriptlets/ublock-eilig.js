@@ -1,4 +1,4 @@
-var __ADSILENCE_KARTE = "{\n\"0cbcq8mu.com\":[\n{\"name\":\"abort-current-script\",\"args\":[\"Math\",\"localStorage['\\\\x\"]}\n],\n\"2cf0xzdu.com\":[\n{\"name\":\"abort-current-script\",\"args\":[\"Math\",\"localStorage['\\\\x\"]}\n],\n\"4k2h4w04.xyz\":[\n{\"name\":\"abort-current-script\",\"args\":[\"Math\",\"localStorage['\\\\x\"]}\n],\n\"a6iqb4m8.xyz\":[\n{\"name\":\"abort-current-script\",\"args\":[\"Math\",\"localStorage['\\\\x\"]}\n],\n\"afl3ua5u.xyz\":[\n{\"name\":\"abort-current-script\",\"args\":[\"Math\",\"localStorage['\\\\x\"]}\n],\n\"bing.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"/fd/ls/lsp.aspx\"]}\n],\n\"chzzkban.xyz\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"pagead2.googlesyndication.com/pagead/js/adsbygoogle.js method:HEAD\",\"emptyStr\"]}\n],\n\"client.falixnodes.net\":[\n{\"name\":\"no-setInterval-if\",\"args\":[\"/lovelylovely|veryveryplease|click\\\\(\\\\)|MouseEvent|dispatchEvent/\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"/lovelylovely|veryveryplease|click\\\\(\\\\)|MouseEvent|dispatchEvent/\"]}\n],\n\"decompiler.com\":[\n{\"name\":\"set-constant\",\"args\":[\"OffscreenCanvas.prototype.getContext\",\"undefined\"]},\n{\"name\":\"no-setInterval-if\",\"args\":[\"=== false\"]},\n{\"name\":\"abort-on-stack-trace\",\"args\":[\"Element.prototype.removeChild\",\"/blocked|tick/\"]}\n],\n\"dogdrip.net\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"-load.com/script/\",\"length:101\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\")](this,...\",\"3000-6000\"]}\n],\n\"doods.to\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"/vast.php?\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"/click\\\\.com|preroll|native_render\\\\.js|acscdn/\",\"length:10001\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"162.252.214.4\",\"true\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"c.adsco.re\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"adsco.re:2087\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"/^\\\\s*function\\\\s*\\\\(\\\\s*\\\\)\\\\s*{\\\\s*[a-zA-Z]{1,2}\\\\s*\\\\(.{1,10}$/\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"/bjwywsj|bhhsywi|caoampzpue|2147|00z0oq|qrqwrruqwwtz|kA_z3az21|trwqqkzka1c2|oon\\\\=\\\\\\\"cy|zaz,ee/\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"/function\\\\(\\\\)\\\\s*\\\\{\\\\s*var .{70,300}\\\\s*\\\\)\\\\s*\\\\}\\\\s*$/\",\"4000-6000\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"console[\"]}\n],\n\"faqwiki.us\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\".offsetHeight>0\"]}\n],\n\"gecmisi.com.tr\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\"\",\"4000-\"]}\n],\n\"global.novelpia.com\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"g.doubleclick.net\",\"length:100000\"]},\n{\"name\":\"no-fetch-if\",\"args\":[\"favicon\",\"length:252\"]}\n],\n\"historicaerials.com\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"load\",\"showFallbackModal\"]}\n],\n\"jmzkzesy.xyz\":[\n{\"name\":\"abort-current-script\",\"args\":[\"Math\",\"localStorage['\\\\x\"]}\n],\n\"magma.com\":[\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.hasRightPartnership\",\"falseFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.hasLeftPartnership\",\"falseFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.hasTopPartnership\",\"falseFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.hasBottomPartnership\",\"falseFunc\"]}\n],\n\"mail.yahoo.com\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\"adblock\"]}\n],\n\"omuzaani.me\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"summerday\",\"length:10\",\"{\\\"type\\\":\\\"cors\\\"}\"]}\n],\n\"openchat-review.me\":[\n{\"name\":\"abort-on-stack-trace\",\"args\":[\"document.querySelectorAll\",\"security.js\"]}\n],\n\"pdftoshokan.com\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"/click|load/\",\"/document\\\\.location|pop\\\\.|exo|cookie|\\\\.php/\"]}\n],\n\"poophq.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"/vast.php?\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"/click\\\\.com|preroll|native_render\\\\.js|acscdn/\",\"length:10001\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"]();}\",\"500\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"162.252.214.4\",\"true\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"c.adsco.re\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"adsco.re:2087\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"/^\\\\s*function\\\\s*\\\\(\\\\s*\\\\)\\\\s*{\\\\s*[a-zA-Z]{1,2}\\\\s*\\\\(.{1,10}$/\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"/bjwywsj|bhhsywi|caoampzpue|2147|00z0oq|qrqwrruqwwtz|kA_z3az21|trwqqkzka1c2|oon\\\\=\\\\\\\"cy|zaz,ee/\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"/function\\\\(\\\\)\\\\s*\\\\{\\\\s*var .{70,300}\\\\s*\\\\)\\\\s*\\\\}\\\\s*$/\",\"4000-6000\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"console[\"]}\n],\n\"pvpoke-re.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"/^https:\\\\/\\\\/pagead2\\\\.googlesyndication\\\\.com\\\\/pagead\\\\/js\\\\/adsbygoogle\\\\.js\\\\?client=ca-pub-3497863494706299$/\"]},\n{\"name\":\"no-fetch-if\",\"args\":[\"url:https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-3497863494706299 method:HEAD mode:no-cors\",\"\",\"\",\"throttle\",\"121\"]},\n{\"name\":\"abort-on-property-read\",\"args\":[\"Worker.prototype.postMessage\"]}\n],\n\"smsonline.cloud\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"-load.com/script/\",\"length:101\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\")](this,...\",\"3000-6000\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"(new Error(\",\"3000-6000\"]}\n],\n\"tracylocalschool.com\":[\n{\"name\":\"set-constant\",\"args\":[\"console.clear\",\"undefined\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"globalThis\",\"break;case\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"WebAssembly\",\"atob\"]}\n],\n\"tvtropes.org\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\"/offsetHeight|loaded/\"]},\n{\"name\":\"set-constant\",\"args\":[\"HTMLScriptElement.prototype.onerror\",\"undefined\"]}\n],\n\"u26bekrb.fun\":[\n{\"name\":\"set-constant\",\"args\":[\"adBlockDetected\",\"undefined\"]}\n],\n\"veev.to\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"/vast.php?\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"/click\\\\.com|preroll|native_render\\\\.js|acscdn/\",\"length:10001\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"]();}\",\"500\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"162.252.214.4\",\"true\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"c.adsco.re\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"adsco.re:2087\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"/^\\\\s*function\\\\s*\\\\(\\\\s*\\\\)\\\\s*{\\\\s*[a-zA-Z]{1,2}\\\\s*\\\\(.{1,10}$/\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"/bjwywsj|bhhsywi|caoampzpue|2147|00z0oq|qrqwrruqwwtz|kA_z3az21|trwqqkzka1c2|oon\\\\=\\\\\\\"cy|zaz,ee/\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"/function\\\\(\\\\)\\\\s*\\\\{\\\\s*var .{70,300}\\\\s*\\\\)\\\\s*\\\\}\\\\s*$/\",\"4000-6000\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"console[\"]}\n],\n\"web.facebook.com\":[\n{\"name\":\"json-prune\",\"args\":[\"require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.viewer.sideFeedUnit.nodes.[].new_adverts.nodes.[-].sponsored_data\"]},\n{\"name\":\"json-prune\",\"args\":[\"require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.serpResponse.results.edges.[-].rendering_strategy.view_model.story.sponsored_data.ad_id\"]}\n],\n\"www.facebook.com\":[\n{\"name\":\"json-prune\",\"args\":[\"require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.viewer.sideFeedUnit.nodes.[].new_adverts.nodes.[-].sponsored_data\"]},\n{\"name\":\"json-prune\",\"args\":[\"require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.serpResponse.results.edges.[-].rendering_strategy.view_model.story.sponsored_data.ad_id\"]}\n],\n\"www.youtube.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ytcfg.data_.EXPERIMENT_FLAGS.all_web_enable_network_machine\",\"false\"]},\n{\"name\":\"set-constant\",\"args\":[\"ytcfg.data_.EXPERIMENT_FLAGS.all_web_network_machine_raw_request\",\"false\"]}\n],\n\"youtube.com\":[\n{\"name\":\"json-prune\",\"args\":[\"playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots legacyImportant\"]},\n{\"name\":\"json-prune\",\"args\":[\"entries.[-].command.reelWatchEndpoint.adClientParams.isAd\"]}\n]\n}";
+var __ADSILENCE_KARTE = "{\n\"0cbcq8mu.com\":[\n{\"name\":\"abort-current-script\",\"args\":[\"Math\",\"localStorage['\\\\x\"]}\n],\n\"2cf0xzdu.com\":[\n{\"name\":\"abort-current-script\",\"args\":[\"Math\",\"localStorage['\\\\x\"]}\n],\n\"4k2h4w04.xyz\":[\n{\"name\":\"abort-current-script\",\"args\":[\"Math\",\"localStorage['\\\\x\"]}\n],\n\"a6iqb4m8.xyz\":[\n{\"name\":\"abort-current-script\",\"args\":[\"Math\",\"localStorage['\\\\x\"]}\n],\n\"afl3ua5u.xyz\":[\n{\"name\":\"abort-current-script\",\"args\":[\"Math\",\"localStorage['\\\\x\"]}\n],\n\"bing.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"/fd/ls/lsp.aspx\"]},\n{\"name\":\"trusted-replace-node-text\",\"args\":[\"script\",\"function processEmbImg\",\"location.pathname.startsWith(\\\"/search\\\")&&(document.querySelector(\\\"ol#b_results > li.b_algo > .b_title > h2 > a[id][ads]\\\")||window.addEventListener(\\\"scroll\\\",(()=>{for(const t of Object.keys(window).sort())\\\"function\\\"==typeof window[t]&&/^[a-z]+$/.test(t)&&document.querySelector(\\\"ol#b_results > li.b_algo > .b_title > h2 > a#\\\"+t)?.setAttribute?.(\\\"ads\\\",\\\"\\\")})));function processEmbImg\",\"sedCount\",\"1\"]}\n],\n\"chzzkban.xyz\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"pagead2.googlesyndication.com/pagead/js/adsbygoogle.js method:HEAD\",\"emptyStr\"]}\n],\n\"client.falixnodes.net\":[\n{\"name\":\"trusted-replace-node-text\",\"args\":[\"script\",\"/window\\\\.googletag.*?enableServices\\\\(\\\\)\\\\;/s\"]},\n{\"name\":\"trusted-replace-node-text\",\"args\":[\"script\",\"/googletag\\\\.pubads\\\\(\\\\)\\\\.addEventListener.*rewardedSlot\\\\)\\\\;\\\\s+\\\\}\\\\);\\\\s+\\\\}/s\"]},\n{\"name\":\"no-setInterval-if\",\"args\":[\"/lovelylovely|veryveryplease|click\\\\(\\\\)|MouseEvent|dispatchEvent/\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"/lovelylovely|veryveryplease|click\\\\(\\\\)|MouseEvent|dispatchEvent/\"]},\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"/\\\\=\\\\(\\\\[\\\\]\\\\+\\\\[\\\\]\\\\)\\\\[\\\\(/\"]}\n],\n\"decompiler.com\":[\n{\"name\":\"set-constant\",\"args\":[\"OffscreenCanvas.prototype.getContext\",\"undefined\"]},\n{\"name\":\"no-setInterval-if\",\"args\":[\"=== false\"]},\n{\"name\":\"abort-on-stack-trace\",\"args\":[\"Element.prototype.removeChild\",\"/blocked|tick/\"]}\n],\n\"dogdrip.net\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"-load.com/script/\",\"length:101\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\")](this,...\",\"3000-6000\"]}\n],\n\"doods.to\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"/vast.php?\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"/click\\\\.com|preroll|native_render\\\\.js|acscdn/\",\"length:10001\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"162.252.214.4\",\"true\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"c.adsco.re\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"adsco.re:2087\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"/^\\\\s*function\\\\s*\\\\(\\\\s*\\\\)\\\\s*{\\\\s*[a-zA-Z]{1,2}\\\\s*\\\\(.{1,10}$/\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"/bjwywsj|bhhsywi|caoampzpue|2147|00z0oq|qrqwrruqwwtz|kA_z3az21|trwqqkzka1c2|oon\\\\=\\\\\\\"cy|zaz,ee/\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"/function\\\\(\\\\)\\\\s*\\\\{\\\\s*var .{70,300}\\\\s*\\\\)\\\\s*\\\\}\\\\s*$/\",\"4000-6000\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"console[\"]}\n],\n\"embed.wcostream.com\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"/google_jobrunner|AdBlock|pubadx|embed\\\\.html/i\"]}\n],\n\"embedtv.best\":[\n{\"name\":\"trusted-replace-node-text\",\"args\":[\"script\",\"(popupLoaded)\",\"(true)\"]}\n],\n\"faqwiki.us\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\".offsetHeight>0\"]}\n],\n\"fo76db.com\":[\n{\"name\":\"trusted-replace-node-text\",\"args\":[\"script\",\"/ ads\\\\.map[\\\\S\\\\s\\\\n]+?join\\\\(''\\\\)/\"]}\n],\n\"gecmisi.com.tr\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\"\",\"4000-\"]}\n],\n\"global.novelpia.com\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"g.doubleclick.net\",\"length:100000\"]},\n{\"name\":\"no-fetch-if\",\"args\":[\"favicon\",\"length:252\"]}\n],\n\"historicaerials.com\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"load\",\"showFallbackModal\"]}\n],\n\"igorslab.de\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"rescue\"]}\n],\n\"jmzkzesy.xyz\":[\n{\"name\":\"abort-current-script\",\"args\":[\"Math\",\"localStorage['\\\\x\"]}\n],\n\"magma.com\":[\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.hasRightPartnership\",\"falseFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.hasLeftPartnership\",\"falseFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.hasTopPartnership\",\"falseFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.hasBottomPartnership\",\"falseFunc\"]}\n],\n\"mail.yahoo.com\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\"adblock\"]}\n],\n\"nontonx.com\":[\n{\"name\":\"trusted-replace-node-text\",\"args\":[\"script\",\"//tele();\",\"telek3();\"]},\n{\"name\":\"trusted-replace-node-text\",\"args\":[\"script\",\"/!\\\\(Object\\\\.values.*?return false;/g\"]},\n{\"name\":\"trusted-replace-node-text\",\"args\":[\"script\",\"/[a-z]+\\\\(\\\\) &&/\",\"!0&&\"]},\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"location.reload\"]}\n],\n\"omuzaani.me\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"adserverDomain\",\"excludes\",\"debugger\"]},\n{\"name\":\"trusted-replace-node-text\",\"args\":[\"script\",\"/window.navigator.brave.+;/\",\"false;\"]},\n{\"name\":\"no-fetch-if\",\"args\":[\"summerday\",\"length:10\",\"{\\\"type\\\":\\\"cors\\\"}\"]}\n],\n\"openchat-review.me\":[\n{\"name\":\"abort-on-stack-trace\",\"args\":[\"document.querySelectorAll\",\"security.js\"]}\n],\n\"panel.freemcserver.net\":[\n{\"name\":\"trusted-replace-node-text\",\"args\":[\"script\",\"'G-1B4LC0KT6C');\",\"'G-1B4LC0KT6C'); localStorage.setItem(\\\"tuna\\\", \\\"dW5kZWZpbmVk\\\"); localStorage.setItem(\\\"sausage\\\", \\\"ZmFsc2U=\\\"); window.setTimeout(function(){fuckYouUblockAndJobcenterTycoon(false)},200);\"]}\n],\n\"pdftoshokan.com\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"/click|load/\",\"/document\\\\.location|pop\\\\.|exo|cookie|\\\\.php/\"]}\n],\n\"poophq.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"/vast.php?\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"/click\\\\.com|preroll|native_render\\\\.js|acscdn/\",\"length:10001\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"]();}\",\"500\"]},\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"offsetParent\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"162.252.214.4\",\"true\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"c.adsco.re\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"adsco.re:2087\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"/^\\\\s*function\\\\s*\\\\(\\\\s*\\\\)\\\\s*{\\\\s*[a-zA-Z]{1,2}\\\\s*\\\\(.{1,10}$/\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"/bjwywsj|bhhsywi|caoampzpue|2147|00z0oq|qrqwrruqwwtz|kA_z3az21|trwqqkzka1c2|oon\\\\=\\\\\\\"cy|zaz,ee/\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"/function\\\\(\\\\)\\\\s*\\\\{\\\\s*var .{70,300}\\\\s*\\\\)\\\\s*\\\\}\\\\s*$/\",\"4000-6000\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"console[\"]}\n],\n\"pvpoke-re.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"/^https:\\\\/\\\\/pagead2\\\\.googlesyndication\\\\.com\\\\/pagead\\\\/js\\\\/adsbygoogle\\\\.js\\\\?client=ca-pub-3497863494706299$/\"]},\n{\"name\":\"no-fetch-if\",\"args\":[\"url:https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-3497863494706299 method:HEAD mode:no-cors\",\"\",\"\",\"throttle\",\"121\"]},\n{\"name\":\"trusted-replace-node-text\",\"args\":[\"script\",\"var menuSlideProtection\",\"/*start*/!function(){\\\"use strict\\\";const t=Function.prototype.toString,e=new WeakMap;let n=0;const o=(t,n)=>{if(\\\"function\\\"==typeof t&&(e.set(t,`function ${n}() { [native code] }`),n))try{Object.defineProperty(t,\\\"name\\\",{value:n,configurable:!0})}catch(t){}return t},r=window.MessageChannel;window.MessageChannel=o((function(){return new r}),\\\"MessageChannel\\\");[\\\"A1\\\",\\\"A6\\\"].forEach((t=>{try{Object.defineProperty(window,t,{get:()=>!1,set:()=>{},configurable:!0})}catch(t){}}));const i=window.Date,c=i.now,s=window.performance.now.bind(window.performance);window.Date=o(class extends i{constructor(...t){return super(...t)}static now(){return c()}},\\\"Date\\\"),window.performance.now=o((()=>s()+n),\\\"now\\\");const a=t=>{try{const e=Object.getOwnPropertyDescriptor(HTMLIFrameElement.prototype,\\\"contentWindow\\\").get;Object.defineProperty(t,\\\"contentWindow\\\",{get:function(){const t=e.apply(this);return t&&t.Function&&t.Function.prototype.toString!==window.Function.prototype.toString&&(t.Function.prototype.toString=window.Function.prototype.toString),t},configurable:!0})}catch(t){}},p=document.createElement;document.createElement=o((function(t){const e=p.apply(this,arguments);return t&&\\\"iframe\\\"===t.toLowerCase()&&a(e),e}),\\\"createElement\\\");const u=Element.prototype.appendChild;Element.prototype.appendChild=o((function(t){return t&&\\\"IFRAME\\\"===t.tagName&&a(t),u.apply(this,arguments)}),\\\"appendChild\\\"),window.addEventListener(\\\"load\\\",(()=>{const t=()=>document.querySelectorAll(\\\"iframe\\\").forEach((t=>{const e=t.getAttribute(\\\"src\\\");if(e&&e.includes(\\\"lmt=\\\")){const n=e.replace(/([?&]lmt=)\\\\d+/,`$1${Math.floor(Date.now()/1e3)}`);e!==n&&t.setAttribute(\\\"src\\\",n)}}));setTimeout(t,150),setTimeout(t,1e3)}));const d=window.performance,l=d.getEntriesByType,g=(t,e,n)=>{const o=window.PerformanceResourceTiming?window.PerformanceResourceTiming.prototype:Object.prototype,r=Object.create(o),i={name:t,entryType:\\\"resource\\\",initiatorType:e,startTime:n,duration:45,redirectStart:0,redirectEnd:0,fetchStart:n,domainLookupStart:n,domainLookupEnd:n+2,connectStart:n+2,connectEnd:n+5,secureConnectionStart:0,requestStart:n+5,responseStart:n+20,responseEnd:n+45,transferSize:1200,encodedBodySize:900,decodedBodySize:900,serverTiming:[]};return Object.keys(i).forEach((t=>{Object.defineProperty(r,t,{value:i[t],writable:!0,enumerable:!0,configurable:!0})})),r.toJSON=function(){return i},r},y=o((function(t){let e=[];try{e=l.call(d,t)||[]}catch(t){e=[]}if(\\\"resource\\\"===t){const t=Array.from(e),n=g(\\\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3497863494706299\\\",\\\"script\\\",120.5),o=g(\\\"https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202608260101/show_ads_impl_fy2021.js\\\",\\\"script\\\",240.8),r=g(\\\"https://googleads.g.doubleclick.net/pagead/html/r20260825/r20190131/zrt_lookup_fy2021.html\\\",\\\"iframe\\\",310.2),i=g(\\\"https://ep1.adtrafficquality.google/getconfig/sodar\\\",\\\"xmlhttprequest\\\",400),c=g(\\\"https://pagead2.googlesyndication.com/pagead/ping?e=1\\\",\\\"fetch\\\",450),s=g(\\\"https://pagead2.googlesyndication.com/pagead/gen_204\\\",\\\"other\\\",500);return t.push(n,o,r,i,c,s),t}return e}),\\\"getEntriesByType\\\");try{Object.defineProperty(d,\\\"getEntriesByType\\\",{value:y,configurable:!0,writable:!0})}catch(t){d.getEntriesByType=y}const f=Array.prototype.push;Array.prototype.push=o((function(...t){if((t=>{if(!t)return!1;const e=t.split(\\\"\\\\n\\\").length-1;return e>=4&&e<=6&&(t.includes(\\\"_executeCallback\\\")||/at\\\\s+([0-9A-Z_a-z]{1,3}|<anonymous>)\\\\s+\\\\(/.test(t))})((new Error).stack)){const e=t.filter((t=>![\\\"fetch\\\",\\\"XMLHttpRequest\\\"].includes(t)));return 0===e.length&&t.length>0?this.length:f.apply(this,e)}return f.apply(this,t)}),\\\"push\\\");const w=window.XMLHttpRequest;window.XMLHttpRequest=o((function(){return new w(...arguments)}),\\\"XMLHttpRequest\\\"),window.XMLHttpRequest.prototype=w.prototype,Object.setPrototypeOf(window.XMLHttpRequest,w),Function.prototype.toString=o((function(){if(e.has(this))return e.get(this);return[\\\"XMLHttpRequest\\\",\\\"fetch\\\",\\\"querySelectorAll\\\",\\\"bind\\\",\\\"push\\\",\\\"toString\\\",\\\"addEventListener\\\",\\\"now\\\",\\\"Date\\\",\\\"match\\\",\\\"createElement\\\",\\\"getEntriesByType\\\",\\\"setTimeout\\\",\\\"MessageChannel\\\",\\\"postMessage\\\"].includes(this.name)?`function ${this.name}() { [native code] }`:t.apply(this,arguments)}),\\\"toString\\\");const h=window.fetch;window.fetch=o((function(t){return\\\"string\\\"==typeof t&&t.includes(\\\"googleads\\\")?h.apply(this,arguments).then((t=>(n+=40,t))):h.apply(this,arguments)}),\\\"fetch\\\");const m=window.setTimeout;window.setTimeout=o((function(t,e){if(\\\"function\\\"==typeof t){const e=t.toString().replace(/\\\\s+/g,\\\"\\\");if(e.length<50&&/[$0-9A-Z_a-z]+&&[$0-9A-Z_a-z]+\\\\(\\\\)/i.test(e))return}return m.apply(this,arguments)}),\\\"setTimeout\\\")}();document.currentScript.textContent=document.currentScript.textContent.replace(/\\\\/\\\\*start\\\\*\\\\/(.*)\\\\/\\\\*end\\\\*\\\\//,\\\"\\\");/*end*/var menuSlideProtection\",\"sedCount\",\"1\"]},\n{\"name\":\"abort-on-property-read\",\"args\":[\"Worker.prototype.postMessage\"]}\n],\n\"smsonline.cloud\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"-load.com/script/\",\"length:101\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\")](this,...\",\"3000-6000\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"(new Error(\",\"3000-6000\"]}\n],\n\"streamcash.to\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"/\\\\${''}|body:JSON\\\\.stringify/\"]}\n],\n\"tracylocalschool.com\":[\n{\"name\":\"set-constant\",\"args\":[\"console.clear\",\"undefined\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"globalThis\",\"break;case\"]},\n{\"name\":\"abort-current-script\",\"args\":[\"WebAssembly\",\"atob\"]}\n],\n\"tv.youtube.com\":[\n{\"name\":\"trusted-replace-xhr-response\",\"args\":[\"\\\"adPlacements\\\"\",\"\\\"no_ads\\\"\",\"/playlist\\\\?list=|\\\\/player(?:\\\\?.+)?$|watch\\\\?[tv]=/\"]}\n],\n\"tvtropes.org\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\"/offsetHeight|loaded/\"]},\n{\"name\":\"set-constant\",\"args\":[\"HTMLScriptElement.prototype.onerror\",\"undefined\"]}\n],\n\"u26bekrb.fun\":[\n{\"name\":\"set-constant\",\"args\":[\"adBlockDetected\",\"undefined\"]}\n],\n\"veev.to\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"/vast.php?\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"/click\\\\.com|preroll|native_render\\\\.js|acscdn/\",\"length:10001\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"]();}\",\"500\"]},\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"offsetParent\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"162.252.214.4\",\"true\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"c.adsco.re\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"adsco.re:2087\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"/^\\\\s*function\\\\s*\\\\(\\\\s*\\\\)\\\\s*{\\\\s*[a-zA-Z]{1,2}\\\\s*\\\\(.{1,10}$/\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"/bjwywsj|bhhsywi|caoampzpue|2147|00z0oq|qrqwrruqwwtz|kA_z3az21|trwqqkzka1c2|oon\\\\=\\\\\\\"cy|zaz,ee/\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"/function\\\\(\\\\)\\\\s*\\\\{\\\\s*var .{70,300}\\\\s*\\\\)\\\\s*\\\\}\\\\s*$/\",\"4000-6000\"]},\n{\"name\":\"no-setTimeout-if\",\"args\":[\"console[\"]}\n],\n\"web.facebook.com\":[\n{\"name\":\"json-prune\",\"args\":[\"require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.viewer.sideFeedUnit.nodes.[].new_adverts.nodes.[-].sponsored_data\"]},\n{\"name\":\"json-prune-xhr-response\",\"args\":[\"data.viewer.sideFeedUnit.nodes.[].new_adverts.nodes.[-].sponsored_data\",\"\",\"propsToMatch\",\"/graphql\"]},\n{\"name\":\"json-prune\",\"args\":[\"require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.serpResponse.results.edges.[-].rendering_strategy.view_model.story.sponsored_data.ad_id\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Node.prototype.appendChild\",\"JSON.parse\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Node.prototype.appendChild\",\"Function.prototype.toString\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Node.prototype.insertBefore\",\"JSON.parse\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Node.prototype.insertBefore\",\"Function.prototype.toString\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.insertAdjacentElement\",\"JSON.parse\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.insertAdjacentElement\",\"Function.prototype.toString\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.append\",\"JSON.parse\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.append\",\"Function.prototype.toString\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.prepend\",\"JSON.parse\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.prepend\",\"Function.prototype.toString\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.before\",\"JSON.parse\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.before\",\"Function.prototype.toString\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.after\",\"JSON.parse\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.after\",\"Function.prototype.toString\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Node.prototype.appendChild\",\"Object.getOwnPropertyDescriptor\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Node.prototype.appendChild\",\"XMLHttpRequest.prototype\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Node.prototype.insertBefore\",\"Object.getOwnPropertyDescriptor\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Node.prototype.insertBefore\",\"XMLHttpRequest.prototype\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.after\",\"Object.getOwnPropertyDescriptor\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.after\",\"XMLHttpRequest.prototype\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.append\",\"Object.getOwnPropertyDescriptor\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.append\",\"XMLHttpRequest.prototype\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.before\",\"Object.getOwnPropertyDescriptor\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.before\",\"XMLHttpRequest.prototype\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.insertAdjacentElement\",\"Object.getOwnPropertyDescriptor\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.insertAdjacentElement\",\"XMLHttpRequest.prototype\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.prepend\",\"Object.getOwnPropertyDescriptor\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.prepend\",\"XMLHttpRequest.prototype\"]}\n],\n\"www.facebook.com\":[\n{\"name\":\"json-prune\",\"args\":[\"require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.viewer.sideFeedUnit.nodes.[].new_adverts.nodes.[-].sponsored_data\"]},\n{\"name\":\"json-prune-xhr-response\",\"args\":[\"data.viewer.sideFeedUnit.nodes.[].new_adverts.nodes.[-].sponsored_data\",\"\",\"propsToMatch\",\"/graphql\"]},\n{\"name\":\"json-prune\",\"args\":[\"require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.serpResponse.results.edges.[-].rendering_strategy.view_model.story.sponsored_data.ad_id\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Node.prototype.appendChild\",\"JSON.parse\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Node.prototype.appendChild\",\"Function.prototype.toString\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Node.prototype.insertBefore\",\"JSON.parse\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Node.prototype.insertBefore\",\"Function.prototype.toString\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.insertAdjacentElement\",\"JSON.parse\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.insertAdjacentElement\",\"Function.prototype.toString\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.append\",\"JSON.parse\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.append\",\"Function.prototype.toString\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.prepend\",\"JSON.parse\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.prepend\",\"Function.prototype.toString\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.before\",\"JSON.parse\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.before\",\"Function.prototype.toString\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.after\",\"JSON.parse\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.after\",\"Function.prototype.toString\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Node.prototype.appendChild\",\"Object.getOwnPropertyDescriptor\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Node.prototype.appendChild\",\"XMLHttpRequest.prototype\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Node.prototype.insertBefore\",\"Object.getOwnPropertyDescriptor\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Node.prototype.insertBefore\",\"XMLHttpRequest.prototype\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.after\",\"Object.getOwnPropertyDescriptor\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.after\",\"XMLHttpRequest.prototype\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.append\",\"Object.getOwnPropertyDescriptor\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.append\",\"XMLHttpRequest.prototype\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.before\",\"Object.getOwnPropertyDescriptor\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.before\",\"XMLHttpRequest.prototype\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.insertAdjacentElement\",\"Object.getOwnPropertyDescriptor\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.insertAdjacentElement\",\"XMLHttpRequest.prototype\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.prepend\",\"Object.getOwnPropertyDescriptor\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Element.prototype.prepend\",\"XMLHttpRequest.prototype\"]}\n],\n\"www.youtube.com\":[\n{\"name\":\"trusted-replace-node-text\",\"args\":[\"script\",\"(function serverContract()\",\"(()=>{if(\\\"YOUTUBE_PREMIUM_LOGO\\\"===ytInitialData?.topbar?.desktopTopbarRenderer?.logo?.topbarLogoRenderer?.iconImage?.iconType||location.href.startsWith(\\\"https://www.youtube.com/tv#/\\\")||location.href.startsWith(\\\"https://www.youtube.com/embed/\\\"))return;const e=ytcfg.data_.INNERTUBE_CONTEXT.client.userAgent,t=t=>{ytcfg.data_.INNERTUBE_CONTEXT.client.userAgent=t?e.replace?.(/(Mozilla\\\\/5\\\\.0 \\\\([^)]+)/,\\\"$1; \\\"+t):e},o=[\\\"channel\\\",\\\"lactmilli\\\"];let r=!1,n=o;document.addEventListener(\\\"DOMContentLoaded\\\",(function(){const e=()=>{const e=document.getElementById(\\\"movie_player\\\");if(!e||!window.location.href.includes(\\\"/watch?\\\"))return void(n=o);const a=e.getPlayerResponse?.(),i=e.getProgressState?.(),s=e.getStatsForNerds?.();let l,d;if(i&&i.duration>0&&(i.loaded<i.duration||i.duration-i.current>1)||a?.videoDetails?.isLive){if(!s?.debug_info?.startsWith?.(\\\"SSAP, AD\\\")){const o=a.videoDetails?.videoId,c=a.playerConfig?.playbackStartConfig?.startSeconds??0,u=e.getPlayerStateObject?.()?.isBuffering,y=a.playabilityStatus?.errorScreen,p=JSON.stringify(y?.playerErrorMessageRenderer?.subreason?.runs||y?.playerInterstitialRenderer?.content?.interstitialViewModel?.description?.commandRuns);return void(\\\"UNPLAYABLE\\\"===a?.playabilityStatus?.status&&!y?.playerErrorMessageRenderer?.playerCaptchaViewModel&&p?.includes?.(\\\"WEB_PAGE_TYPE_UNKNOWN\\\")&&p?.includes?.(\\\"https://support.google.com/youtube/answer/3037019\\\")?(n=n.slice(1),n.length>0?t(n[0]):t(\\\"\\\"),r=!1,e.loadVideoById(o,c)):0===n.length?(r=!1,t(\\\"\\\")):u&&\\\"0.00 s\\\"===s?.buffer_health_seconds&&\\\"0x0\\\"===s?.resolution&&r?(t(n[0]),r=!1,e.loadVideoById(o,c)):!r&&i.current-c<5&&location.href.includes(\\\"&list=\\\")&&null===e.getPlaylistId?.()&&(l=document.querySelector(\\\"yt-playlist-manager\\\"),d=l?.getPlaylistData?.(),d&&(l.setPlaylistData?.(d),l.setPlayerPlaybackControlData?.({playlistPanelRenderer:d}))))}i.duration>0&&e.seekTo?.(i.duration)}};e(),new MutationObserver((()=>{e()})).observe(document,{childList:!0,subtree:!0})})),window.Map.prototype.has=new Proxy(window.Map.prototype.has,{apply:(e,t,o)=>{if(\\\"onSnackbarMessage\\\"===o?.[0]&&!r){const e=document.getElementById(\\\"movie_player\\\");if(!e)return;const t=e.getStatsForNerds?.(),o=e.getPlayerStateObject?.()?.isBuffering,a=e.getPlayerResponse?.()?.playbackTracking?.videostatsPlaybackUrl?.baseUrl;o&&\\\"0.00 s\\\"===t?.buffer_health_seconds&&\\\"0x0\\\"===t?.resolution&&n.length>0&&(a.includes(\\\"reloadxhr\\\")&&(n=n.slice(1)),r=!0)}return Reflect.apply(e,t,o)}});const a={apply:(e,t,o)=>{const r=o[0];return\\\"function\\\"==typeof r&&r.toString().includes(\\\"onAbnormalityDetected\\\")&&(o[0]=function(){}),Reflect.apply(e,t,o)}};window.Promise.prototype.then=new Proxy(window.Promise.prototype.then,a)})();(function serverContract()\",\"sedCount\",\"1\",\"excludes\",\"MutationObserver\"]},\n{\"name\":\"set-constant\",\"args\":[\"ytcfg.data_.EXPERIMENT_FLAGS.all_web_enable_network_machine\",\"false\"]},\n{\"name\":\"set-constant\",\"args\":[\"ytcfg.data_.EXPERIMENT_FLAGS.all_web_network_machine_raw_request\",\"false\"]},\n{\"name\":\"nano-setTimeout-booster\",\"args\":[\"[native code]\",\"17000\",\"0.001\"]},\n{\"name\":\"json-prune-fetch-response\",\"args\":[\"adPlacements adSlots playerResponse.adPlacements playerResponse.adSlots [].playerResponse.adPlacements [].playerResponse.adSlots\",\"\",\"propsToMatch\",\"/player?\"]},\n{\"name\":\"json-prune-fetch-response\",\"args\":[\"adPlacements adSlots playerResponse.adPlacements playerResponse.adSlots\",\"\",\"propsToMatch\",\"/playlist?\"]},\n{\"name\":\"json-prune-xhr-response\",\"args\":[\"adPlacements adSlots playerResponse.adPlacements playerResponse.adSlots [].playerResponse.adPlacements [].playerResponse.adSlots\",\"\",\"propsToMatch\",\"/\\\\/player(?:\\\\?.+)?$/\"]},\n{\"name\":\"trusted-replace-xhr-response\",\"args\":[\"/\\\"adPlacements.*?([A-Z]\\\"\\\\}|\\\"\\\\}{2,4})\\\\}\\\\],/\",\"\",\"/playlist\\\\?list=|\\\\/player(?:\\\\?.+)?$|watch\\\\?[tv]=/\"]},\n{\"name\":\"trusted-replace-xhr-response\",\"args\":[\"/\\\"adPlacements.*?(\\\"adSlots\\\"|\\\"adBreakHeartbeatParams\\\")/gms\",\"$1\",\"/\\\\/player(?:\\\\?.+)?$/\"]},\n{\"name\":\"trusted-replace-fetch-response\",\"args\":[\"\\\"adPlacements\\\"\",\"\\\"no_ads\\\"\",\"player?\"]},\n{\"name\":\"trusted-replace-fetch-response\",\"args\":[\"\\\"adSlots\\\"\",\"\\\"no_ads\\\"\",\"player?\"]},\n{\"name\":\"trusted-replace-fetch-response\",\"args\":[\"\\\"adSlots\\\"\",\"\\\"no_ads\\\"\",\"/^\\\\W+$/\"]},\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"window,\\\"fetch\\\"\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Node.prototype.appendChild\",\"fetch\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Node.prototype.appendChild\",\"Request\"]},\n{\"name\":\"trusted-prevent-dom-bypass\",\"args\":[\"Node.prototype.appendChild\",\"JSON.parse\"]},\n{\"name\":\"trusted-replace-fetch-response\",\"args\":[\"\\\"adSlots\\\"\",\"\\\"no_ads\\\"\",\"/get_watch?\"]}\n],\n\"youtube.com\":[\n{\"name\":\"json-prune\",\"args\":[\"playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots legacyImportant\"]},\n{\"name\":\"json-prune\",\"args\":[\"entries.[-].command.reelWatchEndpoint.adClientParams.isAd\"]}\n]\n}";
 "use strict";
 (() => {
   // src/scriptlets/bibliothek.ts
@@ -135,14 +135,27 @@ var __ADSILENCE_KARTE = "{\n\"0cbcq8mu.com\":[\n{\"name\":\"abort-current-script
     }
     function loesche(obj, pfad) {
       const teile = pfad.split(".");
+      let geaendert = false;
       function ab(o, i) {
         if (o === null || typeof o !== "object") return;
         const name = teile[i];
+        if (name === "[-]" && Array.isArray(o)) {
+          const rest = teile.slice(i + 1).join(".");
+          for (let k = o.length - 1; k >= 0; k -= 1) {
+            if (rest === "" || hatPfad(o[k], rest)) {
+              o.splice(k, 1);
+              geaendert = true;
+            }
+          }
+          return;
+        }
         if (i === teile.length - 1) {
           if (name === "[]" && Array.isArray(o)) {
+            if (o.length) geaendert = true;
             o.length = 0;
             return;
           }
+          if (Object.prototype.hasOwnProperty.call(o, name)) geaendert = true;
           delete o[name];
           return;
         }
@@ -157,6 +170,7 @@ var __ADSILENCE_KARTE = "{\n\"0cbcq8mu.com\":[\n{\"name\":\"abort-current-script
         ab(o[name], i + 1);
       }
       ab(obj, 0);
+      return geaendert;
     }
     function hatPfad(obj, pfad) {
       let o = obj;
@@ -309,6 +323,242 @@ var __ADSILENCE_KARTE = "{\n\"0cbcq8mu.com\":[\n{\"name\":\"abort-current-script
       bau.prototype = attrappe;
       fallen(gross, () => bau, () => bau);
       fallen(klein, () => attrappe, () => attrappe);
+    }
+    const PARSE_ROH = (() => {
+      const ablage = "__adsilenceJsonParse";
+      if (typeof w[ablage] !== "function") w[ablage] = w.JSON.parse;
+      return w[ablage];
+    })();
+    function regexAus(text, flags, ganz = false) {
+      if (text === "") return /^/;
+      const m = /^\/(.+)\/([gimsu]*)$/.exec(text);
+      if (m) {
+        try {
+          return new RegExp(m[1], m[2] || void 0);
+        } catch {
+          return /^/;
+        }
+      }
+      const woertlich = text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      return new RegExp(ganz ? "^" + woertlich + "$" : woertlich, flags);
+    }
+    function zusatz(rest) {
+      const aus = {};
+      for (let i = 0; i + 1 < rest.length; i += 2) aus[rest[i]] = rest[i + 1];
+      return aus;
+    }
+    function trifftProps(props, werte) {
+      if (props === "") return true;
+      return trifftAnfrage(eigenschaften(props), werte);
+    }
+    function fetchWerte(a) {
+      const werte = { url: "", method: "GET" };
+      const quelle = a[0];
+      const optionen = a[1];
+      if (quelle !== null && typeof quelle === "object" && "url" in quelle) {
+        werte["url"] = alsText(quelle.url);
+        const m = quelle.method;
+        if (m) werte["method"] = alsText(m);
+      } else {
+        werte["url"] = alsText(quelle);
+      }
+      if (optionen && typeof optionen === "object" && optionen.method) werte["method"] = alsText(optionen.method);
+      return werte;
+    }
+    function umschreibeFetch(props, aendere) {
+      const alt = w.fetch;
+      const Antwort = w.Response;
+      if (typeof alt !== "function" || typeof Antwort !== "function") return;
+      w.fetch = new Proxy(alt, {
+        apply(f, dies, a) {
+          const versprochen = Reflect.apply(f, dies, a);
+          let werte;
+          try {
+            werte = fetchWerte(a);
+          } catch {
+            return versprochen;
+          }
+          if (!trifftProps(props, werte)) return versprochen;
+          return versprochen.then((vorher) => {
+            const v = vorher;
+            if (!v || typeof v.clone !== "function") return vorher;
+            let kopie;
+            try {
+              kopie = v.clone();
+            } catch {
+              return vorher;
+            }
+            return kopie.text().then((text) => {
+              let neu = null;
+              try {
+                neu = aendere(text);
+              } catch {
+                neu = null;
+              }
+              if (neu === null) return vorher;
+              const n = new Antwort(neu, { status: v.status, statusText: v.statusText, headers: v.headers });
+              try {
+                Object.defineProperties(n, {
+                  ok: { value: v.ok },
+                  redirected: { value: v.redirected },
+                  type: { value: v.type },
+                  url: { value: v.url }
+                });
+              } catch {
+              }
+              return n;
+            }, () => vorher);
+          });
+        }
+      });
+    }
+    function umschreibeXhr(props, aendereText, aendereObjekt) {
+      const Basis = w.XMLHttpRequest;
+      if (typeof Basis !== "function") return;
+      const merk = /* @__PURE__ */ new WeakMap();
+      w.XMLHttpRequest = class extends Basis {
+        open(methode, adresse, ...rest) {
+          try {
+            if (trifftProps(props, { url: alsText(adresse), method: alsText(methode) })) merk.set(this, {});
+            else merk.delete(this);
+          } catch {
+          }
+          Basis.prototype.open.call(this, methode, adresse, ...rest);
+        }
+        get response() {
+          const innen = super.response;
+          const eintrag = merk.get(this);
+          if (!eintrag) return innen;
+          const laenge = typeof innen === "string" ? innen.length : void 0;
+          if (eintrag.laenge !== laenge) {
+            eintrag.fertig = false;
+            eintrag.laenge = laenge;
+          }
+          if (eintrag.fertig) return eintrag.antwort;
+          let aus = innen;
+          try {
+            if (typeof innen === "string") {
+              const neu = aendereText(innen);
+              if (neu !== null) aus = neu;
+            } else if (innen !== null && typeof innen === "object" && aendereObjekt) {
+              aendereObjekt(innen);
+            }
+          } catch {
+          }
+          if (this.readyState === 4) {
+            eintrag.antwort = aus;
+            eintrag.fertig = true;
+          }
+          return aus;
+        }
+        get responseText() {
+          const r = this.response;
+          return typeof r === "string" ? r : super.responseText;
+        }
+      };
+    }
+    function beschneideText(text, pfade, pflicht) {
+      const erstes = text.trimStart().charAt(0);
+      if (erstes !== "{" && erstes !== "[") return null;
+      let daten;
+      try {
+        daten = PARSE_ROH(text);
+      } catch {
+        return null;
+      }
+      if (pflicht.length && !pflicht.every((p) => hatPfad(daten, p))) return null;
+      let geaendert = false;
+      for (const p of pfade) if (loesche(daten, p)) geaendert = true;
+      return geaendert ? JSON.stringify(daten) : null;
+    }
+    function ersetzeKnotentext(knoten, musterText, ersatz, rest) {
+      const doc = w.document;
+      if (!doc) return;
+      const knotenRe = regexAus(knoten, "i", true);
+      const muster = regexAus(musterText, "gms");
+      const extra = zusatz(rest);
+      const bedingung = extra["includes"] || extra["condition"];
+      const nur = bedingung ? regexAus(bedingung, "ms") : null;
+      const ohne = extra["excludes"] ? regexAus(extra["excludes"], "ms") : null;
+      let uebrig = extra["sedCount"] ? parseInt(extra["sedCount"], 10) : Number.MAX_SAFE_INTEGER;
+      if (isNaN(uebrig)) uebrig = Number.MAX_SAFE_INTEGER;
+      const bleibt = Boolean(extra["stay"]);
+      const spaeter = extra["quitAfter"] ? parseInt(extra["quitAfter"], 10) || 0 : 0;
+      let alsSkript = (t) => t;
+      try {
+        const tt = w.trustedTypes;
+        if (tt && typeof tt.getPropertyType === "function" && tt.getPropertyType("script", "textContent") === "TrustedScript") {
+          const richtlinie = tt.createPolicy("adsilence" + Math.random().toString(36).slice(2), { createScript: (t) => t });
+          alsSkript = (t) => richtlinie.createScript(t);
+        }
+      } catch {
+      }
+      const behandle = (n) => {
+        const vorher = alsText(n.textContent ?? "");
+        if (nur) {
+          nur.lastIndex = 0;
+          if (!nur.test(vorher)) return;
+        }
+        if (ohne) {
+          ohne.lastIndex = 0;
+          if (ohne.test(vorher)) return;
+        }
+        muster.lastIndex = 0;
+        if (!muster.test(vorher)) return;
+        muster.lastIndex = 0;
+        const nachher = musterText !== "" ? vorher.replace(muster, ersatz) : ersatz;
+        n.textContent = n.nodeName === "SCRIPT" ? alsSkript(nachher) : nachher;
+        uebrig -= 1;
+      };
+      const baum = (wurzel) => {
+        const gang = doc.createTreeWalker(wurzel, 1 | 4);
+        const aktuell = doc.currentScript;
+        for (; ; ) {
+          const n = gang.nextNode();
+          if (n === null) break;
+          if (n === aktuell) continue;
+          if (knotenRe.test(n.nodeName)) behandle(n);
+          else if (n.nodeName === "TEMPLATE" && n.content) baum(n.content);
+          else continue;
+          if (uebrig <= 0) break;
+        }
+      };
+      try {
+        if (doc.documentElement) baum(doc.documentElement);
+      } catch {
+      }
+      if (uebrig <= 0 && !bleibt) return;
+      const Beobachter = w.MutationObserver;
+      if (typeof Beobachter !== "function") return;
+      const verarbeite = (liste) => {
+        for (const m of liste) {
+          for (const n of Array.from(m.addedNodes)) {
+            if (knotenRe.test(n.nodeName)) behandle(n);
+            else if (n.nodeName === "TEMPLATE" && n.content) baum(n.content);
+            else continue;
+            if (uebrig <= 0 && !bleibt) {
+              beobachter.disconnect();
+              return;
+            }
+          }
+        }
+      };
+      const beobachter = new Beobachter(verarbeite);
+      const halt = () => {
+        try {
+          verarbeite(beobachter.takeRecords());
+          beobachter.disconnect();
+        } catch {
+        }
+      };
+      beobachter.observe(doc, { childList: true, subtree: true });
+      if (bleibt) return;
+      const beiInteraktiv = () => {
+        if (spaeter === 0) halt();
+        else globalThis.setTimeout(halt, spaeter);
+      };
+      if (doc.readyState !== "loading") beiInteraktiv();
+      else doc.addEventListener("DOMContentLoaded", beiInteraktiv, { once: true });
     }
     const bibliothek = {
       "abort-on-property-read"(args) {
@@ -597,6 +847,153 @@ var __ADSILENCE_KARTE = "{\n\"0cbcq8mu.com\":[\n{\"name\":\"abort-current-script
           } catch {
           }
         }, 15e3);
+      },
+      /*
+       * ── Antworten umschreiben, BEVOR die Seite sie liest ────────────────────
+       *
+       * Nachgebaut nach uBlock Origin (GPL-3.0, wie AdSilence), weil YouTube
+       * seit 2025 genau darauf antwortet: Ein Blocker, der die Werbeanfragen
+       * abweist, die Werbeplaetze in der Player-Antwort aber stehen laesst, wird
+       * erkannt — „Werbeblocker sind auf YouTube nicht erlaubt". GEMESSEN am
+       * 26.09.2026: Die YouTube-Regeln aus uBlocks Schnellkorrekturen brauchten
+       * sieben Scriptlets, die es hier nicht gab; unser Paket liess sie beim Bau
+       * fallen. Diese hier kommen nur aus vertrauenswuerdigen Listen
+       * (`brauchtVertrauen()` in src/engine/scriptlets.ts).
+       */
+      "trusted-replace-fetch-response"(args) {
+        const roh = args[0] ?? "";
+        if (roh === "") return;
+        const muster = regexAus(roh === "*" ? ".*" : roh);
+        const ersatz = args[1] ?? "";
+        const props = args[2] ?? "";
+        const extra = zusatz(args.slice(3));
+        const nur = extra["includes"] ? regexAus(extra["includes"]) : null;
+        umschreibeFetch(props, (text) => {
+          if (nur) {
+            nur.lastIndex = 0;
+            if (!nur.test(text)) return null;
+          }
+          muster.lastIndex = 0;
+          const neu = text.replace(muster, ersatz);
+          return neu === text ? null : neu;
+        });
+      },
+      "trusted-replace-xhr-response"(args) {
+        const roh = args[0] ?? "";
+        if (roh === "") return;
+        const muster = regexAus(roh === "*" ? ".*" : roh);
+        const ersatz = args[1] ?? "";
+        const props = args[2] ?? "";
+        const extra = zusatz(args.slice(3));
+        const nur = extra["includes"] ? regexAus(extra["includes"]) : null;
+        umschreibeXhr(props, (text) => {
+          if (nur) {
+            nur.lastIndex = 0;
+            if (!nur.test(text)) return null;
+          }
+          muster.lastIndex = 0;
+          const neu = text.replace(muster, ersatz);
+          return neu === text ? null : neu;
+        });
+      },
+      "json-prune-fetch-response"(args) {
+        const pfade = (args[0] ?? "").split(/\s+/).filter(Boolean);
+        const pflicht = (args[1] ?? "").split(/\s+/).filter(Boolean);
+        const extra = zusatz(args.slice(2));
+        if (pfade.length === 0) return;
+        umschreibeFetch(extra["propsToMatch"] ?? "", (text) => beschneideText(text, pfade, pflicht));
+      },
+      "json-prune-xhr-response"(args) {
+        const pfade = (args[0] ?? "").split(/\s+/).filter(Boolean);
+        const pflicht = (args[1] ?? "").split(/\s+/).filter(Boolean);
+        const extra = zusatz(args.slice(2));
+        if (pfade.length === 0) return;
+        umschreibeXhr(extra["propsToMatch"] ?? "", (text) => beschneideText(text, pfade, pflicht), (obj) => {
+          if (pflicht.length && !pflicht.every((p) => hatPfad(obj, p))) return false;
+          let geaendert = false;
+          for (const p of pfade) if (loesche(obj, p)) geaendert = true;
+          return geaendert;
+        });
+      },
+      /*
+       * Die Umgehung ueber einen leeren Rahmen: Eine Seite haengt ein
+       * `about:blank`-iframe an und holt sich dort ein UNBERUEHRTES `fetch` oder
+       * `JSON.parse` — an allen Scriptlets oben vorbei. Nach dem Anhaengen
+       * bekommt der Rahmen deshalb unsere Fassung.
+       */
+      "trusted-prevent-dom-bypass"(args) {
+        const methode = args[0] ?? "";
+        const ziel = args[1] ?? "";
+        if (methode === "") return;
+        const kette2 = methode.split(".");
+        const name = kette2.pop();
+        let traeger = w;
+        for (const glied of kette2) traeger = traeger == null ? void 0 : traeger[glied];
+        if (traeger == null) return;
+        const t = traeger;
+        const alt = t[name];
+        if (typeof alt !== "function") return;
+        const Element = w.HTMLElement;
+        t[name] = new Proxy(alt, {
+          apply(f, dies, a) {
+            const ergebnis = Reflect.apply(f, dies, a);
+            for (const el of a) {
+              try {
+                if (!Element || !(el instanceof Element)) continue;
+                const fenster = el.contentWindow;
+                if (!fenster || alsText(fenster) !== "[object Window]") continue;
+                const adresse = fenster["location"].href;
+                if (adresse !== "about:blank" && adresse !== w.location.href) continue;
+                if (ziel === "") {
+                  Object.defineProperty(el, "contentWindow", { value: w });
+                  continue;
+                }
+                const glieder = ziel.split(".");
+                const letztes = glieder.pop();
+                let ich = w;
+                let es = fenster;
+                for (const g of glieder) {
+                  ich = ich[g];
+                  es = es[g];
+                }
+                es[letztes] = ich[letztes];
+              } catch {
+              }
+            }
+            return ergebnis;
+          }
+        });
+      },
+      /*
+       * Timer beschleunigen: Wartet die Seite `verzoegerung` Millisekunden auf
+       * einen Rueckruf, der zum Muster passt, wird die Wartezeit mit `faktor`
+       * multipliziert (0,001 bis 50). uBlocks `nano-setTimeout-booster`.
+       */
+      "nano-setTimeout-booster"(args) {
+        const muster = regexAus(args[0] ?? "");
+        let verzoegerung = (args[1] ?? "") !== "*" ? parseInt(args[1] ?? "", 10) : -1;
+        if (isNaN(verzoegerung) || !isFinite(verzoegerung)) verzoegerung = 1e3;
+        let faktor = parseFloat(args[2] ?? "");
+        faktor = !isNaN(faktor) && isFinite(faktor) ? Math.min(Math.max(faktor, 1e-3), 50) : 0.05;
+        const alt = w.setTimeout;
+        if (typeof alt !== "function") return;
+        w.setTimeout = new Proxy(alt, {
+          apply(f, dies, a) {
+            try {
+              if ((verzoegerung === -1 || a[1] === verzoegerung) && muster.test(alsText(a[0]))) {
+                a[1] = a[1] * faktor;
+              }
+            } catch {
+            }
+            return Reflect.apply(f, dies, a);
+          }
+        });
+      },
+      "remove-node-text"(args) {
+        ersetzeKnotentext(args[0] ?? "", "", "", ["includes", args[1] ?? "", ...args.slice(2)]);
+      },
+      "trusted-replace-node-text"(args) {
+        ersetzeKnotentext(args[0] ?? "", args[1] ?? "", args[2] ?? "", args.slice(3));
       }
     };
     const kuerzel = {
@@ -610,7 +1007,12 @@ var __ADSILENCE_KARTE = "{\n\"0cbcq8mu.com\":[\n{\"name\":\"abort-current-script
       aost: "abort-on-stack-trace",
       "prevent-xhr": "no-xhr-if",
       "prevent-fetch": "no-fetch-if",
-      rc: "remove-class"
+      rc: "remove-class",
+      "nano-stb": "nano-setTimeout-booster",
+      rmnt: "remove-node-text",
+      rpnt: "trusted-replace-node-text",
+      "trusted-rpnt": "trusted-replace-node-text",
+      "replace-node-text": "trusted-replace-node-text"
     };
     for (const eintrag of eintraege) {
       try {

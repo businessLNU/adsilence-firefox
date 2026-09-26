@@ -423,6 +423,25 @@ function leseScriptletArgumente(inhalt) {
   let aktuell = "";
   for (let i = 0; i < inhalt.length; i += 1) {
     const zeichen = inhalt[i];
+    if (aktuell.trim() === "" && (zeichen === "'" || zeichen === '"' || zeichen === "`")) {
+      let ende = -1;
+      for (let j = i + 1; j < inhalt.length; j += 1) {
+        if (inhalt[j] !== zeichen) continue;
+        const danach = inhalt.slice(j + 1).match(/^\s*(,|$)/);
+        if (danach) {
+          ende = j;
+          break;
+        }
+      }
+      if (ende !== -1) {
+        teile.push(inhalt.slice(i + 1, ende));
+        const rest = inhalt.slice(ende + 1).match(/^\s*(,|$)/);
+        i = ende + rest[0].length;
+        aktuell = "";
+        if (rest[1] === "") return teile;
+        continue;
+      }
+    }
     if (zeichen === "\\" && inhalt[i + 1] === ",") {
       aktuell += ",";
       i += 1;
@@ -1075,14 +1094,27 @@ function scriptletLoader(eintraege) {
   }
   function loesche(obj, pfad) {
     const teile = pfad.split(".");
+    let geaendert = false;
     function ab(o, i) {
       if (o === null || typeof o !== "object") return;
       const name = teile[i];
+      if (name === "[-]" && Array.isArray(o)) {
+        const rest = teile.slice(i + 1).join(".");
+        for (let k = o.length - 1; k >= 0; k -= 1) {
+          if (rest === "" || hatPfad(o[k], rest)) {
+            o.splice(k, 1);
+            geaendert = true;
+          }
+        }
+        return;
+      }
       if (i === teile.length - 1) {
         if (name === "[]" && Array.isArray(o)) {
+          if (o.length) geaendert = true;
           o.length = 0;
           return;
         }
+        if (Object.prototype.hasOwnProperty.call(o, name)) geaendert = true;
         delete o[name];
         return;
       }
@@ -1097,6 +1129,7 @@ function scriptletLoader(eintraege) {
       ab(o[name], i + 1);
     }
     ab(obj, 0);
+    return geaendert;
   }
   function hatPfad(obj, pfad) {
     let o = obj;
@@ -1249,6 +1282,242 @@ function scriptletLoader(eintraege) {
     bau.prototype = attrappe;
     fallen(gross, () => bau, () => bau);
     fallen(klein, () => attrappe, () => attrappe);
+  }
+  const PARSE_ROH = (() => {
+    const ablage = "__adsilenceJsonParse";
+    if (typeof w[ablage] !== "function") w[ablage] = w.JSON.parse;
+    return w[ablage];
+  })();
+  function regexAus(text, flags, ganz = false) {
+    if (text === "") return /^/;
+    const m = /^\/(.+)\/([gimsu]*)$/.exec(text);
+    if (m) {
+      try {
+        return new RegExp(m[1], m[2] || void 0);
+      } catch {
+        return /^/;
+      }
+    }
+    const woertlich = text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    return new RegExp(ganz ? "^" + woertlich + "$" : woertlich, flags);
+  }
+  function zusatz(rest) {
+    const aus = {};
+    for (let i = 0; i + 1 < rest.length; i += 2) aus[rest[i]] = rest[i + 1];
+    return aus;
+  }
+  function trifftProps(props, werte) {
+    if (props === "") return true;
+    return trifftAnfrage(eigenschaften(props), werte);
+  }
+  function fetchWerte(a) {
+    const werte = { url: "", method: "GET" };
+    const quelle = a[0];
+    const optionen = a[1];
+    if (quelle !== null && typeof quelle === "object" && "url" in quelle) {
+      werte["url"] = alsText(quelle.url);
+      const m = quelle.method;
+      if (m) werte["method"] = alsText(m);
+    } else {
+      werte["url"] = alsText(quelle);
+    }
+    if (optionen && typeof optionen === "object" && optionen.method) werte["method"] = alsText(optionen.method);
+    return werte;
+  }
+  function umschreibeFetch(props, aendere) {
+    const alt = w.fetch;
+    const Antwort = w.Response;
+    if (typeof alt !== "function" || typeof Antwort !== "function") return;
+    w.fetch = new Proxy(alt, {
+      apply(f, dies, a) {
+        const versprochen = Reflect.apply(f, dies, a);
+        let werte;
+        try {
+          werte = fetchWerte(a);
+        } catch {
+          return versprochen;
+        }
+        if (!trifftProps(props, werte)) return versprochen;
+        return versprochen.then((vorher) => {
+          const v = vorher;
+          if (!v || typeof v.clone !== "function") return vorher;
+          let kopie;
+          try {
+            kopie = v.clone();
+          } catch {
+            return vorher;
+          }
+          return kopie.text().then((text) => {
+            let neu = null;
+            try {
+              neu = aendere(text);
+            } catch {
+              neu = null;
+            }
+            if (neu === null) return vorher;
+            const n = new Antwort(neu, { status: v.status, statusText: v.statusText, headers: v.headers });
+            try {
+              Object.defineProperties(n, {
+                ok: { value: v.ok },
+                redirected: { value: v.redirected },
+                type: { value: v.type },
+                url: { value: v.url }
+              });
+            } catch {
+            }
+            return n;
+          }, () => vorher);
+        });
+      }
+    });
+  }
+  function umschreibeXhr(props, aendereText, aendereObjekt) {
+    const Basis = w.XMLHttpRequest;
+    if (typeof Basis !== "function") return;
+    const merk = /* @__PURE__ */ new WeakMap();
+    w.XMLHttpRequest = class extends Basis {
+      open(methode, adresse, ...rest) {
+        try {
+          if (trifftProps(props, { url: alsText(adresse), method: alsText(methode) })) merk.set(this, {});
+          else merk.delete(this);
+        } catch {
+        }
+        Basis.prototype.open.call(this, methode, adresse, ...rest);
+      }
+      get response() {
+        const innen = super.response;
+        const eintrag = merk.get(this);
+        if (!eintrag) return innen;
+        const laenge = typeof innen === "string" ? innen.length : void 0;
+        if (eintrag.laenge !== laenge) {
+          eintrag.fertig = false;
+          eintrag.laenge = laenge;
+        }
+        if (eintrag.fertig) return eintrag.antwort;
+        let aus = innen;
+        try {
+          if (typeof innen === "string") {
+            const neu = aendereText(innen);
+            if (neu !== null) aus = neu;
+          } else if (innen !== null && typeof innen === "object" && aendereObjekt) {
+            aendereObjekt(innen);
+          }
+        } catch {
+        }
+        if (this.readyState === 4) {
+          eintrag.antwort = aus;
+          eintrag.fertig = true;
+        }
+        return aus;
+      }
+      get responseText() {
+        const r = this.response;
+        return typeof r === "string" ? r : super.responseText;
+      }
+    };
+  }
+  function beschneideText(text, pfade, pflicht) {
+    const erstes = text.trimStart().charAt(0);
+    if (erstes !== "{" && erstes !== "[") return null;
+    let daten;
+    try {
+      daten = PARSE_ROH(text);
+    } catch {
+      return null;
+    }
+    if (pflicht.length && !pflicht.every((p) => hatPfad(daten, p))) return null;
+    let geaendert = false;
+    for (const p of pfade) if (loesche(daten, p)) geaendert = true;
+    return geaendert ? JSON.stringify(daten) : null;
+  }
+  function ersetzeKnotentext(knoten, musterText, ersatz, rest) {
+    const doc = w.document;
+    if (!doc) return;
+    const knotenRe = regexAus(knoten, "i", true);
+    const muster = regexAus(musterText, "gms");
+    const extra = zusatz(rest);
+    const bedingung = extra["includes"] || extra["condition"];
+    const nur = bedingung ? regexAus(bedingung, "ms") : null;
+    const ohne = extra["excludes"] ? regexAus(extra["excludes"], "ms") : null;
+    let uebrig = extra["sedCount"] ? parseInt(extra["sedCount"], 10) : Number.MAX_SAFE_INTEGER;
+    if (isNaN(uebrig)) uebrig = Number.MAX_SAFE_INTEGER;
+    const bleibt = Boolean(extra["stay"]);
+    const spaeter = extra["quitAfter"] ? parseInt(extra["quitAfter"], 10) || 0 : 0;
+    let alsSkript = (t) => t;
+    try {
+      const tt = w.trustedTypes;
+      if (tt && typeof tt.getPropertyType === "function" && tt.getPropertyType("script", "textContent") === "TrustedScript") {
+        const richtlinie = tt.createPolicy("adsilence" + Math.random().toString(36).slice(2), { createScript: (t) => t });
+        alsSkript = (t) => richtlinie.createScript(t);
+      }
+    } catch {
+    }
+    const behandle2 = (n) => {
+      const vorher = alsText(n.textContent ?? "");
+      if (nur) {
+        nur.lastIndex = 0;
+        if (!nur.test(vorher)) return;
+      }
+      if (ohne) {
+        ohne.lastIndex = 0;
+        if (ohne.test(vorher)) return;
+      }
+      muster.lastIndex = 0;
+      if (!muster.test(vorher)) return;
+      muster.lastIndex = 0;
+      const nachher = musterText !== "" ? vorher.replace(muster, ersatz) : ersatz;
+      n.textContent = n.nodeName === "SCRIPT" ? alsSkript(nachher) : nachher;
+      uebrig -= 1;
+    };
+    const baum = (wurzel) => {
+      const gang = doc.createTreeWalker(wurzel, 1 | 4);
+      const aktuell = doc.currentScript;
+      for (; ; ) {
+        const n = gang.nextNode();
+        if (n === null) break;
+        if (n === aktuell) continue;
+        if (knotenRe.test(n.nodeName)) behandle2(n);
+        else if (n.nodeName === "TEMPLATE" && n.content) baum(n.content);
+        else continue;
+        if (uebrig <= 0) break;
+      }
+    };
+    try {
+      if (doc.documentElement) baum(doc.documentElement);
+    } catch {
+    }
+    if (uebrig <= 0 && !bleibt) return;
+    const Beobachter = w.MutationObserver;
+    if (typeof Beobachter !== "function") return;
+    const verarbeite = (liste) => {
+      for (const m of liste) {
+        for (const n of Array.from(m.addedNodes)) {
+          if (knotenRe.test(n.nodeName)) behandle2(n);
+          else if (n.nodeName === "TEMPLATE" && n.content) baum(n.content);
+          else continue;
+          if (uebrig <= 0 && !bleibt) {
+            beobachter.disconnect();
+            return;
+          }
+        }
+      }
+    };
+    const beobachter = new Beobachter(verarbeite);
+    const halt = () => {
+      try {
+        verarbeite(beobachter.takeRecords());
+        beobachter.disconnect();
+      } catch {
+      }
+    };
+    beobachter.observe(doc, { childList: true, subtree: true });
+    if (bleibt) return;
+    const beiInteraktiv = () => {
+      if (spaeter === 0) halt();
+      else globalThis.setTimeout(halt, spaeter);
+    };
+    if (doc.readyState !== "loading") beiInteraktiv();
+    else doc.addEventListener("DOMContentLoaded", beiInteraktiv, { once: true });
   }
   const bibliothek = {
     "abort-on-property-read"(args) {
@@ -1537,6 +1806,153 @@ function scriptletLoader(eintraege) {
         } catch {
         }
       }, 15e3);
+    },
+    /*
+     * ── Antworten umschreiben, BEVOR die Seite sie liest ────────────────────
+     *
+     * Nachgebaut nach uBlock Origin (GPL-3.0, wie AdSilence), weil YouTube
+     * seit 2025 genau darauf antwortet: Ein Blocker, der die Werbeanfragen
+     * abweist, die Werbeplaetze in der Player-Antwort aber stehen laesst, wird
+     * erkannt — „Werbeblocker sind auf YouTube nicht erlaubt". GEMESSEN am
+     * 26.09.2026: Die YouTube-Regeln aus uBlocks Schnellkorrekturen brauchten
+     * sieben Scriptlets, die es hier nicht gab; unser Paket liess sie beim Bau
+     * fallen. Diese hier kommen nur aus vertrauenswuerdigen Listen
+     * (`brauchtVertrauen()` in src/engine/scriptlets.ts).
+     */
+    "trusted-replace-fetch-response"(args) {
+      const roh = args[0] ?? "";
+      if (roh === "") return;
+      const muster = regexAus(roh === "*" ? ".*" : roh);
+      const ersatz = args[1] ?? "";
+      const props = args[2] ?? "";
+      const extra = zusatz(args.slice(3));
+      const nur = extra["includes"] ? regexAus(extra["includes"]) : null;
+      umschreibeFetch(props, (text) => {
+        if (nur) {
+          nur.lastIndex = 0;
+          if (!nur.test(text)) return null;
+        }
+        muster.lastIndex = 0;
+        const neu = text.replace(muster, ersatz);
+        return neu === text ? null : neu;
+      });
+    },
+    "trusted-replace-xhr-response"(args) {
+      const roh = args[0] ?? "";
+      if (roh === "") return;
+      const muster = regexAus(roh === "*" ? ".*" : roh);
+      const ersatz = args[1] ?? "";
+      const props = args[2] ?? "";
+      const extra = zusatz(args.slice(3));
+      const nur = extra["includes"] ? regexAus(extra["includes"]) : null;
+      umschreibeXhr(props, (text) => {
+        if (nur) {
+          nur.lastIndex = 0;
+          if (!nur.test(text)) return null;
+        }
+        muster.lastIndex = 0;
+        const neu = text.replace(muster, ersatz);
+        return neu === text ? null : neu;
+      });
+    },
+    "json-prune-fetch-response"(args) {
+      const pfade = (args[0] ?? "").split(/\s+/).filter(Boolean);
+      const pflicht = (args[1] ?? "").split(/\s+/).filter(Boolean);
+      const extra = zusatz(args.slice(2));
+      if (pfade.length === 0) return;
+      umschreibeFetch(extra["propsToMatch"] ?? "", (text) => beschneideText(text, pfade, pflicht));
+    },
+    "json-prune-xhr-response"(args) {
+      const pfade = (args[0] ?? "").split(/\s+/).filter(Boolean);
+      const pflicht = (args[1] ?? "").split(/\s+/).filter(Boolean);
+      const extra = zusatz(args.slice(2));
+      if (pfade.length === 0) return;
+      umschreibeXhr(extra["propsToMatch"] ?? "", (text) => beschneideText(text, pfade, pflicht), (obj) => {
+        if (pflicht.length && !pflicht.every((p) => hatPfad(obj, p))) return false;
+        let geaendert = false;
+        for (const p of pfade) if (loesche(obj, p)) geaendert = true;
+        return geaendert;
+      });
+    },
+    /*
+     * Die Umgehung ueber einen leeren Rahmen: Eine Seite haengt ein
+     * `about:blank`-iframe an und holt sich dort ein UNBERUEHRTES `fetch` oder
+     * `JSON.parse` — an allen Scriptlets oben vorbei. Nach dem Anhaengen
+     * bekommt der Rahmen deshalb unsere Fassung.
+     */
+    "trusted-prevent-dom-bypass"(args) {
+      const methode = args[0] ?? "";
+      const ziel = args[1] ?? "";
+      if (methode === "") return;
+      const kette = methode.split(".");
+      const name = kette.pop();
+      let traeger = w;
+      for (const glied of kette) traeger = traeger == null ? void 0 : traeger[glied];
+      if (traeger == null) return;
+      const t = traeger;
+      const alt = t[name];
+      if (typeof alt !== "function") return;
+      const Element = w.HTMLElement;
+      t[name] = new Proxy(alt, {
+        apply(f, dies, a) {
+          const ergebnis = Reflect.apply(f, dies, a);
+          for (const el of a) {
+            try {
+              if (!Element || !(el instanceof Element)) continue;
+              const fenster = el.contentWindow;
+              if (!fenster || alsText(fenster) !== "[object Window]") continue;
+              const adresse = fenster["location"].href;
+              if (adresse !== "about:blank" && adresse !== w.location.href) continue;
+              if (ziel === "") {
+                Object.defineProperty(el, "contentWindow", { value: w });
+                continue;
+              }
+              const glieder = ziel.split(".");
+              const letztes = glieder.pop();
+              let ich = w;
+              let es = fenster;
+              for (const g of glieder) {
+                ich = ich[g];
+                es = es[g];
+              }
+              es[letztes] = ich[letztes];
+            } catch {
+            }
+          }
+          return ergebnis;
+        }
+      });
+    },
+    /*
+     * Timer beschleunigen: Wartet die Seite `verzoegerung` Millisekunden auf
+     * einen Rueckruf, der zum Muster passt, wird die Wartezeit mit `faktor`
+     * multipliziert (0,001 bis 50). uBlocks `nano-setTimeout-booster`.
+     */
+    "nano-setTimeout-booster"(args) {
+      const muster = regexAus(args[0] ?? "");
+      let verzoegerung = (args[1] ?? "") !== "*" ? parseInt(args[1] ?? "", 10) : -1;
+      if (isNaN(verzoegerung) || !isFinite(verzoegerung)) verzoegerung = 1e3;
+      let faktor = parseFloat(args[2] ?? "");
+      faktor = !isNaN(faktor) && isFinite(faktor) ? Math.min(Math.max(faktor, 1e-3), 50) : 0.05;
+      const alt = w.setTimeout;
+      if (typeof alt !== "function") return;
+      w.setTimeout = new Proxy(alt, {
+        apply(f, dies, a) {
+          try {
+            if ((verzoegerung === -1 || a[1] === verzoegerung) && muster.test(alsText(a[0]))) {
+              a[1] = a[1] * faktor;
+            }
+          } catch {
+          }
+          return Reflect.apply(f, dies, a);
+        }
+      });
+    },
+    "remove-node-text"(args) {
+      ersetzeKnotentext(args[0] ?? "", "", "", ["includes", args[1] ?? "", ...args.slice(2)]);
+    },
+    "trusted-replace-node-text"(args) {
+      ersetzeKnotentext(args[0] ?? "", args[1] ?? "", args[2] ?? "", args.slice(3));
     }
   };
   const kuerzel = {
@@ -1550,7 +1966,12 @@ function scriptletLoader(eintraege) {
     aost: "abort-on-stack-trace",
     "prevent-xhr": "no-xhr-if",
     "prevent-fetch": "no-fetch-if",
-    rc: "remove-class"
+    rc: "remove-class",
+    "nano-stb": "nano-setTimeout-booster",
+    rmnt: "remove-node-text",
+    rpnt: "trusted-replace-node-text",
+    "trusted-rpnt": "trusted-replace-node-text",
+    "replace-node-text": "trusted-replace-node-text"
   };
   for (const eintrag of eintraege) {
     try {
@@ -1583,7 +2004,15 @@ var BEKANNTE_SCRIPTLETS = [
   "abort-on-stack-trace",
   "no-xhr-if",
   "no-fetch-if",
-  "remove-class"
+  "remove-class",
+  "trusted-replace-fetch-response",
+  "trusted-replace-xhr-response",
+  "json-prune-fetch-response",
+  "json-prune-xhr-response",
+  "trusted-prevent-dom-bypass",
+  "nano-setTimeout-booster",
+  "remove-node-text",
+  "trusted-replace-node-text"
 ];
 
 // src/engine/scriptlets.ts
@@ -1607,7 +2036,12 @@ var KUERZEL = {
   "prevent-xhr": "no-xhr-if",
   "prevent-fetch": "no-fetch-if",
   rc: "remove-class",
-  "bab-defuser": "nobab"
+  "bab-defuser": "nobab",
+  "nano-stb": "nano-setTimeout-booster",
+  rmnt: "remove-node-text",
+  rpnt: "trusted-replace-node-text",
+  "trusted-rpnt": "trusted-replace-node-text",
+  "replace-node-text": "trusted-replace-node-text"
 };
 function scriptletName(name) {
   const kern = name.trim().replace(/\.js$/, "");

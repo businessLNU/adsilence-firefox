@@ -1,4 +1,4 @@
-var __ADSILENCE_KARTE = "{\n\"10.com.au\":[\n{\"name\":\"set-constant\",\"args\":[\"moatPrebidApi\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"moatPrebidApi.getMoatTargetingForPage\",\"noopFunc\"]}\n],\n\"10play.com.au\":[\n{\"name\":\"set-constant\",\"args\":[\"moatPrebidApi\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"moatPrebidApi.getMoatTargetingForPage\",\"noopFunc\"]}\n],\n\"17track.net\":[\n{\"name\":\"set-constant\",\"args\":[\"ga.sendGaEvent\",\"noopFunc\"]}\n],\n\"9now.nine.com.au\":[\n{\"name\":\"set-constant\",\"args\":[\"Adkit\",\"noopFunc\"]}\n],\n\"abs-cbn.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"ads.viralize.tv\"]}\n],\n\"account.bhvr.com\":[\n{\"name\":\"set-constant\",\"args\":[\"Osano\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"Osano.cm\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"Osano.cm.addEventListener\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"Osano.cm.removeEventListener\",\"noopFunc\"]}\n],\n\"amboss.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ambossAnalytics\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"ambossAnalytics.getUserAttribution\",\"noopFunc\"]}\n],\n\"arsiv.mackolik.com\":[\n{\"name\":\"set-constant\",\"args\":[\"AdmostClient\",\"{}\"]}\n],\n\"as.com\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"googlesyndication\"]},\n{\"name\":\"set-constant\",\"args\":[\"DTM.trackAsyncPV\",\"noopFunc\"]}\n],\n\"azby.fmworld.net\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"/recommendations.\"]}\n],\n\"bandyforbundet.no\":[\n{\"name\":\"set-constant\",\"args\":[\"adn\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"adn.clearDivs\",\"noopFunc\"]}\n],\n\"bbc.com\":[\n{\"name\":\"set-constant\",\"args\":[\"dvtag.getTargeting\",\"trueFunc\"]}\n],\n\"bikeportland.org\":[\n{\"name\":\"set-constant\",\"args\":[\"gform.utils\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"gform.utils.trigger\",\"noopFunc\"]}\n],\n\"bing.com\":[\n{\"name\":\"no-setInterval-if\",\"args\":[\"logQueue\",\"10000\"]}\n],\n\"biologianet.com\":[\n{\"name\":\"set-constant\",\"args\":[\"UOLPD\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"UOLPD.dataLayer\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"__configuredDFPTags\",\"{}\"]}\n],\n\"bluerabbitrx.com\":[\n{\"name\":\"set-constant\",\"args\":[\"_etmc\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"_etmc.push\",\"noopFunc\"]}\n],\n\"book.trivago.com\":[\n{\"name\":\"set-constant\",\"args\":[\"RISKX\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"RISKX.go\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"RISKX.setSid\",\"noopFunc\"]}\n],\n\"br.de\":[\n{\"name\":\"set-constant\",\"args\":[\"akamaiDisableServerIpLookup\",\"noopFunc\"]}\n],\n\"bristan.com\":[\n{\"name\":\"set-constant\",\"args\":[\"stLight\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"stLight.options\",\"noopFunc\"]}\n],\n\"brother-usa.com\":[\n{\"name\":\"set-constant\",\"args\":[\"utag\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"utag.link\",\"noopFunc\"]}\n],\n\"businessinsider.com\":[\n{\"name\":\"no-setInterval-if\",\"args\":[\"setInterval\"]}\n],\n\"cadenadial.com\":[\n{\"name\":\"abort-on-stack-trace\",\"args\":[\"History\",\"/(^(?!.*(Function|HTMLDocument).*))/\"]}\n],\n\"campusfrance.org\":[\n{\"name\":\"set-constant\",\"args\":[\"pa\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"pa.sendEvent\",\"noopFunc\"]}\n],\n\"caracol.com.co\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"googlesyndication\"]},\n{\"name\":\"set-constant\",\"args\":[\"DTM.trackAsyncPV\",\"noopFunc\"]}\n],\n\"cbc.ca\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"click\",\"/event_callback=function\\\\(\\\\){window\\\\.location=t\\\\.getAttribute\\\\(\\\"href\\\"\\\\)/\"]}\n],\n\"cerbahealthcare.it\":[\n{\"name\":\"set-constant\",\"args\":[\"pa\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.setConfigurations\",\"noopFunc\"]}\n],\n\"choose.kaiserpermanente.org\":[\n{\"name\":\"set-constant\",\"args\":[\"_satellite.kpCustomEvent\",\"noopFunc\"]}\n],\n\"citibank.com.sg\":[\n{\"name\":\"set-constant\",\"args\":[\"populateClientData4RBA\",\"noopFunc\"]}\n],\n\"clickhole.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ga\",\"noopFunc\"]}\n],\n\"clickjogos.com.br\":[\n{\"name\":\"set-constant\",\"args\":[\"ShowRewards\",\"noopFunc\"]}\n],\n\"code.world\":[\n{\"name\":\"set-constant\",\"args\":[\"WURFL\",\"{}\"]}\n],\n\"commande.rhinov.pro\":[\n{\"name\":\"set-constant\",\"args\":[\"Sentry\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"Sentry.init\",\"noopFunc\"]}\n],\n\"conceptoweb-studio.com\":[\n{\"name\":\"set-constant\",\"args\":[\"initJWPlayerMux\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"initJWPlayerMux.utils\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"initJWPlayerMux.utils.now\",\"noopFunc\"]}\n],\n\"coolmathgames.com\":[\n{\"name\":\"set-constant\",\"args\":[\"network_user_id\",\"''\"]}\n],\n\"cyclingnews.com\":[\n{\"name\":\"abort-on-property-read\",\"args\":[\"MONETIZER101.init\"]}\n],\n\"damndelicious.net\":[\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype._adsDisabled\",\"true\"]}\n],\n\"dark-gaming.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"lr-ingest.io\"]}\n],\n\"deadspin.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ga\",\"noopFunc\"]}\n],\n\"developer.arm.com\":[\n{\"name\":\"set-constant\",\"args\":[\"Munchkin\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"Munchkin.init\",\"noopFunc\"]}\n],\n\"digicol.dpm.org.cn\":[\n{\"name\":\"set-constant\",\"args\":[\"dplus\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"dplus.track\",\"noopFunc\"]}\n],\n\"ds.163.com\":[\n{\"name\":\"set-constant\",\"args\":[\"Sentry\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"Sentry.init\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"Sentry.configureScope\",\"noopFunc\"]}\n],\n\"dukeofed.org\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"click\",\"\",\"elements\",\".dropdown-menu a[href]\"]}\n],\n\"ebc.com.br\":[\n{\"name\":\"set-constant\",\"args\":[\"executaGoogleAnalytics3\",\"noopFunc\"]}\n],\n\"ecom.wixapps.net\":[\n{\"name\":\"set-constant\",\"args\":[\"Sentry\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"Sentry.init\",\"noopFunc\"]}\n],\n\"epson.com.cn\":[\n{\"name\":\"set-constant\",\"args\":[\"_gsq\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"_gsq.push\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"_gsDevice\",\"''\"]}\n],\n\"eservice.directauto.com\":[\n{\"name\":\"set-constant\",\"args\":[\"gtm\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"gtm.trackEvent\",\"noopFunc\"]}\n],\n\"factable.com\":[\n{\"name\":\"set-constant\",\"args\":[\"googletag.cmd\",\"{}\"]}\n],\n\"fandom.com\":[\n{\"name\":\"set-constant\",\"args\":[\"optimizely\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"optimizely.initialized\",\"true\"]}\n],\n\"flygbussarna.se\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"/piwik-\"]}\n],\n\"forum.dji.com\":[\n{\"name\":\"set-constant\",\"args\":[\"sensorsDataAnalytic201505\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"sensorsDataAnalytic201505.track\",\"noopFunc\"]}\n],\n\"foxbusiness.com\":[\n{\"name\":\"set-constant\",\"args\":[\"Taplytics\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"Taplytics.featureFlagEnabled\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"Taplytics.runningExperiments\",\"noopFunc\"]}\n],\n\"foxnews.com\":[\n{\"name\":\"set-constant\",\"args\":[\"Taplytics\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"Taplytics.featureFlagEnabled\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"Taplytics.runningExperiments\",\"noopFunc\"]}\n],\n\"futura-sciences.com\":[\n{\"name\":\"set-constant\",\"args\":[\"pa\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"pa.privacy\",\"{}\"]}\n],\n\"gala.fr\":[\n{\"name\":\"set-constant\",\"args\":[\"DD_RUM.addTiming\",\"noopFunc\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"doubleclick\"]}\n],\n\"gazzetta.gr\":[\n{\"name\":\"set-constant\",\"args\":[\"Adman\",\"{}\"]}\n],\n\"geiriadur.ac.uk\":[\n{\"name\":\"set-constant\",\"args\":[\"fingerprint\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"get_fingerprint\",\"noopFunc\"]}\n],\n\"geo.fr\":[\n{\"name\":\"set-constant\",\"args\":[\"DD_RUM.addTiming\",\"noopFunc\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"doubleclick\"]}\n],\n\"gizmodo.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ga\",\"noopFunc\"]}\n],\n\"gloucestershirelive.co.uk\":[\n{\"name\":\"set-constant\",\"args\":[\"chameleonVideo.adDisabledRequested\",\"true\"]}\n],\n\"grasshopper.com\":[\n{\"name\":\"set-constant\",\"args\":[\"google_optimize\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"google_optimize.get\",\"noopFunc\"]}\n],\n\"gry-online.pl\":[\n{\"name\":\"set-constant\",\"args\":[\"jad\",\"undefined\"]}\n],\n\"hagerty.com\":[\n{\"name\":\"set-constant\",\"args\":[\"MT\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"MT.track\",\"noopFunc\"]}\n],\n\"hdfcfund.com\":[\n{\"name\":\"set-constant\",\"args\":[\"smartech\",\"noopFunc\"]}\n],\n\"help.cashctrl.com\":[\n{\"name\":\"set-constant\",\"args\":[\"Origami\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"Origami.fastclick\",\"noopFunc\"]}\n],\n\"hikvision.com\":[\n{\"name\":\"set-constant\",\"args\":[\"pa\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"pa.getVisitorId\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"pa.sendEvent\",\"noopFunc\"]}\n],\n\"html5.gamedistribution.com\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"api\"]}\n],\n\"humanbenchmark.com\":[\n{\"name\":\"set-constant\",\"args\":[\"pubg.unload\",\"noopFunc\"]}\n],\n\"iceland.co.uk\":[\n{\"name\":\"set-constant\",\"args\":[\"fp\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"fp.t\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"fp.s\",\"noopFunc\"]}\n],\n\"id.condenast.com\":[\n{\"name\":\"set-constant\",\"args\":[\"appInfo.snowplow.trackSelfDescribingEvent\",\"noopFunc\"]}\n],\n\"imasdk.googleapis.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"worldsurfleague.com\",\"war:noop-vmap1.0.xml\"]}\n],\n\"indeed.com\":[\n{\"name\":\"set-constant\",\"args\":[\"DD_RUM.addAction\",\"noopFunc\"]}\n],\n\"independent.co.uk\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"doubleclick\"]}\n],\n\"ioe.vn\":[\n{\"name\":\"set-constant\",\"args\":[\"fingerprint\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"fingerprint.getCookie\",\"noopFunc\"]}\n],\n\"iogames.space\":[\n{\"name\":\"set-constant\",\"args\":[\"ramp\",\"undefined\"]}\n],\n\"jacksonguitars.com\":[\n{\"name\":\"set-constant\",\"args\":[\"analytics\",\"{}\"]}\n],\n\"jalopnik.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ga\",\"noopFunc\"]}\n],\n\"jezebel.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ga\",\"noopFunc\"]}\n],\n\"kb.arlo.com\":[\n{\"name\":\"set-constant\",\"args\":[\"_vwo_code\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"_vwo_code.init\",\"noopFunc\"]}\n],\n\"kcra.com\":[\n{\"name\":\"set-constant\",\"args\":[\"google.ima.settings.setDisableFlashAds\",\"noopFunc\"]}\n],\n\"kicker.de\":[\n{\"name\":\"set-constant\",\"args\":[\"initializeslideshow\",\"noopFunc\"]}\n],\n\"kino.de\":[\n{\"name\":\"set-constant\",\"args\":[\"adex\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"adex.getAdexUser\",\"noopFunc\"]}\n],\n\"kotaku.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ga\",\"noopFunc\"]}\n],\n\"larazon.es\":[\n{\"name\":\"set-constant\",\"args\":[\"gfkS2sExtension\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"gfkS2sExtension.HTML5VODExtension\",\"noopFunc\"]}\n],\n\"lastampa.it\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\"googleFC\"]}\n],\n\"lifehacker.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ga\",\"noopFunc\"]}\n],\n\"livemint.com\":[\n{\"name\":\"set-constant\",\"args\":[\"dapTracker\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"dapTracker.track\",\"noopFunc\"]}\n],\n\"login.asda.com\":[\n{\"name\":\"set-constant\",\"args\":[\"newrelic\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"newrelic.setCustomAttribute\",\"noopFunc\"]}\n],\n\"los40.com\":[\n{\"name\":\"set-constant\",\"args\":[\"huecosPBS.nstdX\",\"null\"]},\n{\"name\":\"no-fetch-if\",\"args\":[\"googlesyndication\"]},\n{\"name\":\"set-constant\",\"args\":[\"DTM.trackAsyncPV\",\"noopFunc\"]}\n],\n\"lumens.com\":[\n{\"name\":\"set-constant\",\"args\":[\"_satellite\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"_satellite.track\",\"noopFunc\"]}\n],\n\"macrotrends.net\":[\n{\"name\":\"set-constant\",\"args\":[\"clicky\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"clicky.goal\",\"noopFunc\"]}\n],\n\"mandai.com\":[\n{\"name\":\"set-constant\",\"args\":[\"adobeDataLayer\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"adobeDataLayer.push\",\"noopFunc\"]}\n],\n\"marketplace.nvidia.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ClickOmniPartner\",\"noopFunc\"]}\n],\n\"meteoetradar.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"doubleclick\"]}\n],\n\"mobile.de\":[\n{\"name\":\"set-constant\",\"args\":[\"optimizelyDatafile\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"optimizelyDatafile.featureFlags\",\"[]\"]}\n],\n\"myair.resmed.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"1.1.1.1/cdn-cgi/trace\"]}\n],\n\"myair2.resmed.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"cloudflare.com/cdn-cgi/trace\"]}\n],\n\"myfitnesspal.com\":[\n{\"name\":\"set-constant\",\"args\":[\"dataLayer.push\",\"noopFunc\"]}\n],\n\"nbcsports.com\":[\n{\"name\":\"set-constant\",\"args\":[\"mParticle.Identity.getCurrentUser\",\"noopFunc\"]}\n],\n\"netoff.co.jp\":[\n{\"name\":\"set-constant\",\"args\":[\"_etmc\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"_etmc.push\",\"noopFunc\"]}\n],\n\"nettiauto.com\":[\n{\"name\":\"set-constant\",\"args\":[\"listingGoogleEETracking\",\"noopFunc\"]}\n],\n\"oe24.at\":[\n{\"name\":\"set-constant\",\"args\":[\"iom\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"iom.c\",\"noopFunc\"]}\n],\n\"officedepot.co.cr\":[\n{\"name\":\"set-constant\",\"args\":[\"mediator\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.subscribe\",\"noopFunc\"]}\n],\n\"optimum.net\":[\n{\"name\":\"set-constant\",\"args\":[\"s\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"s.tl\",\"noopFunc\"]}\n],\n\"pasteboard.co\":[\n{\"name\":\"set-constant\",\"args\":[\"nads.createAd\",\"trueFunc\"]}\n],\n\"personality-database.com\":[\n{\"name\":\"set-constant\",\"args\":[\"freestar.newAdSlots\",\"trueFunc\"]}\n],\n\"pewresearch.org\":[\n{\"name\":\"set-constant\",\"args\":[\"ga\",\"noopFunc\"]}\n],\n\"pimylifeup.com\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"marmalade\"]}\n],\n\"platform.autods.com\":[\n{\"name\":\"set-constant\",\"args\":[\"_conv_q\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"_conv_q.push\",\"noopFunc\"]}\n],\n\"player.amperwave.net\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"live.streamtheworld.com/partnerIds\"]}\n],\n\"politico.com\":[\n{\"name\":\"set-constant\",\"args\":[\"generateGalleryAd\",\"noopFunc\"]}\n],\n\"poweredbycovermore.com\":[\n{\"name\":\"set-constant\",\"args\":[\"_satellite\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"_satellite.track\",\"noopFunc\"]}\n],\n\"premio.io\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"cloudflare.com/cdn-cgi/trace\"]}\n],\n\"prisjakt.no\":[\n{\"name\":\"set-constant\",\"args\":[\"apntag.refresh\",\"noopFunc\"]}\n],\n\"prod.hydra.sophos.com\":[\n{\"name\":\"set-constant\",\"args\":[\"Sentry\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"Sentry.addBreadcrumb\",\"noopFunc\"]}\n],\n\"proxyorb.com\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"load\",\"dataset.ready\",\"elements\",\"script[src^=\\\"https://www.googletagmanager.com/gtag/js?id=\\\"]\"]}\n],\n\"pruefernavi.de\":[\n{\"name\":\"set-constant\",\"args\":[\"elasticApm\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"elasticApm.init\",\"noopFunc\"]}\n],\n\"pythonjobshq.com\":[\n{\"name\":\"abort-on-property-read\",\"args\":[\"Keen\"]}\n],\n\"scandichotels.com\":[\n{\"name\":\"set-constant\",\"args\":[\"datalayer\",\"[]\"]}\n],\n\"seazon.fr\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"url:ipapi.co\"]}\n],\n\"securegames.iwin.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"/gtm.js\"]}\n],\n\"sensacine.com\":[\n{\"name\":\"abort-on-property-read\",\"args\":[\"JadIds\"]}\n],\n\"share.hntv.tv\":[\n{\"name\":\"set-constant\",\"args\":[\"sensorsDataAnalytic201505\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"sensorsDataAnalytic201505.init\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"sensorsDataAnalytic201505.quick\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"sensorsDataAnalytic201505.track\",\"noopFunc\"]}\n],\n\"sharpen-free-design-generator.netlify.app\":[\n{\"name\":\"set-constant\",\"args\":[\"fathom\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"fathom.trackGoal\",\"noopFunc\"]}\n],\n\"slack.com\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"click\",\"window.gtag\",\"elements\",\"button#submit_btn\"]}\n],\n\"smartcharts.net\":[\n{\"name\":\"set-constant\",\"args\":[\"WURFL\",\"{}\"]}\n],\n\"socket.pearsoned.com\":[\n{\"name\":\"set-constant\",\"args\":[\"initializeNewRelic\",\"noopFunc\"]}\n],\n\"sosovalue.com\":[\n{\"name\":\"set-constant\",\"args\":[\"sensors.track\",\"noopFunc\"]}\n],\n\"splinternews.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ga\",\"noopFunc\"]}\n],\n\"standard.co.uk\":[\n{\"name\":\"set-constant\",\"args\":[\"JSGlobals.prebidEnabled\",\"false\"]}\n],\n\"sterkinekor.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ttd_dom_ready\",\"noopFunc\"]}\n],\n\"stories.los40.com\":[\n{\"name\":\"json-prune\",\"args\":[\"config.globalInteractions.[].bsData\"]}\n],\n\"stylist.co.uk\":[\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.isInitialLoadDisabled\",\"noopFunc\"]}\n],\n\"suamusica.com.br\":[\n{\"name\":\"set-constant\",\"args\":[\"gtag\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"_taboola\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"_taboola.push\",\"noopFunc\"]}\n],\n\"sunshine-live.de\":[\n{\"name\":\"set-constant\",\"args\":[\"cpd_configdata\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"cpd_configdata.url\",\"''\"]}\n],\n\"szbz.de\":[\n{\"name\":\"set-constant\",\"args\":[\"iom\",\"{}\"]}\n],\n\"tatacommunications.com\":[\n{\"name\":\"set-constant\",\"args\":[\"_vwo_code\",\"{}\"]}\n],\n\"tekniikanmaailma.fi\":[\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.disablecommercials\",\"true\"]},\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype._autoPlayOnlyWithPrerollAd\",\"false\"]}\n],\n\"telegraph.co.uk\":[\n{\"name\":\"set-constant\",\"args\":[\"_satellite\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"_satellite.getVisitorId\",\"noopFunc\"]}\n],\n\"thaiairways.com\":[\n{\"name\":\"set-constant\",\"args\":[\"dcsMultiTrack\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"urlStrArray\",\"noopFunc\"]}\n],\n\"the-independent.com\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"npttech.com/advertising.js\"]}\n],\n\"thedailybeast.com\":[\n{\"name\":\"set-constant\",\"args\":[\"_aps\",\"{}\"]}\n],\n\"thegatewaypundit.com\":[\n{\"name\":\"set-constant\",\"args\":[\"String.prototype.allReplace\",\"1\"]}\n],\n\"theinventory.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ga\",\"noopFunc\"]}\n],\n\"theonion.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ga\",\"noopFunc\"]}\n],\n\"theroot.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ga\",\"noopFunc\"]}\n],\n\"thetakeout.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ga\",\"noopFunc\"]}\n],\n\"tieba.baidu.com\":[\n{\"name\":\"set-constant\",\"args\":[\"passFingerPrint\",\"noopFunc\"]}\n],\n\"tiendaenlinea.claro.com.ni\":[\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.bk_addPageCtx\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.bk_doJSTag\",\"noopFunc\"]}\n],\n\"tipranks.com\":[\n{\"name\":\"set-constant\",\"args\":[\"TRC\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"TRC._taboolaClone\",\"[]\"]}\n],\n\"tires.costco.ca\":[\n{\"name\":\"set-constant\",\"args\":[\"adobePageView\",\"noopFunc\"]}\n],\n\"tires.costco.com\":[\n{\"name\":\"set-constant\",\"args\":[\"adobePageView\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"adobeSearchBox\",\"noopFunc\"]}\n],\n\"tntdrama.com\":[\n{\"name\":\"set-constant\",\"args\":[\"turnerAnalyticsObj\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"turnerAnalyticsObj.setVideoObject4AnalyticsProperty\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"turnerAnalyticsObj.getVideoObject4AnalyticsProperty\",\"noopFunc\"]}\n],\n\"topgear.com\":[\n{\"name\":\"set-constant\",\"args\":[\"_sp_.config.events.onSPPMObjectReady\",\"noopFunc\"]}\n],\n\"toureiffel.paris\":[\n{\"name\":\"set-constant\",\"args\":[\"pa\",\"{}\"]}\n],\n\"travelerdoor.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"cloudflare.com/cdn-cgi/trace\"]}\n],\n\"trustnet.com\":[\n{\"name\":\"set-constant\",\"args\":[\"googletag.setConfig\",\"noopFunc\"]}\n],\n\"trutv.com\":[\n{\"name\":\"set-constant\",\"args\":[\"turnerAnalyticsObj\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"turnerAnalyticsObj.setVideoObject4AnalyticsProperty\",\"noopFunc\"]}\n],\n\"unionpayintl.com\":[\n{\"name\":\"set-constant\",\"args\":[\"sensorsDataAnalytic201505\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"sensorsDataAnalytic201505.quick\",\"noopFunc\"]}\n],\n\"unito.life\":[\n{\"name\":\"abort-current-script\",\"args\":[\"KeenTracking\"]}\n],\n\"unrealengine.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"/api/analytics\"]}\n],\n\"uol.com.br\":[\n{\"name\":\"set-constant\",\"args\":[\"YT.ImaManager\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"UOLPD\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"UOLPD.dataLayer\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"__configuredDFPTags\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"URL_VAST_YOUTUBE\",\"{}\"]}\n],\n\"user.guancha.cn\":[\n{\"name\":\"set-constant\",\"args\":[\"sensors\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"sensors.init\",\"noopFunc\"]}\n],\n\"usnews.com\":[\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.vjsPlayer.ads\",\"noopFunc\"]}\n],\n\"verizon.com\":[\n{\"name\":\"set-constant\",\"args\":[\"newPageViewSpeedtest\",\"noopFunc\"]}\n],\n\"vidaextra.com\":[\n{\"name\":\"set-constant\",\"args\":[\"hasAdblocker\",\"true\"]}\n],\n\"video.gazzetta.it\":[\n{\"name\":\"set-constant\",\"args\":[\"google.ima.OmidVerificationVendor\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.omidAccessModeRules\",\"{}\"]}\n],\n\"virginmediatelevision.ie\":[\n{\"name\":\"set-constant\",\"args\":[\"google.ima.dai\",\"{}\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"/froloa.js\"]}\n],\n\"visible.com\":[\n{\"name\":\"set-constant\",\"args\":[\"adobe\",\"{}\"]}\n],\n\"viu.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"mobileanalytics\"]}\n],\n\"voici.fr\":[\n{\"name\":\"set-constant\",\"args\":[\"DD_RUM.addTiming\",\"noopFunc\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"doubleclick\"]}\n],\n\"waitrosecellar.com\":[\n{\"name\":\"set-constant\",\"args\":[\"AnalyticsEventTrackingJS\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"AnalyticsEventTrackingJS.addToBasket\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"AnalyticsEventTrackingJS.trackErrorMessage\",\"noopFunc\"]}\n],\n\"wco.tv\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"api\"]}\n],\n\"wcvb.com\":[\n{\"name\":\"set-constant\",\"args\":[\"google.ima.settings.setDisableFlashAds\",\"noopFunc\"]}\n],\n\"welsh-dictionary.ac.uk\":[\n{\"name\":\"set-constant\",\"args\":[\"fingerprint\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"get_fingerprint\",\"noopFunc\"]}\n],\n\"whatismyip.com\":[\n{\"name\":\"set-constant\",\"args\":[\"yieldlove_cmd\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"yieldlove_cmd.push\",\"noopFunc\"]}\n],\n\"worldstar.com\":[\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.shouldExpectGoogleCMP\",\"false\"]}\n],\n\"wunderground.com\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"doubleclick\"]}\n],\n\"zee5.com\":[\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.setDisableFlashAds\",\"noopFunc\"]}\n],\n\"zillow.com\":[\n{\"name\":\"set-constant\",\"args\":[\"DD_RUM.addError\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"DD_RUM.addAction\",\"noopFunc\"]}\n]\n}";
+var __ADSILENCE_KARTE = "{\n\"10.com.au\":[\n{\"name\":\"set-constant\",\"args\":[\"moatPrebidApi\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"moatPrebidApi.getMoatTargetingForPage\",\"noopFunc\"]}\n],\n\"10play.com.au\":[\n{\"name\":\"set-constant\",\"args\":[\"moatPrebidApi\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"moatPrebidApi.getMoatTargetingForPage\",\"noopFunc\"]}\n],\n\"13tv.co.il\":[\n{\"name\":\"nano-setTimeout-booster\",\"args\":[\"taboola timeout\",\"*\",\"0.001\"]},\n{\"name\":\"nano-setTimeout-booster\",\"args\":[\"clearInterval(run)\",\"5000\",\"0.001\"]}\n],\n\"17track.net\":[\n{\"name\":\"set-constant\",\"args\":[\"ga.sendGaEvent\",\"noopFunc\"]}\n],\n\"20min.ch\":[\n{\"name\":\"nano-setTimeout-booster\",\"args\":[\"readyPromise\",\"5000\",\"0.001\"]}\n],\n\"9now.nine.com.au\":[\n{\"name\":\"set-constant\",\"args\":[\"Adkit\",\"noopFunc\"]}\n],\n\"9to5google.com\":[\n{\"name\":\"trusted-replace-node-text\",\"args\":[\"script\",\"(function($)\",\"(function(){const a=document.createElement(\\\"div\\\");document.documentElement.appendChild(a),setTimeout(()=>{a&&a.remove()},100)})(); (function($)\"]}\n],\n\"9to5mac.com\":[\n{\"name\":\"trusted-replace-node-text\",\"args\":[\"script\",\"(function($)\",\"(function(){const a=document.createElement(\\\"div\\\");document.documentElement.appendChild(a),setTimeout(()=>{a&&a.remove()},100)})(); (function($)\"]}\n],\n\"abcya.com\":[\n{\"name\":\"nano-setTimeout-booster\",\"args\":[\"t++\",\"500\"]}\n],\n\"abs-cbn.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"ads.viralize.tv\"]}\n],\n\"account.bhvr.com\":[\n{\"name\":\"set-constant\",\"args\":[\"Osano\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"Osano.cm\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"Osano.cm.addEventListener\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"Osano.cm.removeEventListener\",\"noopFunc\"]}\n],\n\"amboss.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ambossAnalytics\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"ambossAnalytics.getUserAttribution\",\"noopFunc\"]}\n],\n\"api.dock.agacad.com\":[\n{\"name\":\"trusted-replace-node-text\",\"args\":[\"script\",\"/window\\\\.dataLayer.+?(location\\\\.replace\\\\(\\\\S+?\\\\)).*/\",\"$1\"]}\n],\n\"arsiv.mackolik.com\":[\n{\"name\":\"set-constant\",\"args\":[\"AdmostClient\",\"{}\"]}\n],\n\"as.com\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"googlesyndication\"]},\n{\"name\":\"set-constant\",\"args\":[\"DTM.trackAsyncPV\",\"noopFunc\"]}\n],\n\"azby.fmworld.net\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"/recommendations.\"]}\n],\n\"bandyforbundet.no\":[\n{\"name\":\"set-constant\",\"args\":[\"adn\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"adn.clearDivs\",\"noopFunc\"]}\n],\n\"bbc.com\":[\n{\"name\":\"set-constant\",\"args\":[\"dvtag.getTargeting\",\"trueFunc\"]}\n],\n\"bikeportland.org\":[\n{\"name\":\"set-constant\",\"args\":[\"gform.utils\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"gform.utils.trigger\",\"noopFunc\"]}\n],\n\"bing.com\":[\n{\"name\":\"no-setInterval-if\",\"args\":[\"logQueue\",\"10000\"]}\n],\n\"biologianet.com\":[\n{\"name\":\"set-constant\",\"args\":[\"UOLPD\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"UOLPD.dataLayer\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"__configuredDFPTags\",\"{}\"]}\n],\n\"bluerabbitrx.com\":[\n{\"name\":\"set-constant\",\"args\":[\"_etmc\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"_etmc.push\",\"noopFunc\"]}\n],\n\"book.trivago.com\":[\n{\"name\":\"set-constant\",\"args\":[\"RISKX\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"RISKX.go\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"RISKX.setSid\",\"noopFunc\"]}\n],\n\"br.de\":[\n{\"name\":\"set-constant\",\"args\":[\"akamaiDisableServerIpLookup\",\"noopFunc\"]}\n],\n\"bristan.com\":[\n{\"name\":\"set-constant\",\"args\":[\"stLight\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"stLight.options\",\"noopFunc\"]}\n],\n\"brother-usa.com\":[\n{\"name\":\"set-constant\",\"args\":[\"utag\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"utag.link\",\"noopFunc\"]}\n],\n\"businessinsider.com\":[\n{\"name\":\"no-setInterval-if\",\"args\":[\"setInterval\"]}\n],\n\"cadenadial.com\":[\n{\"name\":\"abort-on-stack-trace\",\"args\":[\"History\",\"/(^(?!.*(Function|HTMLDocument).*))/\"]}\n],\n\"campusfrance.org\":[\n{\"name\":\"set-constant\",\"args\":[\"pa\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"pa.sendEvent\",\"noopFunc\"]}\n],\n\"caracol.com.co\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"googlesyndication\"]},\n{\"name\":\"set-constant\",\"args\":[\"DTM.trackAsyncPV\",\"noopFunc\"]}\n],\n\"cbc.ca\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"click\",\"/event_callback=function\\\\(\\\\){window\\\\.location=t\\\\.getAttribute\\\\(\\\"href\\\"\\\\)/\"]}\n],\n\"cerbahealthcare.it\":[\n{\"name\":\"set-constant\",\"args\":[\"pa\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.setConfigurations\",\"noopFunc\"]}\n],\n\"choose.kaiserpermanente.org\":[\n{\"name\":\"set-constant\",\"args\":[\"_satellite.kpCustomEvent\",\"noopFunc\"]}\n],\n\"citibank.com.sg\":[\n{\"name\":\"set-constant\",\"args\":[\"populateClientData4RBA\",\"noopFunc\"]}\n],\n\"clickhole.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ga\",\"noopFunc\"]}\n],\n\"clickjogos.com.br\":[\n{\"name\":\"set-constant\",\"args\":[\"ShowRewards\",\"noopFunc\"]}\n],\n\"code.world\":[\n{\"name\":\"set-constant\",\"args\":[\"WURFL\",\"{}\"]}\n],\n\"commande.rhinov.pro\":[\n{\"name\":\"set-constant\",\"args\":[\"Sentry\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"Sentry.init\",\"noopFunc\"]}\n],\n\"conceptoweb-studio.com\":[\n{\"name\":\"set-constant\",\"args\":[\"initJWPlayerMux\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"initJWPlayerMux.utils\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"initJWPlayerMux.utils.now\",\"noopFunc\"]}\n],\n\"coolmathgames.com\":[\n{\"name\":\"set-constant\",\"args\":[\"network_user_id\",\"\"]}\n],\n\"cyclingnews.com\":[\n{\"name\":\"abort-on-property-read\",\"args\":[\"MONETIZER101.init\"]},\n{\"name\":\"nano-setTimeout-booster\",\"args\":[\"/outboundLink/\"]}\n],\n\"daily.co.jp\":[\n{\"name\":\"trusted-replace-node-text\",\"args\":[\"script\",\"/(window\\\\.AdObserverManager\\\\.register\\\\('ds[ps][cp]-footer_?r?'\\\\);)/\",\"(()=>{window.addEventListener(\\\"load\\\",(()=>{const t=document.querySelector(\\\"#openwebSection\\\"),e=document.querySelector(\\\"div[data-spot-id]\\\");if(!e||!t)return;const d=e.getAttribute(\\\"data-spot-id\\\");if(!d)return;var o;((t,e,d)=>{const o=document.createElement(\\\"div\\\");o.setAttribute(\\\"data-spotim-module\\\",\\\"conversation\\\"),o.setAttribute(\\\"data-spot-id\\\",t),o.dataset.postId=e,d.appendChild(o)})(d,Math.abs((o=document.title,[...o].reduce(((t,e)=>Math.imul(31,t)+e.charCodeAt(0)|0),0))),t);const a=document.createElement(\\\"script\\\");a.setAttribute(\\\"src\\\",`https://launcher.spot.im/spot/${d}`),a.setAttribute(\\\"async\\\",\\\"\\\"),document.head.appendChild(a)}));})();$1\",\"sedCount\",\"1\"]}\n],\n\"dailypost.co.uk\":[\n{\"name\":\"nano-setTimeout-booster\",\"args\":[\"native code\",\"15000\",\"0.001\"]},\n{\"name\":\"nano-setTimeout-booster\",\"args\":[\"(null)\",\"5000\",\"0.001\"]}\n],\n\"dailystar.co.uk\":[\n{\"name\":\"nano-setTimeout-booster\",\"args\":[\"native code\",\"15000\",\"0.001\"]},\n{\"name\":\"nano-setTimeout-booster\",\"args\":[\"(null)\",\"5000\",\"0.001\"]}\n],\n\"damndelicious.net\":[\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype._adsDisabled\",\"true\"]}\n],\n\"dark-gaming.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"lr-ingest.io\"]}\n],\n\"deadspin.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ga\",\"noopFunc\"]}\n],\n\"developer.arm.com\":[\n{\"name\":\"set-constant\",\"args\":[\"Munchkin\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"Munchkin.init\",\"noopFunc\"]}\n],\n\"digicol.dpm.org.cn\":[\n{\"name\":\"set-constant\",\"args\":[\"dplus\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"dplus.track\",\"noopFunc\"]}\n],\n\"dragonnest.com\":[\n{\"name\":\"trusted-replace-node-text\",\"args\":[\"script\",\"gtag != null\",\"false\"]}\n],\n\"ds.163.com\":[\n{\"name\":\"set-constant\",\"args\":[\"Sentry\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"Sentry.init\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"Sentry.configureScope\",\"noopFunc\"]}\n],\n\"dukeofed.org\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"click\",\"\",\"elements\",\".dropdown-menu a[href]\"]}\n],\n\"ebc.com.br\":[\n{\"name\":\"set-constant\",\"args\":[\"executaGoogleAnalytics3\",\"noopFunc\"]}\n],\n\"ecom.wixapps.net\":[\n{\"name\":\"set-constant\",\"args\":[\"Sentry\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"Sentry.init\",\"noopFunc\"]}\n],\n\"epson.com.cn\":[\n{\"name\":\"set-constant\",\"args\":[\"_gsq\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"_gsq.push\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"_gsDevice\",\"\"]}\n],\n\"eservice.directauto.com\":[\n{\"name\":\"set-constant\",\"args\":[\"gtm\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"gtm.trackEvent\",\"noopFunc\"]}\n],\n\"espn.com\":[\n{\"name\":\"json-prune-xhr-response\",\"args\":[\"stream.insertion\",\"\",\"propsToMatch\",\"/video/auth/media\"]}\n],\n\"factable.com\":[\n{\"name\":\"set-constant\",\"args\":[\"googletag.cmd\",\"{}\"]}\n],\n\"fandom.com\":[\n{\"name\":\"set-constant\",\"args\":[\"optimizely\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"optimizely.initialized\",\"true\"]}\n],\n\"flygbussarna.se\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"/piwik-\"]}\n],\n\"forum.dji.com\":[\n{\"name\":\"set-constant\",\"args\":[\"sensorsDataAnalytic201505\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"sensorsDataAnalytic201505.track\",\"noopFunc\"]}\n],\n\"foxbusiness.com\":[\n{\"name\":\"set-constant\",\"args\":[\"Taplytics\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"Taplytics.featureFlagEnabled\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"Taplytics.runningExperiments\",\"noopFunc\"]}\n],\n\"foxnews.com\":[\n{\"name\":\"set-constant\",\"args\":[\"Taplytics\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"Taplytics.featureFlagEnabled\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"Taplytics.runningExperiments\",\"noopFunc\"]}\n],\n\"futura-sciences.com\":[\n{\"name\":\"set-constant\",\"args\":[\"pa\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"pa.privacy\",\"{}\"]}\n],\n\"gala.fr\":[\n{\"name\":\"set-constant\",\"args\":[\"DD_RUM.addTiming\",\"noopFunc\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"doubleclick\"]}\n],\n\"gameplayneo.com\":[\n{\"name\":\"nano-setTimeout-booster\",\"args\":[\"adConfig\",\"*\",\"0.001\"]}\n],\n\"gazzetta.gr\":[\n{\"name\":\"set-constant\",\"args\":[\"Adman\",\"{}\"]}\n],\n\"geiriadur.ac.uk\":[\n{\"name\":\"set-constant\",\"args\":[\"fingerprint\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"get_fingerprint\",\"noopFunc\"]}\n],\n\"geo.fr\":[\n{\"name\":\"set-constant\",\"args\":[\"DD_RUM.addTiming\",\"noopFunc\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"doubleclick\"]}\n],\n\"gizmodo.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ga\",\"noopFunc\"]}\n],\n\"gloucestershirelive.co.uk\":[\n{\"name\":\"set-constant\",\"args\":[\"chameleonVideo.adDisabledRequested\",\"true\"]}\n],\n\"gocomics.com\":[\n{\"name\":\"trusted-replace-node-text\",\"args\":[\"script\",\"document.querySelectorAll\",\"window.addEventListener(\\\"load\\\",()=>{if(!document.querySelector(\\\"section[class^='ShowComicViewer-module-scss-module']\\\")){return;}const script=document.createElement(\\\"script\\\");script.src=\\\"https://cdn.viafoura.net/entry/index.js\\\";document.head.appendChild(script)});document.querySelectorAll\"]}\n],\n\"grasshopper.com\":[\n{\"name\":\"set-constant\",\"args\":[\"google_optimize\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"google_optimize.get\",\"noopFunc\"]}\n],\n\"gry-online.pl\":[\n{\"name\":\"set-constant\",\"args\":[\"jad\",\"undefined\"]}\n],\n\"hagerty.com\":[\n{\"name\":\"set-constant\",\"args\":[\"MT\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"MT.track\",\"noopFunc\"]}\n],\n\"hdfcfund.com\":[\n{\"name\":\"set-constant\",\"args\":[\"smartech\",\"noopFunc\"]}\n],\n\"help.cashctrl.com\":[\n{\"name\":\"set-constant\",\"args\":[\"Origami\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"Origami.fastclick\",\"noopFunc\"]}\n],\n\"hikvision.com\":[\n{\"name\":\"set-constant\",\"args\":[\"pa\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"pa.getVisitorId\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"pa.sendEvent\",\"noopFunc\"]}\n],\n\"html5.gamedistribution.com\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"api\"]}\n],\n\"humanbenchmark.com\":[\n{\"name\":\"set-constant\",\"args\":[\"pubg.unload\",\"noopFunc\"]}\n],\n\"iceland.co.uk\":[\n{\"name\":\"set-constant\",\"args\":[\"fp\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"fp.t\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"fp.s\",\"noopFunc\"]}\n],\n\"id.condenast.com\":[\n{\"name\":\"set-constant\",\"args\":[\"appInfo.snowplow.trackSelfDescribingEvent\",\"noopFunc\"]}\n],\n\"imasdk.googleapis.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"worldsurfleague.com\",\"war:noop-vmap1.0.xml\"]}\n],\n\"indeed.com\":[\n{\"name\":\"set-constant\",\"args\":[\"DD_RUM.addAction\",\"noopFunc\"]}\n],\n\"independent.co.uk\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"doubleclick\"]}\n],\n\"ioe.vn\":[\n{\"name\":\"set-constant\",\"args\":[\"fingerprint\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"fingerprint.getCookie\",\"noopFunc\"]}\n],\n\"iogames.space\":[\n{\"name\":\"set-constant\",\"args\":[\"ramp\",\"undefined\"]}\n],\n\"jacksonguitars.com\":[\n{\"name\":\"set-constant\",\"args\":[\"analytics\",\"{}\"]}\n],\n\"jalopnik.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ga\",\"noopFunc\"]}\n],\n\"jezebel.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ga\",\"noopFunc\"]}\n],\n\"jprime.jp\":[\n{\"name\":\"trusted-replace-node-text\",\"args\":[\"script\",\"var ISMLIB\",\"!function(){const o={apply:(o,n,r)=>(new Error).stack.includes(\\\"refreshad\\\")?0:Reflect.apply(o,n,r)};window.Math.floor=new Proxy(window.Math.floor,o)}();var ISMLIB\"]}\n],\n\"kb.arlo.com\":[\n{\"name\":\"set-constant\",\"args\":[\"_vwo_code\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"_vwo_code.init\",\"noopFunc\"]}\n],\n\"kcra.com\":[\n{\"name\":\"set-constant\",\"args\":[\"google.ima.settings.setDisableFlashAds\",\"noopFunc\"]}\n],\n\"kicker.de\":[\n{\"name\":\"set-constant\",\"args\":[\"initializeslideshow\",\"noopFunc\"]}\n],\n\"kino.de\":[\n{\"name\":\"set-constant\",\"args\":[\"adex\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"adex.getAdexUser\",\"noopFunc\"]}\n],\n\"kotaku.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ga\",\"noopFunc\"]}\n],\n\"larazon.es\":[\n{\"name\":\"set-constant\",\"args\":[\"gfkS2sExtension\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"gfkS2sExtension.HTML5VODExtension\",\"noopFunc\"]}\n],\n\"lastampa.it\":[\n{\"name\":\"no-setTimeout-if\",\"args\":[\"googleFC\"]}\n],\n\"lifehacker.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ga\",\"noopFunc\"]}\n],\n\"livemint.com\":[\n{\"name\":\"set-constant\",\"args\":[\"dapTracker\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"dapTracker.track\",\"noopFunc\"]}\n],\n\"login.asda.com\":[\n{\"name\":\"set-constant\",\"args\":[\"newrelic\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"newrelic.setCustomAttribute\",\"noopFunc\"]}\n],\n\"los40.com\":[\n{\"name\":\"set-constant\",\"args\":[\"huecosPBS.nstdX\",\"null\"]},\n{\"name\":\"no-fetch-if\",\"args\":[\"googlesyndication\"]},\n{\"name\":\"set-constant\",\"args\":[\"DTM.trackAsyncPV\",\"noopFunc\"]}\n],\n\"lumens.com\":[\n{\"name\":\"set-constant\",\"args\":[\"_satellite\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"_satellite.track\",\"noopFunc\"]}\n],\n\"macrotrends.net\":[\n{\"name\":\"set-constant\",\"args\":[\"clicky\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"clicky.goal\",\"noopFunc\"]}\n],\n\"mandai.com\":[\n{\"name\":\"set-constant\",\"args\":[\"adobeDataLayer\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"adobeDataLayer.push\",\"noopFunc\"]}\n],\n\"marketplace.nvidia.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ClickOmniPartner\",\"noopFunc\"]}\n],\n\"metacritic.com\":[\n{\"name\":\"trusted-replace-node-text\",\"args\":[\"script\",\"appName:\\\"metacritic\\\"\",\"appName:\\\"etacritic\\\"\"]}\n],\n\"meteoetradar.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"doubleclick\"]}\n],\n\"mirror.co.uk\":[\n{\"name\":\"nano-setTimeout-booster\",\"args\":[\"native code\",\"15000\",\"0.001\"]},\n{\"name\":\"nano-setTimeout-booster\",\"args\":[\"(null)\",\"5000\",\"0.001\"]}\n],\n\"mobile.de\":[\n{\"name\":\"set-constant\",\"args\":[\"optimizelyDatafile\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"optimizelyDatafile.featureFlags\",\"[]\"]}\n],\n\"myair.resmed.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"1.1.1.1/cdn-cgi/trace\"]}\n],\n\"myair2.resmed.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"cloudflare.com/cdn-cgi/trace\"]}\n],\n\"myfitnesspal.com\":[\n{\"name\":\"set-constant\",\"args\":[\"dataLayer.push\",\"noopFunc\"]}\n],\n\"nbcsports.com\":[\n{\"name\":\"set-constant\",\"args\":[\"mParticle.Identity.getCurrentUser\",\"noopFunc\"]}\n],\n\"netoff.co.jp\":[\n{\"name\":\"set-constant\",\"args\":[\"_etmc\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"_etmc.push\",\"noopFunc\"]}\n],\n\"nettiauto.com\":[\n{\"name\":\"set-constant\",\"args\":[\"listingGoogleEETracking\",\"noopFunc\"]}\n],\n\"neurotray.com\":[\n{\"name\":\"nano-setTimeout-booster\",\"args\":[\"/EzoIvent|TDELAY/\",\"5000\"]}\n],\n\"oe24.at\":[\n{\"name\":\"set-constant\",\"args\":[\"iom\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"iom.c\",\"noopFunc\"]}\n],\n\"officedepot.co.cr\":[\n{\"name\":\"set-constant\",\"args\":[\"mediator\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.subscribe\",\"noopFunc\"]}\n],\n\"optimum.net\":[\n{\"name\":\"set-constant\",\"args\":[\"s\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"s.tl\",\"noopFunc\"]}\n],\n\"ozap.com\":[\n{\"name\":\"trusted-replace-node-text\",\"args\":[\"script\",\"WB.defer\",\"window.wbads={public:{getDailymotionAdsParamsForScript:function(a,b){b(\\\"\\\")},setTargetingOnPosition:function(a,b){return}}};WB.defer\",\"condition\",\"wbads.public.setTargetingOnPosition\"]}\n],\n\"pandadoc.com\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"adBlockEnabled\"]}\n],\n\"pasteboard.co\":[\n{\"name\":\"set-constant\",\"args\":[\"nads.createAd\",\"trueFunc\"]}\n],\n\"personality-database.com\":[\n{\"name\":\"set-constant\",\"args\":[\"freestar.newAdSlots\",\"trueFunc\"]}\n],\n\"pewresearch.org\":[\n{\"name\":\"set-constant\",\"args\":[\"ga\",\"noopFunc\"]}\n],\n\"pimylifeup.com\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"marmalade\"]}\n],\n\"platform.autods.com\":[\n{\"name\":\"set-constant\",\"args\":[\"_conv_q\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"_conv_q.push\",\"noopFunc\"]}\n],\n\"player.amperwave.net\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"live.streamtheworld.com/partnerIds\"]}\n],\n\"politico.com\":[\n{\"name\":\"set-constant\",\"args\":[\"generateGalleryAd\",\"noopFunc\"]}\n],\n\"poweredbycovermore.com\":[\n{\"name\":\"set-constant\",\"args\":[\"_satellite\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"_satellite.track\",\"noopFunc\"]}\n],\n\"premio.io\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"cloudflare.com/cdn-cgi/trace\"]}\n],\n\"prisjakt.no\":[\n{\"name\":\"set-constant\",\"args\":[\"apntag.refresh\",\"noopFunc\"]}\n],\n\"prod.hydra.sophos.com\":[\n{\"name\":\"set-constant\",\"args\":[\"Sentry\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"Sentry.addBreadcrumb\",\"noopFunc\"]}\n],\n\"proxyorb.com\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"load\",\"dataset.ready\",\"elements\",\"script[src^=\\\"https://www.googletagmanager.com/gtag/js?id=\\\"]\"]}\n],\n\"pruefernavi.de\":[\n{\"name\":\"set-constant\",\"args\":[\"elasticApm\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"elasticApm.init\",\"noopFunc\"]}\n],\n\"pythonjobshq.com\":[\n{\"name\":\"abort-on-property-read\",\"args\":[\"Keen\"]}\n],\n\"reclameaqui.com.br\":[\n{\"name\":\"trusted-replace-node-text\",\"args\":[\"script\",\"!function\",\"setTimeout((()=>{document.querySelectorAll(\\\"a[href]\\\").forEach((e=>{Object.keys(e).forEach((t=>{t.startsWith(\\\"__reactProps\\\")&&\\\"function\\\"==typeof e[t].onClick&&e[t].onClick.toString().includes(\\\"preventDefault\\\")&&(e[t].onClick=void 0)}))}))}),3e3);!function\"]}\n],\n\"scandichotels.com\":[\n{\"name\":\"set-constant\",\"args\":[\"datalayer\",\"[]\"]}\n],\n\"seazon.fr\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"url:ipapi.co\"]}\n],\n\"securegames.iwin.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"/gtm.js\"]}\n],\n\"sensacine.com\":[\n{\"name\":\"abort-on-property-read\",\"args\":[\"JadIds\"]}\n],\n\"share.hntv.tv\":[\n{\"name\":\"set-constant\",\"args\":[\"sensorsDataAnalytic201505\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"sensorsDataAnalytic201505.init\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"sensorsDataAnalytic201505.quick\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"sensorsDataAnalytic201505.track\",\"noopFunc\"]}\n],\n\"sharpen-free-design-generator.netlify.app\":[\n{\"name\":\"set-constant\",\"args\":[\"fathom\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"fathom.trackGoal\",\"noopFunc\"]}\n],\n\"slack.com\":[\n{\"name\":\"prevent-addEventListener\",\"args\":[\"click\",\"window.gtag\",\"elements\",\"button#submit_btn\"]}\n],\n\"smartcharts.net\":[\n{\"name\":\"set-constant\",\"args\":[\"WURFL\",\"{}\"]}\n],\n\"socket.pearsoned.com\":[\n{\"name\":\"set-constant\",\"args\":[\"initializeNewRelic\",\"noopFunc\"]}\n],\n\"sosovalue.com\":[\n{\"name\":\"set-constant\",\"args\":[\"sensors.track\",\"noopFunc\"]}\n],\n\"splinternews.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ga\",\"noopFunc\"]}\n],\n\"standard.co.uk\":[\n{\"name\":\"set-constant\",\"args\":[\"JSGlobals.prebidEnabled\",\"false\"]},\n{\"name\":\"nano-setTimeout-booster\",\"args\":[\"[native code]\",\"3000\",\"0.001\"]},\n{\"name\":\"nano-setTimeout-booster\",\"args\":[\"i||(e(),i=!0)\",\"2500\",\"0.001\"]}\n],\n\"sterkinekor.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ttd_dom_ready\",\"noopFunc\"]}\n],\n\"stories.los40.com\":[\n{\"name\":\"json-prune\",\"args\":[\"config.globalInteractions.[].bsData\"]}\n],\n\"stylist.co.uk\":[\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.isInitialLoadDisabled\",\"noopFunc\"]}\n],\n\"suamusica.com.br\":[\n{\"name\":\"set-constant\",\"args\":[\"gtag\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"_taboola\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"_taboola.push\",\"noopFunc\"]}\n],\n\"sunshine-live.de\":[\n{\"name\":\"set-constant\",\"args\":[\"cpd_configdata\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"cpd_configdata.url\",\"\"]}\n],\n\"szbz.de\":[\n{\"name\":\"set-constant\",\"args\":[\"iom\",\"{}\"]}\n],\n\"tatacommunications.com\":[\n{\"name\":\"set-constant\",\"args\":[\"_vwo_code\",\"{}\"]}\n],\n\"tekniikanmaailma.fi\":[\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.disablecommercials\",\"true\"]},\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype._autoPlayOnlyWithPrerollAd\",\"false\"]}\n],\n\"telegraph.co.uk\":[\n{\"name\":\"set-constant\",\"args\":[\"_satellite\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"_satellite.getVisitorId\",\"noopFunc\"]}\n],\n\"thaiairways.com\":[\n{\"name\":\"set-constant\",\"args\":[\"dcsMultiTrack\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"urlStrArray\",\"noopFunc\"]}\n],\n\"the-independent.com\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"npttech.com/advertising.js\"]}\n],\n\"thedailybeast.com\":[\n{\"name\":\"set-constant\",\"args\":[\"_aps\",\"{}\"]}\n],\n\"thegatewaypundit.com\":[\n{\"name\":\"remove-node-text\",\"args\":[\"script\",\"Object.getOwnPropertyDescriptor(Document.prototype\"]},\n{\"name\":\"set-constant\",\"args\":[\"String.prototype.allReplace\",\"1\"]}\n],\n\"theinventory.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ga\",\"noopFunc\"]}\n],\n\"theonion.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ga\",\"noopFunc\"]},\n{\"name\":\"nano-setTimeout-booster\",\"args\":[\"b()\",\"3000\"]},\n{\"name\":\"nano-setTimeout-booster\",\"args\":[\"ads\",\"*\"]}\n],\n\"theroot.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ga\",\"noopFunc\"]}\n],\n\"thetakeout.com\":[\n{\"name\":\"set-constant\",\"args\":[\"ga\",\"noopFunc\"]}\n],\n\"tieba.baidu.com\":[\n{\"name\":\"set-constant\",\"args\":[\"passFingerPrint\",\"noopFunc\"]}\n],\n\"tiendaenlinea.claro.com.ni\":[\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.bk_addPageCtx\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.bk_doJSTag\",\"noopFunc\"]}\n],\n\"tierlists.com\":[\n{\"name\":\"nano-setTimeout-booster\",\"args\":[\"/TDELAY|EzoIvent/\",\"*\",\"0.001\"]}\n],\n\"tipranks.com\":[\n{\"name\":\"set-constant\",\"args\":[\"TRC\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"TRC._taboolaClone\",\"[]\"]}\n],\n\"tires.costco.ca\":[\n{\"name\":\"set-constant\",\"args\":[\"adobePageView\",\"noopFunc\"]}\n],\n\"tires.costco.com\":[\n{\"name\":\"set-constant\",\"args\":[\"adobePageView\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"adobeSearchBox\",\"noopFunc\"]}\n],\n\"tntdrama.com\":[\n{\"name\":\"set-constant\",\"args\":[\"turnerAnalyticsObj\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"turnerAnalyticsObj.setVideoObject4AnalyticsProperty\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"turnerAnalyticsObj.getVideoObject4AnalyticsProperty\",\"noopFunc\"]}\n],\n\"topgear.com\":[\n{\"name\":\"set-constant\",\"args\":[\"_sp_.config.events.onSPPMObjectReady\",\"noopFunc\"]}\n],\n\"toureiffel.paris\":[\n{\"name\":\"set-constant\",\"args\":[\"pa\",\"{}\"]}\n],\n\"travelerdoor.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"cloudflare.com/cdn-cgi/trace\"]}\n],\n\"trustnet.com\":[\n{\"name\":\"set-constant\",\"args\":[\"googletag.setConfig\",\"noopFunc\"]}\n],\n\"trutv.com\":[\n{\"name\":\"set-constant\",\"args\":[\"turnerAnalyticsObj\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"turnerAnalyticsObj.setVideoObject4AnalyticsProperty\",\"noopFunc\"]}\n],\n\"unionpayintl.com\":[\n{\"name\":\"set-constant\",\"args\":[\"sensorsDataAnalytic201505\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"sensorsDataAnalytic201505.quick\",\"noopFunc\"]}\n],\n\"unito.life\":[\n{\"name\":\"abort-current-script\",\"args\":[\"KeenTracking\"]}\n],\n\"unrealengine.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"/api/analytics\"]}\n],\n\"uol.com.br\":[\n{\"name\":\"set-constant\",\"args\":[\"YT.ImaManager\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"UOLPD\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"UOLPD.dataLayer\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"__configuredDFPTags\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"URL_VAST_YOUTUBE\",\"{}\"]}\n],\n\"user.guancha.cn\":[\n{\"name\":\"set-constant\",\"args\":[\"sensors\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"sensors.init\",\"noopFunc\"]}\n],\n\"usnews.com\":[\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.vjsPlayer.ads\",\"noopFunc\"]}\n],\n\"verizon.com\":[\n{\"name\":\"set-constant\",\"args\":[\"newPageViewSpeedtest\",\"noopFunc\"]}\n],\n\"vidaextra.com\":[\n{\"name\":\"set-constant\",\"args\":[\"hasAdblocker\",\"true\"]}\n],\n\"video.gazzetta.it\":[\n{\"name\":\"set-constant\",\"args\":[\"google.ima.OmidVerificationVendor\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.omidAccessModeRules\",\"{}\"]}\n],\n\"virginmediatelevision.ie\":[\n{\"name\":\"set-constant\",\"args\":[\"google.ima.dai\",\"{}\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"/froloa.js\"]}\n],\n\"visible.com\":[\n{\"name\":\"set-constant\",\"args\":[\"adobe\",\"{}\"]}\n],\n\"viu.com\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"mobileanalytics\"]}\n],\n\"voici.fr\":[\n{\"name\":\"set-constant\",\"args\":[\"DD_RUM.addTiming\",\"noopFunc\"]},\n{\"name\":\"no-xhr-if\",\"args\":[\"doubleclick\"]}\n],\n\"waitrosecellar.com\":[\n{\"name\":\"set-constant\",\"args\":[\"AnalyticsEventTrackingJS\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"AnalyticsEventTrackingJS.addToBasket\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"AnalyticsEventTrackingJS.trackErrorMessage\",\"noopFunc\"]}\n],\n\"watcho.com\":[\n{\"name\":\"nano-setTimeout-booster\",\"args\":[\"isPeriodic\",\"*\"]}\n],\n\"wco.tv\":[\n{\"name\":\"no-xhr-if\",\"args\":[\"api\"]}\n],\n\"wcvb.com\":[\n{\"name\":\"set-constant\",\"args\":[\"google.ima.settings.setDisableFlashAds\",\"noopFunc\"]}\n],\n\"welsh-dictionary.ac.uk\":[\n{\"name\":\"set-constant\",\"args\":[\"fingerprint\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"get_fingerprint\",\"noopFunc\"]}\n],\n\"whatismyip.com\":[\n{\"name\":\"set-constant\",\"args\":[\"yieldlove_cmd\",\"{}\"]},\n{\"name\":\"set-constant\",\"args\":[\"yieldlove_cmd.push\",\"noopFunc\"]}\n],\n\"worldstar.com\":[\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.shouldExpectGoogleCMP\",\"false\"]}\n],\n\"wunderground.com\":[\n{\"name\":\"no-fetch-if\",\"args\":[\"doubleclick\"]},\n{\"name\":\"nano-setTimeout-booster\",\"args\":[\"isPeriodic\",\"2200\",\"0.001\"]},\n{\"name\":\"nano-setTimeout-booster\",\"args\":[\"isPeriodic\",\"2300\",\"0.001\"]}\n],\n\"zee5.com\":[\n{\"name\":\"set-constant\",\"args\":[\"Object.prototype.setDisableFlashAds\",\"noopFunc\"]}\n],\n\"zillow.com\":[\n{\"name\":\"set-constant\",\"args\":[\"DD_RUM.addError\",\"noopFunc\"]},\n{\"name\":\"set-constant\",\"args\":[\"DD_RUM.addAction\",\"noopFunc\"]}\n]\n}";
 "use strict";
 (() => {
   // src/scriptlets/bibliothek.ts
@@ -135,14 +135,27 @@ var __ADSILENCE_KARTE = "{\n\"10.com.au\":[\n{\"name\":\"set-constant\",\"args\"
     }
     function loesche(obj, pfad) {
       const teile = pfad.split(".");
+      let geaendert = false;
       function ab(o, i) {
         if (o === null || typeof o !== "object") return;
         const name = teile[i];
+        if (name === "[-]" && Array.isArray(o)) {
+          const rest = teile.slice(i + 1).join(".");
+          for (let k = o.length - 1; k >= 0; k -= 1) {
+            if (rest === "" || hatPfad(o[k], rest)) {
+              o.splice(k, 1);
+              geaendert = true;
+            }
+          }
+          return;
+        }
         if (i === teile.length - 1) {
           if (name === "[]" && Array.isArray(o)) {
+            if (o.length) geaendert = true;
             o.length = 0;
             return;
           }
+          if (Object.prototype.hasOwnProperty.call(o, name)) geaendert = true;
           delete o[name];
           return;
         }
@@ -157,6 +170,7 @@ var __ADSILENCE_KARTE = "{\n\"10.com.au\":[\n{\"name\":\"set-constant\",\"args\"
         ab(o[name], i + 1);
       }
       ab(obj, 0);
+      return geaendert;
     }
     function hatPfad(obj, pfad) {
       let o = obj;
@@ -309,6 +323,242 @@ var __ADSILENCE_KARTE = "{\n\"10.com.au\":[\n{\"name\":\"set-constant\",\"args\"
       bau.prototype = attrappe;
       fallen(gross, () => bau, () => bau);
       fallen(klein, () => attrappe, () => attrappe);
+    }
+    const PARSE_ROH = (() => {
+      const ablage = "__adsilenceJsonParse";
+      if (typeof w[ablage] !== "function") w[ablage] = w.JSON.parse;
+      return w[ablage];
+    })();
+    function regexAus(text, flags, ganz = false) {
+      if (text === "") return /^/;
+      const m = /^\/(.+)\/([gimsu]*)$/.exec(text);
+      if (m) {
+        try {
+          return new RegExp(m[1], m[2] || void 0);
+        } catch {
+          return /^/;
+        }
+      }
+      const woertlich = text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      return new RegExp(ganz ? "^" + woertlich + "$" : woertlich, flags);
+    }
+    function zusatz(rest) {
+      const aus = {};
+      for (let i = 0; i + 1 < rest.length; i += 2) aus[rest[i]] = rest[i + 1];
+      return aus;
+    }
+    function trifftProps(props, werte) {
+      if (props === "") return true;
+      return trifftAnfrage(eigenschaften(props), werte);
+    }
+    function fetchWerte(a) {
+      const werte = { url: "", method: "GET" };
+      const quelle = a[0];
+      const optionen = a[1];
+      if (quelle !== null && typeof quelle === "object" && "url" in quelle) {
+        werte["url"] = alsText(quelle.url);
+        const m = quelle.method;
+        if (m) werte["method"] = alsText(m);
+      } else {
+        werte["url"] = alsText(quelle);
+      }
+      if (optionen && typeof optionen === "object" && optionen.method) werte["method"] = alsText(optionen.method);
+      return werte;
+    }
+    function umschreibeFetch(props, aendere) {
+      const alt = w.fetch;
+      const Antwort = w.Response;
+      if (typeof alt !== "function" || typeof Antwort !== "function") return;
+      w.fetch = new Proxy(alt, {
+        apply(f, dies, a) {
+          const versprochen = Reflect.apply(f, dies, a);
+          let werte;
+          try {
+            werte = fetchWerte(a);
+          } catch {
+            return versprochen;
+          }
+          if (!trifftProps(props, werte)) return versprochen;
+          return versprochen.then((vorher) => {
+            const v = vorher;
+            if (!v || typeof v.clone !== "function") return vorher;
+            let kopie;
+            try {
+              kopie = v.clone();
+            } catch {
+              return vorher;
+            }
+            return kopie.text().then((text) => {
+              let neu = null;
+              try {
+                neu = aendere(text);
+              } catch {
+                neu = null;
+              }
+              if (neu === null) return vorher;
+              const n = new Antwort(neu, { status: v.status, statusText: v.statusText, headers: v.headers });
+              try {
+                Object.defineProperties(n, {
+                  ok: { value: v.ok },
+                  redirected: { value: v.redirected },
+                  type: { value: v.type },
+                  url: { value: v.url }
+                });
+              } catch {
+              }
+              return n;
+            }, () => vorher);
+          });
+        }
+      });
+    }
+    function umschreibeXhr(props, aendereText, aendereObjekt) {
+      const Basis = w.XMLHttpRequest;
+      if (typeof Basis !== "function") return;
+      const merk = /* @__PURE__ */ new WeakMap();
+      w.XMLHttpRequest = class extends Basis {
+        open(methode, adresse, ...rest) {
+          try {
+            if (trifftProps(props, { url: alsText(adresse), method: alsText(methode) })) merk.set(this, {});
+            else merk.delete(this);
+          } catch {
+          }
+          Basis.prototype.open.call(this, methode, adresse, ...rest);
+        }
+        get response() {
+          const innen = super.response;
+          const eintrag = merk.get(this);
+          if (!eintrag) return innen;
+          const laenge = typeof innen === "string" ? innen.length : void 0;
+          if (eintrag.laenge !== laenge) {
+            eintrag.fertig = false;
+            eintrag.laenge = laenge;
+          }
+          if (eintrag.fertig) return eintrag.antwort;
+          let aus = innen;
+          try {
+            if (typeof innen === "string") {
+              const neu = aendereText(innen);
+              if (neu !== null) aus = neu;
+            } else if (innen !== null && typeof innen === "object" && aendereObjekt) {
+              aendereObjekt(innen);
+            }
+          } catch {
+          }
+          if (this.readyState === 4) {
+            eintrag.antwort = aus;
+            eintrag.fertig = true;
+          }
+          return aus;
+        }
+        get responseText() {
+          const r = this.response;
+          return typeof r === "string" ? r : super.responseText;
+        }
+      };
+    }
+    function beschneideText(text, pfade, pflicht) {
+      const erstes = text.trimStart().charAt(0);
+      if (erstes !== "{" && erstes !== "[") return null;
+      let daten;
+      try {
+        daten = PARSE_ROH(text);
+      } catch {
+        return null;
+      }
+      if (pflicht.length && !pflicht.every((p) => hatPfad(daten, p))) return null;
+      let geaendert = false;
+      for (const p of pfade) if (loesche(daten, p)) geaendert = true;
+      return geaendert ? JSON.stringify(daten) : null;
+    }
+    function ersetzeKnotentext(knoten, musterText, ersatz, rest) {
+      const doc = w.document;
+      if (!doc) return;
+      const knotenRe = regexAus(knoten, "i", true);
+      const muster = regexAus(musterText, "gms");
+      const extra = zusatz(rest);
+      const bedingung = extra["includes"] || extra["condition"];
+      const nur = bedingung ? regexAus(bedingung, "ms") : null;
+      const ohne = extra["excludes"] ? regexAus(extra["excludes"], "ms") : null;
+      let uebrig = extra["sedCount"] ? parseInt(extra["sedCount"], 10) : Number.MAX_SAFE_INTEGER;
+      if (isNaN(uebrig)) uebrig = Number.MAX_SAFE_INTEGER;
+      const bleibt = Boolean(extra["stay"]);
+      const spaeter = extra["quitAfter"] ? parseInt(extra["quitAfter"], 10) || 0 : 0;
+      let alsSkript = (t) => t;
+      try {
+        const tt = w.trustedTypes;
+        if (tt && typeof tt.getPropertyType === "function" && tt.getPropertyType("script", "textContent") === "TrustedScript") {
+          const richtlinie = tt.createPolicy("adsilence" + Math.random().toString(36).slice(2), { createScript: (t) => t });
+          alsSkript = (t) => richtlinie.createScript(t);
+        }
+      } catch {
+      }
+      const behandle = (n) => {
+        const vorher = alsText(n.textContent ?? "");
+        if (nur) {
+          nur.lastIndex = 0;
+          if (!nur.test(vorher)) return;
+        }
+        if (ohne) {
+          ohne.lastIndex = 0;
+          if (ohne.test(vorher)) return;
+        }
+        muster.lastIndex = 0;
+        if (!muster.test(vorher)) return;
+        muster.lastIndex = 0;
+        const nachher = musterText !== "" ? vorher.replace(muster, ersatz) : ersatz;
+        n.textContent = n.nodeName === "SCRIPT" ? alsSkript(nachher) : nachher;
+        uebrig -= 1;
+      };
+      const baum = (wurzel) => {
+        const gang = doc.createTreeWalker(wurzel, 1 | 4);
+        const aktuell = doc.currentScript;
+        for (; ; ) {
+          const n = gang.nextNode();
+          if (n === null) break;
+          if (n === aktuell) continue;
+          if (knotenRe.test(n.nodeName)) behandle(n);
+          else if (n.nodeName === "TEMPLATE" && n.content) baum(n.content);
+          else continue;
+          if (uebrig <= 0) break;
+        }
+      };
+      try {
+        if (doc.documentElement) baum(doc.documentElement);
+      } catch {
+      }
+      if (uebrig <= 0 && !bleibt) return;
+      const Beobachter = w.MutationObserver;
+      if (typeof Beobachter !== "function") return;
+      const verarbeite = (liste) => {
+        for (const m of liste) {
+          for (const n of Array.from(m.addedNodes)) {
+            if (knotenRe.test(n.nodeName)) behandle(n);
+            else if (n.nodeName === "TEMPLATE" && n.content) baum(n.content);
+            else continue;
+            if (uebrig <= 0 && !bleibt) {
+              beobachter.disconnect();
+              return;
+            }
+          }
+        }
+      };
+      const beobachter = new Beobachter(verarbeite);
+      const halt = () => {
+        try {
+          verarbeite(beobachter.takeRecords());
+          beobachter.disconnect();
+        } catch {
+        }
+      };
+      beobachter.observe(doc, { childList: true, subtree: true });
+      if (bleibt) return;
+      const beiInteraktiv = () => {
+        if (spaeter === 0) halt();
+        else globalThis.setTimeout(halt, spaeter);
+      };
+      if (doc.readyState !== "loading") beiInteraktiv();
+      else doc.addEventListener("DOMContentLoaded", beiInteraktiv, { once: true });
     }
     const bibliothek = {
       "abort-on-property-read"(args) {
@@ -597,6 +847,153 @@ var __ADSILENCE_KARTE = "{\n\"10.com.au\":[\n{\"name\":\"set-constant\",\"args\"
           } catch {
           }
         }, 15e3);
+      },
+      /*
+       * ── Antworten umschreiben, BEVOR die Seite sie liest ────────────────────
+       *
+       * Nachgebaut nach uBlock Origin (GPL-3.0, wie AdSilence), weil YouTube
+       * seit 2025 genau darauf antwortet: Ein Blocker, der die Werbeanfragen
+       * abweist, die Werbeplaetze in der Player-Antwort aber stehen laesst, wird
+       * erkannt — „Werbeblocker sind auf YouTube nicht erlaubt". GEMESSEN am
+       * 26.09.2026: Die YouTube-Regeln aus uBlocks Schnellkorrekturen brauchten
+       * sieben Scriptlets, die es hier nicht gab; unser Paket liess sie beim Bau
+       * fallen. Diese hier kommen nur aus vertrauenswuerdigen Listen
+       * (`brauchtVertrauen()` in src/engine/scriptlets.ts).
+       */
+      "trusted-replace-fetch-response"(args) {
+        const roh = args[0] ?? "";
+        if (roh === "") return;
+        const muster = regexAus(roh === "*" ? ".*" : roh);
+        const ersatz = args[1] ?? "";
+        const props = args[2] ?? "";
+        const extra = zusatz(args.slice(3));
+        const nur = extra["includes"] ? regexAus(extra["includes"]) : null;
+        umschreibeFetch(props, (text) => {
+          if (nur) {
+            nur.lastIndex = 0;
+            if (!nur.test(text)) return null;
+          }
+          muster.lastIndex = 0;
+          const neu = text.replace(muster, ersatz);
+          return neu === text ? null : neu;
+        });
+      },
+      "trusted-replace-xhr-response"(args) {
+        const roh = args[0] ?? "";
+        if (roh === "") return;
+        const muster = regexAus(roh === "*" ? ".*" : roh);
+        const ersatz = args[1] ?? "";
+        const props = args[2] ?? "";
+        const extra = zusatz(args.slice(3));
+        const nur = extra["includes"] ? regexAus(extra["includes"]) : null;
+        umschreibeXhr(props, (text) => {
+          if (nur) {
+            nur.lastIndex = 0;
+            if (!nur.test(text)) return null;
+          }
+          muster.lastIndex = 0;
+          const neu = text.replace(muster, ersatz);
+          return neu === text ? null : neu;
+        });
+      },
+      "json-prune-fetch-response"(args) {
+        const pfade = (args[0] ?? "").split(/\s+/).filter(Boolean);
+        const pflicht = (args[1] ?? "").split(/\s+/).filter(Boolean);
+        const extra = zusatz(args.slice(2));
+        if (pfade.length === 0) return;
+        umschreibeFetch(extra["propsToMatch"] ?? "", (text) => beschneideText(text, pfade, pflicht));
+      },
+      "json-prune-xhr-response"(args) {
+        const pfade = (args[0] ?? "").split(/\s+/).filter(Boolean);
+        const pflicht = (args[1] ?? "").split(/\s+/).filter(Boolean);
+        const extra = zusatz(args.slice(2));
+        if (pfade.length === 0) return;
+        umschreibeXhr(extra["propsToMatch"] ?? "", (text) => beschneideText(text, pfade, pflicht), (obj) => {
+          if (pflicht.length && !pflicht.every((p) => hatPfad(obj, p))) return false;
+          let geaendert = false;
+          for (const p of pfade) if (loesche(obj, p)) geaendert = true;
+          return geaendert;
+        });
+      },
+      /*
+       * Die Umgehung ueber einen leeren Rahmen: Eine Seite haengt ein
+       * `about:blank`-iframe an und holt sich dort ein UNBERUEHRTES `fetch` oder
+       * `JSON.parse` — an allen Scriptlets oben vorbei. Nach dem Anhaengen
+       * bekommt der Rahmen deshalb unsere Fassung.
+       */
+      "trusted-prevent-dom-bypass"(args) {
+        const methode = args[0] ?? "";
+        const ziel = args[1] ?? "";
+        if (methode === "") return;
+        const kette2 = methode.split(".");
+        const name = kette2.pop();
+        let traeger = w;
+        for (const glied of kette2) traeger = traeger == null ? void 0 : traeger[glied];
+        if (traeger == null) return;
+        const t = traeger;
+        const alt = t[name];
+        if (typeof alt !== "function") return;
+        const Element = w.HTMLElement;
+        t[name] = new Proxy(alt, {
+          apply(f, dies, a) {
+            const ergebnis = Reflect.apply(f, dies, a);
+            for (const el of a) {
+              try {
+                if (!Element || !(el instanceof Element)) continue;
+                const fenster = el.contentWindow;
+                if (!fenster || alsText(fenster) !== "[object Window]") continue;
+                const adresse = fenster["location"].href;
+                if (adresse !== "about:blank" && adresse !== w.location.href) continue;
+                if (ziel === "") {
+                  Object.defineProperty(el, "contentWindow", { value: w });
+                  continue;
+                }
+                const glieder = ziel.split(".");
+                const letztes = glieder.pop();
+                let ich = w;
+                let es = fenster;
+                for (const g of glieder) {
+                  ich = ich[g];
+                  es = es[g];
+                }
+                es[letztes] = ich[letztes];
+              } catch {
+              }
+            }
+            return ergebnis;
+          }
+        });
+      },
+      /*
+       * Timer beschleunigen: Wartet die Seite `verzoegerung` Millisekunden auf
+       * einen Rueckruf, der zum Muster passt, wird die Wartezeit mit `faktor`
+       * multipliziert (0,001 bis 50). uBlocks `nano-setTimeout-booster`.
+       */
+      "nano-setTimeout-booster"(args) {
+        const muster = regexAus(args[0] ?? "");
+        let verzoegerung = (args[1] ?? "") !== "*" ? parseInt(args[1] ?? "", 10) : -1;
+        if (isNaN(verzoegerung) || !isFinite(verzoegerung)) verzoegerung = 1e3;
+        let faktor = parseFloat(args[2] ?? "");
+        faktor = !isNaN(faktor) && isFinite(faktor) ? Math.min(Math.max(faktor, 1e-3), 50) : 0.05;
+        const alt = w.setTimeout;
+        if (typeof alt !== "function") return;
+        w.setTimeout = new Proxy(alt, {
+          apply(f, dies, a) {
+            try {
+              if ((verzoegerung === -1 || a[1] === verzoegerung) && muster.test(alsText(a[0]))) {
+                a[1] = a[1] * faktor;
+              }
+            } catch {
+            }
+            return Reflect.apply(f, dies, a);
+          }
+        });
+      },
+      "remove-node-text"(args) {
+        ersetzeKnotentext(args[0] ?? "", "", "", ["includes", args[1] ?? "", ...args.slice(2)]);
+      },
+      "trusted-replace-node-text"(args) {
+        ersetzeKnotentext(args[0] ?? "", args[1] ?? "", args[2] ?? "", args.slice(3));
       }
     };
     const kuerzel = {
@@ -610,7 +1007,12 @@ var __ADSILENCE_KARTE = "{\n\"10.com.au\":[\n{\"name\":\"set-constant\",\"args\"
       aost: "abort-on-stack-trace",
       "prevent-xhr": "no-xhr-if",
       "prevent-fetch": "no-fetch-if",
-      rc: "remove-class"
+      rc: "remove-class",
+      "nano-stb": "nano-setTimeout-booster",
+      rmnt: "remove-node-text",
+      rpnt: "trusted-replace-node-text",
+      "trusted-rpnt": "trusted-replace-node-text",
+      "replace-node-text": "trusted-replace-node-text"
     };
     for (const eintrag of eintraege) {
       try {
