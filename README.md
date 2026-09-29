@@ -18,13 +18,13 @@ AdSilence is an **ad blocker**, **pop-up blocker**, **tracker blocker** and **co
 - Cookie consent banners (GDPR pop-ups)
 - Sponsored posts on Facebook and Instagram
 
-32 filter lists including EasyList, EasyPrivacy and uBlock filters; the regional list for your browser language is switched on automatically.
+32 filter lists including EasyList, EasyPrivacy and uBlock filters; the regional list for your browser language is switched on automatically. No acceptable-ads whitelist.
 
 **Premium (optional):** fingerprint protection, automatic cookie consent answers and phishing warnings.
 
 ## Install in Firefox
 
-The easiest way: **[AdSilence on Firefox Add-ons](https://addons.mozilla.org/firefox/addon/adsilence/)**. Requires Firefox 140 or newer, Firefox for Android 142 or newer.
+The easiest way: **[AdSilence on Firefox Add-ons](https://addons.mozilla.org/firefox/addon/adsilence/)**. Requires Firefox 140, Firefox for Android 142 or newer.
 
 To load this build temporarily for testing:
 
@@ -34,12 +34,12 @@ To load this build temporarily for testing:
 
 ## Measured
 
-100 of 100 points on [adblock-tester.com](https://adblock-tester.com/) with factory settings (5 September 2026, version 1.0.0, measured in Chrome). Method and comparison: [adsilence.net/en/adblocker-test](https://adsilence.net/en/adblocker-test)
+100 of 100 points on [adblock-tester.com](https://adblock-tester.com/) with factory settings (measured in Chrome, 5 September 2026, version 1.0.0). Method and comparison: [adsilence.net/en/adblocker-test](https://adsilence.net/en/adblocker-test)
 
 ## FAQ
 
 **Is this the same as the Firefox Add-ons version?**
-Yes. This repository is written automatically by the release pipeline, and every version matches the package on Firefox Add-ons file for file — so you can check exactly what you install.
+Yes. This repository is written automatically by the release pipeline, and every version matches, file for file, the package submitted to Firefox Add-ons — so you can check exactly what you install. Right after a release the store may still show the previous version until its review is done.
 
 **Does it work on Firefox for Android?**
 Yes, from Firefox 142 on Android.
@@ -57,4 +57,3 @@ In [businessLNU/adsilence](https://github.com/businessLNU/adsilence), under the 
 ---
 
 **Keywords:** Firefox ad blocker · ad blocker for Firefox · adblock Firefox · Firefox add-on · Firefox for Android ad blocker · free ad blocker · open source ad blocker · Manifest V3 · YouTube ad blocker · pop-up blocker · tracker blocker · anti-tracking · cookie banner blocker · privacy add-on · malware blocker · Werbeblocker für Firefox · bloqueur de pub Firefox
-
